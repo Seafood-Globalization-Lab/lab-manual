@@ -7,3 +7,6 @@ subtitle: "Tools, resources, background and more"
 
 Welcome to the Seafood Globalization Lab! This website outlines and provides a high level overview of our values and relevant details to apply these values to how we operate as a lab. Please see the sections on the left hand navigation bar.
 
+## Acknowledgements
+
+The content in this manual draws from past and present lab member's experiences across many research teams and data/coding settings. We would also like to thank our mentors and collaborators for the examples they have set, the conversations we have had, and the resources they have shared across many years. 
