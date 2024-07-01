@@ -1,0 +1,11 @@
+---
+title: "Troubleshooting"
+---
+
+## How to ask a good coding question
+
+## Help within RStudio - ?function, print out function
+
+## Websites - Stack Overflow
+
+## AI tools - ChatGPT, Github co-pilot

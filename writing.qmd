@@ -1,0 +1,16 @@
+---
+title: "Writing"
+---
+
+## Writing as part of the research process
+
+[Writing Science](https://wp.optics.arizona.edu/kupinski/wp-content/uploads/sites/91/2023/01/Writing_Science_Joshua_Schimel.pdf)
+
+## Writing Workflow
+
+## Reproducibility of Figures and Results
+
+## References
+
+-   Reference manager
+-   Citing code and data

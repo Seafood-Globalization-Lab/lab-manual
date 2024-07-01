@@ -3,9 +3,9 @@ project:
   
 website: 
   page-navigation: true
-  title: "Making sharable documents with Quarto" 
-  site-url: "https://openscapes.github.io/quarto-website-tutorial" 
-  repo-url: https://github.com/openscapes/quarto-website-tutorial 
+  title: "Seafood Globalization Lab Manual" 
+  site-url: "https://openscapes.github.io/lab-manual" 
+  repo-url: https://github.com/Seafood-Globalization-Lab/lab-manual
   repo-actions: [edit, issue]
   
   page-footer:
@@ -33,15 +33,20 @@ website:
     contents:
       - href: index.qmd
         text: Welcome
-      - explore.qmd
-      - section: quarto-workflows/index.qmd
+      - code-conduct.qmd
+      - communication.qmd
+      - open-science.qmd
+      - section: coding/index.qmd
         contents: 
-          - quarto-workflows/browser.md
-          - quarto-workflows/rstudio.qmd
-          - quarto-workflows/jupyter.md 
-      - learning-more.qmd
-      - href: transition-from-rmarkdown.qmd
-        text: Transition from Rmd
+          - coding/r-rstudio.qmd
+          - coding/style.qmd
+          - coding/tips.qmd
+          - coding/version.qmd
+          - coding/troubleshooting.qmd
+      - writing.qmd
+      - archiving.qmd
+      - funding.qmd
+
 
 
 format:
