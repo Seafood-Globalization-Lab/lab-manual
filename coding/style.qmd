@@ -15,7 +15,7 @@ output: pdf_document
 -   Top of code should describe what the code does
 -   Use a space after `#` (Mac: `Command + Shift + C`; Windows: `Ctrl + Shift + C`)
 -   For “internal” or “personal” functions (e.g., not part of a package that will be released by the lab), include name and email at the top – just good practice and assigns “authorship” to you (when you share code with people they know who to contact with questions)
--   While code is in development, use “`# FIX IT` <followed by additional notes>” to flag areas of the code that need more attention
+-   While code is in development, use `# FIX IT` (followed by additional notes) to flag areas of the code that need more attention
 -   It’s OK to break up long sections of piped (`%>%`) code with documentation (e.g., creation of `output_df` in `commod_commod_matching.R`)
 
 ## CODE
@@ -28,12 +28,14 @@ Example
 
 Avoid:
 
-`iris%>%dplyr::summarize(max_petal=max(Petal.Width))->results`
+```r 
+iris%>%dplyr::summarize(max_petal=max(Petal.Width))->results
+```
 
 Prefer:
 
-```
-Results \<- iris %\>% 
+```r
+Results <- iris %>% 
   dplyr::summarize(max_petal = max(Petal.Width))
 ```
 
