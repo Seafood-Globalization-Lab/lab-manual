@@ -26,18 +26,18 @@ separate “.R” files, code chunks, or folders):
 Each project folder, whether created by you or pulled from GitHub,
 should include the following folders:
 
-data - Keep all raw data in this folder and do not modify the raw data
+a) data - Keep all raw data in this folder and do not modify the raw data
 
-output - Write out all cleaned versions of data (make sure the file name
+b) output - Write out all cleaned versions of data (make sure the file name
 differs from the raw data file name to avoid overwriting and confusion)
 and analysis output here
 
-figures - Write out all figures here. You may initially want to use
+c) figures - Write out all figures here. You may initially want to use
 descriptive figure names, but ultimately will want to name the files
 according to the figure numbering in the resulting manuscript (e.g.,
 fig1.png)
 
-scripts or R - Save all R scripts here. If the project will be set up as
+d) scripts or R - Save all R scripts here. If the project will be set up as
 an R package, then the folder must be named "R".
 
 Create other folders as needed (e.g., “literature”, “ms”, "archive",
