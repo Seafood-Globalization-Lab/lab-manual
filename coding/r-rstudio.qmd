@@ -1,5 +1,0 @@
----
-title: "R and RStudio"
----
-
-link to tutorials and R 4 DS
