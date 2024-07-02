@@ -243,12 +243,12 @@
   {
     "objectID": "coding/style.html",
     "href": "coding/style.html",
-    "title": "Coding Style",
+    "title": "Coding Style Guide",
     "section": "",
-    "text": "Integrate coding style guide",
+    "text": "If data and output folders are located within the project folder, set their directories at the top of the code and do this dynamically using getwd() + file.path()\nIf these folders are located outside the project folder (e.g., they are too big to live on GitHub), then just be sure to provide the file path at the top\n\n\n\n\n\nTop of code should describe what the code does\nUse a space after # (Mac: Command + Shift + C; Windows: Ctrl + Shift + C)\nFor “internal” or “personal” functions (e.g., not part of a package that will be released by the lab), include name and email at the top – just good practice and assigns “authorship” to you (when you share code with people they know who to contact with questions)\nWhile code is in development, use # FIX IT (followed by additional notes) to flag areas of the code that need more attention\nIt’s OK to break up long sections of piped (%&gt;%) code with documentation (e.g., creation of output_df in commod_commod_matching.R)\n\n\n\n\n\nAssignment arrows should point left, not right\nPay attention to indentation (convention is two spaces), use package styler (can be accessed as an Add-In in RStudio) and use default “tidyverse style” to clean indentation\nUse spaces around =, &lt;-, and %&gt;%\n\nExample\nAvoid:\niris%&gt;%dplyr::summarize(max_petal=max(Petal.Width))-&gt;results\nPrefer:\nResults &lt;- iris %&gt;% \n  dplyr::summarize(max_petal = max(Petal.Width))\n\n\n\n\nAll lower case\nPrefer underscores (seafood_species) over camel case (seafoodSpecies) for all object names\nFor data frame columns, can use . or _ as a sep in column names, just be consistent\nFunction names should begin with a verb (e.g., clean_cols, tidy_data, calc_distance), be concise, and use underscores to separate words\nObject/Variable names should be nouns and descriptive (e.g., df_clean or clean_df)\n\nExample:\nAvoid: buildFishMatrix\nPrefer: build_fish_matrix\nAvoid: naming objects with different capitalization (e.g., HS_codes, hs_Codes, hsCodes)\nPrefer: hs_codes_raw, hs_codes_filtered, hs_codes_cleaned, etc.\n\n\n\n\nIf outputs are going to be different with each run (e.g., running different analyses), start filename of outputs with a date\nFollow international date convention (YYYY-MM-DD) (Can use Sys.Date() for this)\nUse delimiters with intention (e.g., _ vs -) so they are machine readable\nUse - for spaces and _ for separating metadata\n\nExample:\nPrefer: YYYY-MM-DD_name-of-file_i_alpha-4-cutoff.csv\nAvoid: NameOfFileResults-DD-MM-YYYY-i_alpha_4_cutoff.csv\n\n\n\nEach .R file in the R folder should be a separate function",
     "crumbs": [
       "Code",
-      "Coding Style"
+      "Coding Style Guide"
     ]
   },
   {
@@ -356,7 +356,7 @@
     "href": "coding/index.html#recommended-workflow",
     "title": "Code",
     "section": "Recommended workflow",
-    "text": "Recommended workflow\nThe typical lab workflow aims to produce open data and reproducible analysis. This lab typically uses R/RStudio[FIXIT: add link to R/RStudio page] and GitHub[FIXIT: add link to GitHub page.\nSteps: each of these should be contained in separate code (e.g., separate “.R” files, code chunks, or folders):\n\nCreate a version-controlled R project repository within the Seafood Globalization Lab GitHub organization. If a GitHub repository already exists, pull this onto your local and work from within it.\n\nEach project folder, whether created by you or pulled from GitHub, should include the following folders:\ndata - Keep all raw data in this folder and do not modify the raw data\noutput - Write out all cleaned versions of data (make sure the file name differs from the raw data file name to avoid overwriting and confusion) and analysis output here\nfigures - Write out all figures here. You may initially want to use descriptive figure names, but ultimately will want to name the files according to the figure numbering in the resulting manuscript (e.g., fig1.png)\nscripts or R - Save all R scripts here. If the project will be set up as an R package, then the folder must be named “R”.\nCreate other folders as needed (e.g., “literature”, “ms”, “archive”, etc.) but add the folder to your .gitignore file so they are not pushed up to GitHub.\nYou may want to add dates to files that will have multiple versions (e.g., different runs of an analysis, versions of figures, etc.) using the format YYYY-MM-DD to the beginning of file names so files are sorted accordingly.\n\nREADME - A text README file should be created for every project and a full description of the raw data should be included here\nData Cleaning - do NOT edit the raw data file, instead do ALL cleaning within your code. The R janitor package is useful for cleaning your data frame. Additional useful R functions include to_lower(), case_when(), str_extract, and separate(). See X for more.\n\nYour final clean data file(s) should be in a tidy (“long”) format. See Wickham for more on tidy format.\n\nCommenting - There is no such thing as too much commenting and documentation. All code should be extensively commented such that each step of the analysis is clear to any reader without that individual knowing R. Aim for a commented section header for each code chunk along with one comment per line of code. Follow the style guide [FIXIT: add link to style page] for additional notes on commenting code Data\nPlotting and validation - We recommend producing simple scatter plots, boxplots, check that outliers are not errors.\nSaving the cleaned data file - After data cleaning and plotting/validation, output data into its final, clean format (write this file to the “Output” folder. Everyone in the research team should start from the same cleaned dataset. They should also have access to to code that produced the cleaned file so they can refer back to all cleaning steps.\nData Analysis - Create separate scripts to process, filter, aggregate, summarize data as needed for different types of analyses.\nGitHub\n\nPull all changes before beginning work on your code\nAll code changes should be pushed to GitHub on a regular basis (it is better to commit more rather than less)\nAim to include as descriptive commit messages as possible\nIn general, do not push the “data,” “output,” or “figures” folders up to GitHub (i.e., include these folders in your .gitignore file) because they are often too large\nDo not push up non-analysis folders (e.g., “literature”, “ms”, “archive” etc.). Instead add to .gitignore\nWhen setting up a GitHub project, default to private settings. If a project is made public, carefully check for any data that may have been pushed up to ensure it is okay for this to be public",
+    "text": "Recommended workflow\nThe typical lab workflow aims to produce open data and reproducible analysis. This lab typically uses R/RStudio[FIXIT: add link to R/RStudio page] and GitHub[FIXIT: add link to GitHub page.\nSteps: each of these should be contained in separate code (e.g., separate “.R” files, code chunks, or folders):\n\nCreate a version-controlled R project repository within the Seafood Globalization Lab GitHub organization. If a GitHub repository already exists, pull this onto your local and work from within it.\n\nEach project folder, whether created by you or pulled from GitHub, should include the following folders:\n\ndata - Keep all raw data in this folder and do not modify the raw data\noutput - Write out all cleaned versions of data (make sure the file name differs from the raw data file name to avoid overwriting and confusion) and analysis output here\nfigures - Write out all figures here. You may initially want to use descriptive figure names, but ultimately will want to name the files according to the figure numbering in the resulting manuscript (e.g., fig1.png)\nscripts or R - Save all R scripts here. If the project will be set up as an R package, then the folder must be named “R”.\n\nCreate other folders as needed (e.g., “literature”, “ms”, “archive”, etc.) but add the folder to your .gitignore file so they are not pushed up to GitHub.\nYou may want to add dates to files that will have multiple versions (e.g., different runs of an analysis, versions of figures, etc.) using the format YYYY-MM-DD to the beginning of file names so files are sorted accordingly.\n\nREADME - A text README file should be created for every project and a full description of the raw data should be included here\nData Cleaning - do NOT edit the raw data file, instead do ALL cleaning within your code. The R janitor package is useful for cleaning your data frame. Additional useful R functions include to_lower(), case_when(), str_extract, and separate(). See X for more.\n\nYour final clean data file(s) should be in a tidy (“long”) format. See Wickham for more on tidy format.\n\nCommenting - There is no such thing as too much commenting and documentation. All code should be extensively commented such that each step of the analysis is clear to any reader without that individual knowing R. Aim for a commented section header for each code chunk along with one comment per line of code. Follow the style guide [FIXIT: add link to style page] for additional notes on commenting code Data\nPlotting and validation - We recommend producing simple scatter plots, boxplots, check that outliers are not errors.\nSaving the cleaned data file - After data cleaning and plotting/validation, output data into its final, clean format (write this file to the “Output” folder. Everyone in the research team should start from the same cleaned dataset. They should also have access to to code that produced the cleaned file so they can refer back to all cleaning steps.\nData Analysis - Create separate scripts to process, filter, aggregate, summarize data as needed for different types of analyses.\nGitHub\n\nPull all changes before beginning work on your code\nAll code changes should be pushed to GitHub on a regular basis (it is better to commit more rather than less)\nAim to include as descriptive commit messages as possible\nIn general, do not push the “data,” “output,” or “figures” folders up to GitHub (i.e., include these folders in your .gitignore file) because they are often too large\nDo not push up non-analysis folders (e.g., “literature”, “ms”, “archive” etc.). Instead add to .gitignore\nWhen setting up a GitHub project, default to private settings. If a project is made public, carefully check for any data that may have been pushed up to ensure it is okay for this to be public",
     "crumbs": [
       "Code"
     ]
@@ -369,6 +369,72 @@
     "text": "Acknowledgements\nThe content in this manual draws from past and present lab member’s experiences across many research teams and data/coding settings. We would also like to thank our mentors and collaborators for the examples they have set, the conversations we have had, and the resources they have shared across many years.",
     "crumbs": [
       "Welcome"
+    ]
+  },
+  {
+    "objectID": "coding/style.html#directories",
+    "href": "coding/style.html#directories",
+    "title": "Coding Style Guide",
+    "section": "",
+    "text": "If data and output folders are located within the project folder, set their directories at the top of the code and do this dynamically using getwd() + file.path()\nIf these folders are located outside the project folder (e.g., they are too big to live on GitHub), then just be sure to provide the file path at the top",
+    "crumbs": [
+      "Code",
+      "Coding Style Guide"
+    ]
+  },
+  {
+    "objectID": "coding/style.html#documentation",
+    "href": "coding/style.html#documentation",
+    "title": "Coding Style Guide",
+    "section": "",
+    "text": "Top of code should describe what the code does\nUse a space after # (Mac: Command + Shift + C; Windows: Ctrl + Shift + C)\nFor “internal” or “personal” functions (e.g., not part of a package that will be released by the lab), include name and email at the top – just good practice and assigns “authorship” to you (when you share code with people they know who to contact with questions)\nWhile code is in development, use # FIX IT (followed by additional notes) to flag areas of the code that need more attention\nIt’s OK to break up long sections of piped (%&gt;%) code with documentation (e.g., creation of output_df in commod_commod_matching.R)",
+    "crumbs": [
+      "Code",
+      "Coding Style Guide"
+    ]
+  },
+  {
+    "objectID": "coding/style.html#code",
+    "href": "coding/style.html#code",
+    "title": "Coding Style Guide",
+    "section": "",
+    "text": "Assignment arrows should point left, not right\nPay attention to indentation (convention is two spaces), use package styler (can be accessed as an Add-In in RStudio) and use default “tidyverse style” to clean indentation\nUse spaces around =, &lt;-, and %&gt;%\n\nExample\nAvoid:\niris%&gt;%dplyr::summarize(max_petal=max(Petal.Width))-&gt;results\nPrefer:\nResults &lt;- iris %&gt;% \n  dplyr::summarize(max_petal = max(Petal.Width))",
+    "crumbs": [
+      "Code",
+      "Coding Style Guide"
+    ]
+  },
+  {
+    "objectID": "coding/style.html#naming-objects",
+    "href": "coding/style.html#naming-objects",
+    "title": "Coding Style Guide",
+    "section": "",
+    "text": "All lower case\nPrefer underscores (seafood_species) over camel case (seafoodSpecies) for all object names\nFor data frame columns, can use . or _ as a sep in column names, just be consistent\nFunction names should begin with a verb (e.g., clean_cols, tidy_data, calc_distance), be concise, and use underscores to separate words\nObject/Variable names should be nouns and descriptive (e.g., df_clean or clean_df)\n\nExample:\nAvoid: buildFishMatrix\nPrefer: build_fish_matrix\nAvoid: naming objects with different capitalization (e.g., HS_codes, hs_Codes, hsCodes)\nPrefer: hs_codes_raw, hs_codes_filtered, hs_codes_cleaned, etc.",
+    "crumbs": [
+      "Code",
+      "Coding Style Guide"
+    ]
+  },
+  {
+    "objectID": "coding/style.html#naming-output-files",
+    "href": "coding/style.html#naming-output-files",
+    "title": "Coding Style Guide",
+    "section": "",
+    "text": "If outputs are going to be different with each run (e.g., running different analyses), start filename of outputs with a date\nFollow international date convention (YYYY-MM-DD) (Can use Sys.Date() for this)\nUse delimiters with intention (e.g., _ vs -) so they are machine readable\nUse - for spaces and _ for separating metadata\n\nExample:\nPrefer: YYYY-MM-DD_name-of-file_i_alpha-4-cutoff.csv\nAvoid: NameOfFileResults-DD-MM-YYYY-i_alpha_4_cutoff.csv",
+    "crumbs": [
+      "Code",
+      "Coding Style Guide"
+    ]
+  },
+  {
+    "objectID": "coding/style.html#packages",
+    "href": "coding/style.html#packages",
+    "title": "Coding Style Guide",
+    "section": "",
+    "text": "Each .R file in the R folder should be a separate function",
+    "crumbs": [
+      "Code",
+      "Coding Style Guide"
     ]
   }
 ]
