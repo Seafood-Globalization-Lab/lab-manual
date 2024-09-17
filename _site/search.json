@@ -34,7 +34,7 @@
     "href": "communication.html#individual-meetings",
     "title": "Communication and Collaboration",
     "section": "Individual meetings",
-    "text": "Individual meetings\nEach student will start with a weekly individual meeting to provide progress updates and talk through outstanding issues. These meetings should be led by the student. To make the most of the time, it is often helpful to:\n\nSend (via email or Slack) any documents that should be reviewed at least 24 hours in advance (longer is better if the doc is longer).\nCreate an agenda for the meeting with a list of updates, discussion points, and action items for each project:\n\nUpdates should detail the current status of projects and what has been accomplished since the last meeting.\nDiscussion points should be the main focus of the meeting. These should be specific questions or issues that are best resolved through an in person discussion. These are often related to conceptual issues, generating ideas, and sketching out solutions rather. You can of course include quick questions, but these can often be answered outside of the meeting via Slack (i.e., you don’t need to wait until a weekly meeting to have them answered).\nAction items - these will likely emerge from the meeting, but it is good to include points here that you already know of because we can then review those along with any action items/next steps that emerged from the discussion to prioritize them.\n\n\nRegardless of whether your meeting is within the lab or not, a bit of preparation ahead of the meeting will ensure it is productive. This is ciritcal for ensuring that you get out of the meeting what you need and that you keep the other meeting attendees engaged with the work.\nTo ensure students are meeting their longer term goals, they will complete a student goals form at the beginning of their degree and we will review this form annually.\nAdditionally, the graduate program has its own progress forms to ensure students remain on track. Be sure to review the SAFS Forms, Guidelines & Handbooks.",
+    "text": "Individual meetings\nEach student will start with a weekly individual meeting to provide progress updates and talk through outstanding issues. These meetings should be led by the student.\nTo make the most of the time, it is often helpful to:\n\nSend (via email or Slack) any documents that should be reviewed at least 24 hours in advance (longer is better if the doc is longer).\nCreate an agenda for the meeting with a list of updates, discussion points, and action items for each project:\n\nUpdates should detail the current status of projects and what has been accomplished since the last meeting.\nDiscussion points should be the main focus of the meeting. These should be specific questions or issues that are best resolved through an in person discussion. These are often related to conceptual issues, generating ideas, and sketching out solutions rather. You can of course include quick questions, but these can often be answered outside of the meeting via Slack (i.e., you don’t need to wait until a weekly meeting to have them answered).\nAction items - these will likely emerge from the meeting, but it is good to include points here that you already know of because we can then review those along with any action items/next steps that emerged from the discussion to prioritize them.\n\n\nRegardless of whether your meeting is within the lab or not, a bit of preparation ahead of the meeting will ensure it is productive. This is ciritcal for ensuring that you get out of the meeting what you need and that you keep the other meeting attendees engaged with the work.\nTo ensure students are meeting their longer term goals, they will complete a student goals form at the beginning of their degree and we will review this form annually.\nAdditionally, the graduate program has its own progress forms to ensure students remain on track. Be sure to review the SAFS Forms, Guidelines & Handbooks.",
     "crumbs": [
       "Communication and Collaboration"
     ]
@@ -87,7 +87,7 @@
     "href": "coding/index.html",
     "title": "Code",
     "section": "",
-    "text": "Edit data cleaning work flow For ARTIS-specific data and workflow issues, see [link to ARTIS manual]",
+    "text": "This section covers general coding/data cleaning principles and practices. For ARTIS-specific data and workflow issues, see ARTIS manual",
     "crumbs": [
       "Code"
     ]
@@ -174,7 +174,7 @@
     "href": "open-science.html#best-practices-and-general-resources",
     "title": "Open and Reproducible Science",
     "section": "Best Practices and General Resources",
-    "text": "Best Practices and General Resources\nImportance of preserving raw data and documenting its provenance",
+    "text": "Best Practices and General Resources\nImportance of preserving raw data and documenting its provenance\nUCSB NCEAS ADC Intro to Repro Research",
     "crumbs": [
       "Open and Reproducible Science"
     ]
@@ -346,7 +346,7 @@
     "href": "coding/index.html#overview",
     "title": "Code",
     "section": "",
-    "text": "Edit data cleaning work flow For ARTIS-specific data and workflow issues, see [link to ARTIS manual]",
+    "text": "This section covers general coding/data cleaning principles and practices. For ARTIS-specific data and workflow issues, see ARTIS manual",
     "crumbs": [
       "Code"
     ]
@@ -356,7 +356,7 @@
     "href": "coding/index.html#recommended-workflow",
     "title": "Code",
     "section": "Recommended workflow",
-    "text": "Recommended workflow\nThe typical lab workflow aims to produce open data and reproducible analysis. This lab typically uses R/RStudio[FIXIT: add link to R/RStudio page] and GitHub[FIXIT: add link to GitHub page.\nSteps: each of these should be contained in separate code (e.g., separate “.R” files, code chunks, or folders):\n\nCreate a version-controlled R project repository within the Seafood Globalization Lab GitHub organization. If a GitHub repository already exists, pull this onto your local and work from within it.\n\nEach project folder, whether created by you or pulled from GitHub, should include the following folders:\n\ndata - Keep all raw data in this folder and do not modify the raw data\noutput - Write out all cleaned versions of data (make sure the file name differs from the raw data file name to avoid overwriting and confusion) and analysis output here\nfigures - Write out all figures here. You may initially want to use descriptive figure names, but ultimately will want to name the files according to the figure numbering in the resulting manuscript (e.g., fig1.png)\nscripts or R - Save all R scripts here. If the project will be set up as an R package, then the folder must be named “R”.\n\nCreate other folders as needed (e.g., “literature”, “ms”, “archive”, etc.) but add the folder to your .gitignore file so they are not pushed up to GitHub.\nYou may want to add dates to files that will have multiple versions (e.g., different runs of an analysis, versions of figures, etc.) using the format YYYY-MM-DD to the beginning of file names so files are sorted accordingly.\n\nREADME - A text README file should be created for every project and a full description of the raw data should be included here\nData Cleaning - do NOT edit the raw data file, instead do ALL cleaning within your code. The R janitor package is useful for cleaning your data frame. Additional useful R functions include to_lower(), case_when(), str_extract, and separate(). See X for more.\n\nYour final clean data file(s) should be in a tidy (“long”) format. See Wickham for more on tidy format.\n\nCommenting - There is no such thing as too much commenting and documentation. All code should be extensively commented such that each step of the analysis is clear to any reader without that individual knowing R. Aim for a commented section header for each code chunk along with one comment per line of code. Follow the style guide [FIXIT: add link to style page] for additional notes on commenting code Data\nPlotting and validation - We recommend producing simple scatter plots, boxplots, check that outliers are not errors.\nSaving the cleaned data file - After data cleaning and plotting/validation, output data into its final, clean format (write this file to the “Output” folder. Everyone in the research team should start from the same cleaned dataset. They should also have access to to code that produced the cleaned file so they can refer back to all cleaning steps.\nData Analysis - Create separate scripts to process, filter, aggregate, summarize data as needed for different types of analyses.\nGitHub\n\nPull all changes before beginning work on your code\nAll code changes should be pushed to GitHub on a regular basis (it is better to commit more rather than less)\nAim to include as descriptive commit messages as possible\nIn general, do not push the “data,” “output,” or “figures” folders up to GitHub (i.e., include these folders in your .gitignore file) because they are often too large\nDo not push up non-analysis folders (e.g., “literature”, “ms”, “archive” etc.). Instead add to .gitignore\nWhen setting up a GitHub project, default to private settings. If a project is made public, carefully check for any data that may have been pushed up to ensure it is okay for this to be public",
+    "text": "Recommended workflow\nThe typical lab workflow aims to produce open data and reproducible analysis. This lab typically uses R/RStudio and GitHub.\nSteps: each of these should be contained in separate code (e.g., separate “.R” files, code chunks, or folders):\n\nCreate a version-controlled R project repository within the Seafood Globalization Lab GitHub organization. If a GitHub repository already exists, pull this onto your local and work from within it.\n\nEach project folder, whether created by you or pulled from GitHub, should include the following folders:\n\ndata - Keep all raw data in this folder and do not modify the raw data\noutput - Write out all cleaned versions of data (make sure the file name differs from the raw data file name to avoid overwriting and confusion) and analysis output here\nfigures - Write out all figures here. You may initially want to use descriptive figure names, but ultimately will want to name the files according to the figure numbering in the resulting manuscript (e.g., fig1.png)\nscripts or R - Save all R scripts here. If the project will be set up as an R package, then the folder must be named “R”.\n\nCreate other folders as needed (e.g., “literature”, “ms”, “archive”, etc.) but add the folder to your .gitignore file so they are not pushed up to GitHub.\nYou may want to add dates to files that will have multiple versions (e.g., different runs of an analysis, versions of figures, etc.) using the format YYYY-MM-DD to the beginning of file names so files are sorted accordingly.\n\nREADME - A text README file should be created for every project and a full description of the raw data should be included here\nData Cleaning - do NOT edit the raw data file, instead do ALL cleaning within your code. The R janitor package is useful for cleaning your data frame. Additional useful R functions include to_lower(), case_when(), str_extract, and separate(). See X for more.\n\nYour final clean data file(s) should be in a tidy (“long”) format. See Wickham for more on tidy format.\n\nCommenting - There is no such thing as too much commenting and documentation. All code should be extensively commented such that each step of the analysis is clear to any reader without that individual knowing R. Aim for a commented section header for each code chunk along with one comment per line of code. Follow the style guide [FIXIT: add link to style page] for additional notes on commenting code Data\nPlotting and validation - We recommend producing simple scatter plots, boxplots, check that outliers are not errors.\nSaving the cleaned data file - After data cleaning and plotting/validation, output data into its final, clean format (write this file to the “Output” folder. Everyone in the research team should start from the same cleaned dataset. They should also have access to to code that produced the cleaned file so they can refer back to all cleaning steps.\nData Analysis - Create separate scripts to process, filter, aggregate, summarize data as needed for different types of analyses.\nGitHub\n\nMake sure you are on the correct branch.\nPull all changes before beginning work on your code\nAll code changes should be pushed to GitHub on a regular basis (it is better to commit more rather than less)\nAim to include as descriptive commit messages as possible\nIn general, do not push the “data,” “output,” or “figures” folders up to GitHub (i.e., include these folders in your .gitignore file) because they are often too large\nDo not push up non-analysis folders (e.g., “literature”, “ms”, “archive” etc.). Instead add to .gitignore\nWhen setting up a GitHub project, default to private settings. If a project is made public, carefully check for any data that may have been pushed up to ensure it is okay for this to be public",
     "crumbs": [
       "Code"
     ]
@@ -366,7 +366,7 @@
     "href": "index.html#acknowledgements",
     "title": "Seafood Globalization Lab Manual",
     "section": "Acknowledgements",
-    "text": "Acknowledgements\nThe content in this manual draws from past and present lab member’s experiences across many research teams and data/coding settings. We would also like to thank our mentors and collaborators for the examples they have set, the conversations we have had, and the resources they have shared across many years.",
+    "text": "Acknowledgements\nThe content in this manual draws from past and present lab member’s experiences across many research teams and data/coding settings. We are also incorporating content the Applied Ecology Lab’s lab manual, which includes great content, including some UW/SAFS-specific information. from We would also like to thank our mentors and collaborators for the examples they have set, the conversations we have had, and the resources they have shared across many years.",
     "crumbs": [
       "Welcome"
     ]
@@ -435,6 +435,27 @@
     "crumbs": [
       "Code",
       "Coding Style Guide"
+    ]
+  },
+  {
+    "objectID": "coding/version.html",
+    "href": "coding/version.html",
+    "title": "Version Control",
+    "section": "",
+    "text": "Github\nOur lab primarily uses Github for version control. There are many resources for learning how to use Github. A few include: * Happy Git and GitHub for the useR * Learn Git branching * NCEAS Github training",
+    "crumbs": [
+      "Code",
+      "Version Control"
+    ]
+  },
+  {
+    "objectID": "index.html#land-acknowledgment",
+    "href": "index.html#land-acknowledgment",
+    "title": "Seafood Globalization Lab Manual",
+    "section": "Land acknowledgment",
+    "text": "Land acknowledgment\nWe acknowledge the ancestral homelands of those who walked here before us and those who still walk here, keeping in mind the integrity of this territory where area Native peoples identify as the Duwamish, Suquamish, Snoqualmie, and Puyallup, as well as Muckleshoot, Tulalip, other Coast Salish peoples, and their descendants. We are grateful to respectfully live and work as guests on these lands with the Coast Salish and Native people who call this home.",
+    "crumbs": [
+      "Welcome"
     ]
   }
 ]

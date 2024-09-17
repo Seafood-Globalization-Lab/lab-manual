@@ -7,14 +7,12 @@ editor:
 
 ## Overview
 
-Edit data cleaning work flow For ARTIS-specific data and workflow
-issues, see \[link to ARTIS manual\]
+This section covers general coding/data cleaning principles and practices. For ARTIS-specific data and workflow issues, see [ARTIS manual](https://seafood-globalization-lab.github.io/artis-manual/)
 
 ## Recommended workflow
 
 The typical lab workflow aims to produce open data and reproducible
-analysis. This lab typically uses R/RStudio\[FIXIT: add link to
-R/RStudio page\] and GitHub\[FIXIT: add link to GitHub page.
+analysis. This lab typically uses [R/RStudio](https://posit.co/downloads/) and [GitHub](https://github.com/).
 
 Steps: each of these should be contained in separate code (e.g.,
 separate “.R” files, code chunks, or folders):
@@ -84,11 +82,12 @@ Your final clean data file(s) should be in a tidy (“long”) format. See
     aggregate, summarize data as needed for different types of analyses. 
 
 8. GitHub
-    a. Pull all changes before beginning work on your code
-    b. All code changes should be pushed to GitHub on a regular basis (it is better to commit more rather than less)
-    c. Aim to include as descriptive commit messages as possible
-    d. In general, do not push the "data," "output," or "figures" folders up to GitHub (i.e., include these folders in your .gitignore file) because they are often too large
-    e. Do not push up non-analysis folders (e.g., "literature", "ms", "archive" etc.). Instead add to .gitignore 
-    f. When setting up a GitHub project, default to private settings. If a project is made public, carefully check for any data that may have been pushed up to ensure it is okay for this to be public
+    a. Make sure you are on the correct branch. 
+    b. Pull all changes before beginning work on your code
+    c. All code changes should be pushed to GitHub on a regular basis (it is better to commit more rather than less)
+    d. Aim to include as descriptive commit messages as possible
+    e. In general, do not push the "data," "output," or "figures" folders up to GitHub (i.e., include these folders in your .gitignore file) because they are often too large
+    f. Do not push up non-analysis folders (e.g., "literature", "ms", "archive" etc.). Instead add to .gitignore 
+    g. When setting up a GitHub project, default to private settings. If a project is made public, carefully check for any data that may have been pushed up to ensure it is okay for this to be public
     
    

@@ -1,3 +1,10 @@
 ---
 title: "Version Control"
 ---
+
+# Github
+
+Our lab primarily uses Github for version control. There are many resources for learning how to use Github. A few include: 
+* [Happy Git and GitHub for the useR](https://happygitwithr.com/)
+* [Learn Git branching](https://learngitbranching.js.org/)
+* [NCEAS Github training](https://nceas.github.io/training-git-intro/getting-started-with-git-rstudio.html)

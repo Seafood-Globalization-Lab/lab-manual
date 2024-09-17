@@ -9,4 +9,8 @@ Welcome to the Seafood Globalization Lab! This website outlines and provides a h
 
 ## Acknowledgements
 
-The content in this manual draws from past and present lab member's experiences across many research teams and data/coding settings. We would also like to thank our mentors and collaborators for the examples they have set, the conversations we have had, and the resources they have shared across many years. 
+The content in this manual draws from past and present lab member's experiences across many research teams and data/coding settings. We are also incorporating content the [Applied Ecology Lab's lab manual](https://scheuerell-lab.github.io/lab-book/index.html), which includes great content, including some UW/SAFS-specific information. from We would also like to thank our mentors and collaborators for the examples they have set, the conversations we have had, and the resources they have shared across many years. 
+
+## Land acknowledgment
+We acknowledge the ancestral homelands of those who walked here before us and those who still walk here, keeping in mind the integrity of this territory where area Native peoples identify as the Duwamish, Suquamish, Snoqualmie, and Puyallup, as well as Muckleshoot, Tulalip, other Coast Salish peoples, and their descendants. We are grateful to respectfully live and work as guests on these lands with the Coast Salish and Native people who call this home.
+
