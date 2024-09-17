@@ -9,14 +9,16 @@ Adequate funding is an important consideration for graduate school and SAFS stud
 Students are also highly encouraged to apply for additional grants and fellowships. Writing funding proposals helps you refine your research ideas, represents an important professional development opportunity, and being awarded funding is great for a CV. 
 
 Potential graduate funding includes: 
-* [NSF Graduate Research Fellowship](https://www.nsfgrfp.org/) - a highly competitive program that funds three years of graduate study in any area of science. 
-* [WWF Russell E. Train Fellowships](https://www.worldwildlife.org/projects/russell-e-train-fellowships) - Conservation-oriented 2-year fellowships. Themes change annually. 
-* [NOAA Fellowship](https://coast.noaa.gov/fellowship/) - 
+
+* [NSF Graduate Research Fellowship](https://www.nsfgrfp.org/) - a highly competitive program that funds three years of graduate study in any area of science.  
+* [WWF Russell E. Train Fellowships](https://www.worldwildlife.org/projects/russell-e-train-fellowships) - Conservation-oriented 2-year fellowships. Themes change annually.  
+* [NOAA Fellowship](https://coast.noaa.gov/fellowship/) - NOAA offers several funding opportunities, including one focused on coastal management and one on coral reef management.  
 
 Potential post-graduate and postdoctoral funding includes: 
-* [AAAS Science & Technology Policy Fellowship](https://www.aaas.org/programs/science-technology-policy-fellowships)
-* [Knauss Marine Policy Fellowship](https://seagrant.noaa.gov/communities/students/graduate-fellows/knauss-fellowship-program/)
-* [NSF Postdoctoral Fellowship](https://new.nsf.gov/funding/postdocs)
+
+* [AAAS Science & Technology Policy Fellowship](https://www.aaas.org/programs/science-technology-policy-fellowships). 
+* [Knauss Marine Policy Fellowship](https://seagrant.noaa.gov/communities/students/graduate-fellows/knauss-fellowship-program/). 
+* [NSF Postdoctoral Fellowship](https://new.nsf.gov/funding/postdocs). 
 
 ## Data management and sharing plan
 Proposals often require a data management and sharing plan (DMP or DMSP) outlining the types of data that will be produced, procedures for ensuring proper data handling (particularly for sensitive data), and concrete plans for data distribution and archiving. 
