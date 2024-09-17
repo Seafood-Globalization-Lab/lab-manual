@@ -48,6 +48,7 @@ Just be sure to set the sharing settings so that anyone with a link can edit, as
 
 Each student will start with a weekly individual meeting to provide progress updates and talk through outstanding issues.
 These meetings should be led by the student.
+
 To make the most of the time, it is often helpful to:
 
 -   Send (via email or Slack) any documents that should be reviewed at least 24 hours in advance (longer is better if the doc is longer).
