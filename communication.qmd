@@ -47,6 +47,8 @@ A few tips for email best practices:
 -   Reply to emails you receive in a timely fashion, even if only to say you need a bit longer to provide a full response.
 -   Set an out of office message if you will be away or checking email less frequently than usual with a date you will return so recipients know when to expect a response by (and therefore, when to follow up, if needed).
 
+![Example email](images/email_example.png){width=300px}
+
 ## Google drive
 
 We maintain a lab Google drive for sharing internal documents, including drafts of papers.
@@ -80,7 +82,7 @@ Lab meetings are not mandatory for lab members (though attendance is generally e
 
 ## Outreach and media
 
-Engaging in science outreach and communication is encouraged, but it is important to distinguish activities you take part in as an individual from those where you are representing the lab as a whole. If there is an opportunity where you might be representing the lab as a whole, this must be discussed in advance and approved. You are always encouraged to discuss potential individual outreach and media opportunities as well to strategize and can talk with the SAFS Communication Manager, Niamh Owen-McLaughlin. 
+Engaging in science outreach and communication is encouraged, but it is important to distinguish activities you take part in as an individual from those where you are representing the lab as a whole. If there is an opportunity where you might be representing the lab as a whole (including using the lab name as your affiliation or the lab logo), this must be discussed in advance and approved. You are always encouraged to discuss potential individual outreach and media opportunities as well to strategize and can talk with the SAFS Communication Manager, Niamh Owen-McLaughlin. 
 If you are interested in developing science communication skills, the following resources may be of interest: 
 
 - UW - College of the Environment hosts a range of communications and outreach [trainings and resources](https://environment.uw.edu/research/science-communication-outreach/training-coaching-courses/). 
