@@ -30,6 +30,7 @@ website:
     contents:
       - href: index.qmd
         text: Welcome
+      - students.qmd
       - code-conduct.qmd
       - communication.qmd
       - open-science.qmd
