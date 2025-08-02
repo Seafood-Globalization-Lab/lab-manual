@@ -6,7 +6,7 @@ editor:
 ---
 
 Regular communication is key to ensuring that you get the most out of your undergraduate or graduate research experience so you can get early feedback on ideas, strategize with others, and build professional relationships that can support you during your degree and beyond.
-It is better to err on the side of more communication than less and our lab has several options, outlined below.
+It is better to err on the side of more communication than less and our lab has several options, outlined below. 
 Across all, some helpful tips are:
 
 -   Check that all appropriate people included, either tagged (in Slack or Github) or as recipients (in email).
@@ -18,7 +18,7 @@ Across all, some helpful tips are:
 
 ## Slack
 
-Slack is the primary lab communication space as it allows the entire lab and affiliated researchers to share information.
+Slack is the primary lab communication space as it allows the entire lab and affiliated researchers to share information. While you should generally be responsive during work hours, your are encouraged to set your notification preferences to limit disruptions outside of work hours. 
 However, note that at the time of this writing, we use the free version of Slack, which does not preserve messages beyond 90 days.
 
 Slack best practices:
