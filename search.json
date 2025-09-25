@@ -1,25 +1,5 @@
 [
   {
-    "objectID": "archiving.html#metadata",
-    "href": "archiving.html#metadata",
-    "title": "Archiving",
-    "section": "Metadata",
-    "text": "Metadata",
-    "crumbs": [
-      "Archiving"
-    ]
-  },
-  {
-    "objectID": "archiving.html#knb",
-    "href": "archiving.html#knb",
-    "title": "Archiving",
-    "section": "KNB",
-    "text": "KNB",
-    "crumbs": [
-      "Archiving"
-    ]
-  },
-  {
     "objectID": "code-conduct.html",
     "href": "code-conduct.html",
     "title": "Code of Conduct",
@@ -80,6 +60,56 @@
     ]
   },
   {
+    "objectID": "archiving.html#metadata",
+    "href": "archiving.html#metadata",
+    "title": "Archiving",
+    "section": "Metadata",
+    "text": "Metadata",
+    "crumbs": [
+      "Archiving"
+    ]
+  },
+  {
+    "objectID": "archiving.html#knb",
+    "href": "archiving.html#knb",
+    "title": "Archiving",
+    "section": "KNB",
+    "text": "KNB",
+    "crumbs": [
+      "Archiving"
+    ]
+  },
+  {
+    "objectID": "funding.html",
+    "href": "funding.html",
+    "title": "Funding",
+    "section": "",
+    "text": "Adequate funding is an important consideration for graduate school and SAFS students are provided a detailed funding package upon acceptance. Funding packages typically include a combination of grant-funded research assistantships, teaching assistantships, fellowships, and/or external scholarships (see SAFS funding for more). Each student should carefully review their funding letter to make sure they understand the funding sources and to confirm accuracy.\nStudents are also highly encouraged to apply for additional grants and fellowships. Writing funding proposals helps you refine your research ideas, represents an important professional development opportunity, and being awarded funding is great for a CV.\nPotential graduate funding includes:\n\nNSF Graduate Research Fellowship - a highly competitive program that funds three years of graduate study in any area of science.\n\nWWF Russell E. Train Fellowships - Conservation-oriented 2-year fellowships. Themes change annually.\n\nNOAA Fellowship - NOAA offers several funding opportunities, including one focused on coastal management and one on coral reef management.\n\nPotential post-graduate and postdoctoral funding includes:\n\nAAAS Science & Technology Policy Fellowship.\nKnauss Marine Policy Fellowship.\nNSF Postdoctoral Fellowship.",
+    "crumbs": [
+      "Funding"
+    ]
+  },
+  {
+    "objectID": "funding.html#student-funding-overview-and-resources",
+    "href": "funding.html#student-funding-overview-and-resources",
+    "title": "Funding",
+    "section": "",
+    "text": "Adequate funding is an important consideration for graduate school and SAFS students are provided a detailed funding package upon acceptance. Funding packages typically include a combination of grant-funded research assistantships, teaching assistantships, fellowships, and/or external scholarships (see SAFS funding for more). Each student should carefully review their funding letter to make sure they understand the funding sources and to confirm accuracy.\nStudents are also highly encouraged to apply for additional grants and fellowships. Writing funding proposals helps you refine your research ideas, represents an important professional development opportunity, and being awarded funding is great for a CV.\nPotential graduate funding includes:\n\nNSF Graduate Research Fellowship - a highly competitive program that funds three years of graduate study in any area of science.\n\nWWF Russell E. Train Fellowships - Conservation-oriented 2-year fellowships. Themes change annually.\n\nNOAA Fellowship - NOAA offers several funding opportunities, including one focused on coastal management and one on coral reef management.\n\nPotential post-graduate and postdoctoral funding includes:\n\nAAAS Science & Technology Policy Fellowship.\nKnauss Marine Policy Fellowship.\nNSF Postdoctoral Fellowship.",
+    "crumbs": [
+      "Funding"
+    ]
+  },
+  {
+    "objectID": "funding.html#data-management-and-sharing-plan",
+    "href": "funding.html#data-management-and-sharing-plan",
+    "title": "Funding",
+    "section": "Data management and sharing plan",
+    "text": "Data management and sharing plan\nProposals often require a data management and sharing plan (DMP or DMSP) outlining the types of data that will be produced, procedures for ensuring proper data handling (particularly for sensitive data), and concrete plans for data distribution and archiving.",
+    "crumbs": [
+      "Funding"
+    ]
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Seafood Globalization Lab Manual",
@@ -117,6 +147,58 @@
     "text": "Land acknowledgment\nWe acknowledge the ancestral homelands of those who walked here before us and those who still walk here, keeping in mind the integrity of this territory where area Native peoples identify as the Duwamish, Suquamish, Snoqualmie, and Puyallup, as well as Muckleshoot, Tulalip, other Coast Salish peoples, and their descendants. We are grateful to respectfully live and work as guests on these lands with the Coast Salish and Native people who call this home.",
     "crumbs": [
       "Welcome"
+    ]
+  },
+  {
+    "objectID": "coding/version.html",
+    "href": "coding/version.html",
+    "title": "Version Control",
+    "section": "",
+    "text": "Github\nOur lab primarily uses Github for version control. There are many resources for learning how to use Github. A few include:\n\nHappy Git and GitHub for the useR.\nLearn Git branching.\nNCEAS Github training.",
+    "crumbs": [
+      "Code",
+      "Version Control"
+    ]
+  },
+  {
+    "objectID": "coding/r-rstudio.html",
+    "href": "coding/r-rstudio.html",
+    "title": "R and RStudio",
+    "section": "",
+    "text": "link to tutorials and R 4 DS",
+    "crumbs": [
+      "Code",
+      "R and RStudio"
+    ]
+  },
+  {
+    "objectID": "coding/index.html",
+    "href": "coding/index.html",
+    "title": "Code",
+    "section": "",
+    "text": "This section covers general coding/data cleaning principles and practices. For ARTIS-specific data and workflow issues, see ARTIS manual",
+    "crumbs": [
+      "Code"
+    ]
+  },
+  {
+    "objectID": "coding/index.html#overview",
+    "href": "coding/index.html#overview",
+    "title": "Code",
+    "section": "",
+    "text": "This section covers general coding/data cleaning principles and practices. For ARTIS-specific data and workflow issues, see ARTIS manual",
+    "crumbs": [
+      "Code"
+    ]
+  },
+  {
+    "objectID": "coding/index.html#recommended-workflow",
+    "href": "coding/index.html#recommended-workflow",
+    "title": "Code",
+    "section": "Recommended workflow",
+    "text": "Recommended workflow\nThe typical lab workflow aims to produce open data and reproducible analysis. This lab typically uses R/RStudio and GitHub.\nSteps: each of these should be contained in separate code (e.g., separate “.R” files, code chunks, or folders):\n\nCreate a version-controlled R project repository within the Seafood Globalization Lab GitHub organization. If a GitHub repository already exists, pull this onto your local and work from within it.\n\nEach project folder, whether created by you or pulled from GitHub, should include the following folders:\n\ndata - Keep all raw data in this folder and do not modify the raw data\noutput - Write out all cleaned versions of data (make sure the file name differs from the raw data file name to avoid overwriting and confusion) and analysis output here\nfigures - Write out all figures here. You may initially want to use descriptive figure names, but ultimately will want to name the files according to the figure numbering in the resulting manuscript (e.g., fig1.png)\nscripts or R - Save all R scripts here. If the project will be set up as an R package, then the folder must be named “R”.\n\nCreate other folders as needed (e.g., “literature”, “ms”, “archive”, etc.) but add the folder to your .gitignore file so they are not pushed up to GitHub.\nYou may want to add dates to files that will have multiple versions (e.g., different runs of an analysis, versions of figures, etc.) using the format YYYY-MM-DD to the beginning of file names so files are sorted accordingly.\n\nREADME - A text README file should be created for every project and a full description of the raw data should be included here\nData Cleaning - do NOT edit the raw data file, instead do ALL cleaning within your code. The R janitor package is useful for cleaning your data frame. Additional useful R functions include to_lower(), case_when(), str_extract, and separate(). See X for more.\n\nYour final clean data file(s) should be in a tidy (“long”) format. See Wickham for more on tidy format.\n\nCommenting - There is no such thing as too much commenting and documentation. All code should be extensively commented such that each step of the analysis is clear to any reader without that individual knowing R. Aim for a commented section header for each code chunk along with one comment per line of code. Follow the style guide [FIXIT: add link to style page] for additional notes on commenting code Data\nPlotting and validation - We recommend producing simple scatter plots, boxplots, check that outliers are not errors.\nSaving the cleaned data file - After data cleaning and plotting/validation, output data into its final, clean format (write this file to the “Output” folder. Everyone in the research team should start from the same cleaned dataset. They should also have access to to code that produced the cleaned file so they can refer back to all cleaning steps.\nData Analysis - Create separate scripts to process, filter, aggregate, summarize data as needed for different types of analyses.\nGitHub\n\nMake sure you are on the correct branch.\nPull all changes before beginning work on your code\nAll code changes should be pushed to GitHub on a regular basis (it is better to commit more rather than less)\nAim to include as descriptive commit messages as possible\nIn general, do not push the “data,” “output,” or “figures” folders up to GitHub (i.e., include these folders in your .gitignore file) because they are often too large\nDo not push up non-analysis folders (e.g., “literature”, “ms”, “archive” etc.). Instead add to .gitignore\nWhen setting up a GitHub project, default to private settings. If a project is made public, carefully check for any data that may have been pushed up to ensure it is okay for this to be public",
+    "crumbs": [
+      "Code"
     ]
   },
   {
@@ -197,14 +279,96 @@
     ]
   },
   {
-    "objectID": "coding/version.html",
-    "href": "coding/version.html",
-    "title": "Version Control",
-    "section": "",
-    "text": "Github\nOur lab primarily uses Github for version control. There are many resources for learning how to use Github. A few include:\n\nHappy Git and GitHub for the useR.\nLearn Git branching.\nNCEAS Github training.",
+    "objectID": "coding/troubleshooting.html#help-within-rstudio---function-print-out-function",
+    "href": "coding/troubleshooting.html#help-within-rstudio---function-print-out-function",
+    "title": "Troubleshooting",
+    "section": "Help within RStudio - ?function, print out function",
+    "text": "Help within RStudio - ?function, print out function",
     "crumbs": [
       "Code",
-      "Version Control"
+      "Troubleshooting"
+    ]
+  },
+  {
+    "objectID": "coding/troubleshooting.html#websites---stack-overflow",
+    "href": "coding/troubleshooting.html#websites---stack-overflow",
+    "title": "Troubleshooting",
+    "section": "Websites - Stack Overflow",
+    "text": "Websites - Stack Overflow",
+    "crumbs": [
+      "Code",
+      "Troubleshooting"
+    ]
+  },
+  {
+    "objectID": "coding/troubleshooting.html#ai-tools---chatgpt-github-co-pilot",
+    "href": "coding/troubleshooting.html#ai-tools---chatgpt-github-co-pilot",
+    "title": "Troubleshooting",
+    "section": "AI tools - ChatGPT, Github co-pilot",
+    "text": "AI tools - ChatGPT, Github co-pilot",
+    "crumbs": [
+      "Code",
+      "Troubleshooting"
+    ]
+  },
+  {
+    "objectID": "writing.html",
+    "href": "writing.html",
+    "title": "Writing",
+    "section": "",
+    "text": "Writing is a major part of science. Clearly and accurately communicating your findings to the scientific community and public is central to advancing knowledge on the topic. Beyond this responsibility, writing is an important for refining our ideas. Clear writing can only come from clear thinking. Putting ideas on paper and iterating on those ideas allows us to develop and clarify our ideas over time.\nIn this lab, you will receive (at time significant) comments and edits on your writing. Do not take this as a personal judgement, but rather a way for us to work through the ideas together. Additionally, students often receive too little feedback on their writing in classes. This is a missed opportunity to grow as a writer. I hope this is something you will gain through your research experience.",
+    "crumbs": [
+      "Writing"
+    ]
+  },
+  {
+    "objectID": "writing.html#writing-as-part-of-the-research-process",
+    "href": "writing.html#writing-as-part-of-the-research-process",
+    "title": "Writing",
+    "section": "",
+    "text": "Writing is a major part of science. Clearly and accurately communicating your findings to the scientific community and public is central to advancing knowledge on the topic. Beyond this responsibility, writing is an important for refining our ideas. Clear writing can only come from clear thinking. Putting ideas on paper and iterating on those ideas allows us to develop and clarify our ideas over time.\nIn this lab, you will receive (at time significant) comments and edits on your writing. Do not take this as a personal judgement, but rather a way for us to work through the ideas together. Additionally, students often receive too little feedback on their writing in classes. This is a missed opportunity to grow as a writer. I hope this is something you will gain through your research experience.",
+    "crumbs": [
+      "Writing"
+    ]
+  },
+  {
+    "objectID": "writing.html#writing-tips",
+    "href": "writing.html#writing-tips",
+    "title": "Writing",
+    "section": "Writing tips",
+    "text": "Writing tips\nTo help with your writing, here are a few tips based on some of my most common comments:\n\nStart by writing out a specific statement of the focus of your paper. This does not have to be the main finding, but instead is often a statement of the key gap or motivation along with the focal question(s).\nTake your focal statement and backwards plan the main points that lead up to that statement. What is the series of points that will naturally lead the reader to conclude that your focus is needed and important?\nEach point should form a topic sentence. Those topic sentences must be supported by specific evidence from peer reviewed literature.\nSupportive evidence should consist of specific findings and examples drawn. The key here is to “show” rather than “tell” the reader. For example, rather than saying “Researchers have found aquaculture to be important to seafood supplies (Smith et al. 2022),” say something like “Aquaculture supplies half of all seafood globally (Smith et al. 2022).”\nAvoid using direct quotes. It is unlikely that the way the original author phrased a point is the best way to make that point within your paper. Thinking about the main point and rephrasing it to fit within your argument will likely improve the flow.\nUse figures and tables as supporting evidence, but do not just walk through the figures and tables. Do not say “Figure 1 shows X is true” or “As shown in Figure 1, X is true.” Instead say “X is true (Figure 1).” A good test is to look for any instances where you refer to a figure or table outside of parentheses.\nBe concise and direct. Every time you read your writing try to cut out words.\nUse first person and active language. This means rather than saying “The data was collected by…” you should say “We collected the data by…”\n\nAs you work on your writing, know that most people find it difficult and feeling frustrated is common. If you are feeling stuck, try taking a step back and re-mapping your core argument. Sometimes the best thing is just to start putting words on the paper, knowing that it won’t be any good the first pass.\nAdditionally, here are a few resources you can review for more information:\nTen Simple (Empirical) Rules for Writing Science\nSimple rules for concise scientific writing\nWriting Science: How to Write Papers That Get Cited and Proposals That Get Funded - Jessica also has a copy to borrow.",
+    "crumbs": [
+      "Writing"
+    ]
+  },
+  {
+    "objectID": "writing.html#writing-workflow",
+    "href": "writing.html#writing-workflow",
+    "title": "Writing",
+    "section": "Writing workflow",
+    "text": "Writing workflow",
+    "crumbs": [
+      "Writing"
+    ]
+  },
+  {
+    "objectID": "writing.html#reproducibility-of-figures-and-results",
+    "href": "writing.html#reproducibility-of-figures-and-results",
+    "title": "Writing",
+    "section": "Reproducibility of figures and results",
+    "text": "Reproducibility of figures and results",
+    "crumbs": [
+      "Writing"
+    ]
+  },
+  {
+    "objectID": "writing.html#references",
+    "href": "writing.html#references",
+    "title": "Writing",
+    "section": "References",
+    "text": "References\n\nReference manager\nCiting code and data",
+    "crumbs": [
+      "Writing"
     ]
   },
   {
@@ -305,170 +469,6 @@
     "text": "Lab meetings\nOnce the lab is a sufficient size, we will hold regular lab meetings. We will set the schedule for lab meetings at the beginning of each quarter. Lab meetings will consist of a combination of paper discussions, professional development discussions, lab projects, and team member papers/presentations with feedback. The exact mix will depend on lab needs and interests.",
     "crumbs": [
       "Communication and Collaboration"
-    ]
-  },
-  {
-    "objectID": "coding/troubleshooting.html#help-within-rstudio---function-print-out-function",
-    "href": "coding/troubleshooting.html#help-within-rstudio---function-print-out-function",
-    "title": "Troubleshooting",
-    "section": "Help within RStudio - ?function, print out function",
-    "text": "Help within RStudio - ?function, print out function",
-    "crumbs": [
-      "Code",
-      "Troubleshooting"
-    ]
-  },
-  {
-    "objectID": "coding/troubleshooting.html#websites---stack-overflow",
-    "href": "coding/troubleshooting.html#websites---stack-overflow",
-    "title": "Troubleshooting",
-    "section": "Websites - Stack Overflow",
-    "text": "Websites - Stack Overflow",
-    "crumbs": [
-      "Code",
-      "Troubleshooting"
-    ]
-  },
-  {
-    "objectID": "coding/troubleshooting.html#ai-tools---chatgpt-github-co-pilot",
-    "href": "coding/troubleshooting.html#ai-tools---chatgpt-github-co-pilot",
-    "title": "Troubleshooting",
-    "section": "AI tools - ChatGPT, Github co-pilot",
-    "text": "AI tools - ChatGPT, Github co-pilot",
-    "crumbs": [
-      "Code",
-      "Troubleshooting"
-    ]
-  },
-  {
-    "objectID": "coding/index.html",
-    "href": "coding/index.html",
-    "title": "Code",
-    "section": "",
-    "text": "This section covers general coding/data cleaning principles and practices. For ARTIS-specific data and workflow issues, see ARTIS manual",
-    "crumbs": [
-      "Code"
-    ]
-  },
-  {
-    "objectID": "coding/index.html#overview",
-    "href": "coding/index.html#overview",
-    "title": "Code",
-    "section": "",
-    "text": "This section covers general coding/data cleaning principles and practices. For ARTIS-specific data and workflow issues, see ARTIS manual",
-    "crumbs": [
-      "Code"
-    ]
-  },
-  {
-    "objectID": "coding/index.html#recommended-workflow",
-    "href": "coding/index.html#recommended-workflow",
-    "title": "Code",
-    "section": "Recommended workflow",
-    "text": "Recommended workflow\nThe typical lab workflow aims to produce open data and reproducible analysis. This lab typically uses R/RStudio and GitHub.\nSteps: each of these should be contained in separate code (e.g., separate “.R” files, code chunks, or folders):\n\nCreate a version-controlled R project repository within the Seafood Globalization Lab GitHub organization. If a GitHub repository already exists, pull this onto your local and work from within it.\n\nEach project folder, whether created by you or pulled from GitHub, should include the following folders:\n\ndata - Keep all raw data in this folder and do not modify the raw data\noutput - Write out all cleaned versions of data (make sure the file name differs from the raw data file name to avoid overwriting and confusion) and analysis output here\nfigures - Write out all figures here. You may initially want to use descriptive figure names, but ultimately will want to name the files according to the figure numbering in the resulting manuscript (e.g., fig1.png)\nscripts or R - Save all R scripts here. If the project will be set up as an R package, then the folder must be named “R”.\n\nCreate other folders as needed (e.g., “literature”, “ms”, “archive”, etc.) but add the folder to your .gitignore file so they are not pushed up to GitHub.\nYou may want to add dates to files that will have multiple versions (e.g., different runs of an analysis, versions of figures, etc.) using the format YYYY-MM-DD to the beginning of file names so files are sorted accordingly.\n\nREADME - A text README file should be created for every project and a full description of the raw data should be included here\nData Cleaning - do NOT edit the raw data file, instead do ALL cleaning within your code. The R janitor package is useful for cleaning your data frame. Additional useful R functions include to_lower(), case_when(), str_extract, and separate(). See X for more.\n\nYour final clean data file(s) should be in a tidy (“long”) format. See Wickham for more on tidy format.\n\nCommenting - There is no such thing as too much commenting and documentation. All code should be extensively commented such that each step of the analysis is clear to any reader without that individual knowing R. Aim for a commented section header for each code chunk along with one comment per line of code. Follow the style guide [FIXIT: add link to style page] for additional notes on commenting code Data\nPlotting and validation - We recommend producing simple scatter plots, boxplots, check that outliers are not errors.\nSaving the cleaned data file - After data cleaning and plotting/validation, output data into its final, clean format (write this file to the “Output” folder. Everyone in the research team should start from the same cleaned dataset. They should also have access to to code that produced the cleaned file so they can refer back to all cleaning steps.\nData Analysis - Create separate scripts to process, filter, aggregate, summarize data as needed for different types of analyses.\nGitHub\n\nMake sure you are on the correct branch.\nPull all changes before beginning work on your code\nAll code changes should be pushed to GitHub on a regular basis (it is better to commit more rather than less)\nAim to include as descriptive commit messages as possible\nIn general, do not push the “data,” “output,” or “figures” folders up to GitHub (i.e., include these folders in your .gitignore file) because they are often too large\nDo not push up non-analysis folders (e.g., “literature”, “ms”, “archive” etc.). Instead add to .gitignore\nWhen setting up a GitHub project, default to private settings. If a project is made public, carefully check for any data that may have been pushed up to ensure it is okay for this to be public",
-    "crumbs": [
-      "Code"
-    ]
-  },
-  {
-    "objectID": "coding/r-rstudio.html",
-    "href": "coding/r-rstudio.html",
-    "title": "R and RStudio",
-    "section": "",
-    "text": "link to tutorials and R 4 DS",
-    "crumbs": [
-      "Code",
-      "R and RStudio"
-    ]
-  },
-  {
-    "objectID": "writing.html",
-    "href": "writing.html",
-    "title": "Writing",
-    "section": "",
-    "text": "Writing is a major part of science. Clearly and accurately communicating your findings to the scientific community and public is central to advancing knowledge on the topic. Beyond this responsibility, writing is an important for refining our ideas. Clear writing can only come from clear thinking. Putting ideas on paper and iterating on those ideas allows us to develop and clarify our ideas over time.\nIn this lab, you will receive (at time significant) comments and edits on your writing. Do not take this as a personal judgement, but rather a way for us to work through the ideas together. Additionally, students often receive too little feedback on their writing in classes. This is a missed opportunity to grow as a writer. I hope this is something you will gain through your research experience.",
-    "crumbs": [
-      "Writing"
-    ]
-  },
-  {
-    "objectID": "writing.html#writing-as-part-of-the-research-process",
-    "href": "writing.html#writing-as-part-of-the-research-process",
-    "title": "Writing",
-    "section": "",
-    "text": "Writing is a major part of science. Clearly and accurately communicating your findings to the scientific community and public is central to advancing knowledge on the topic. Beyond this responsibility, writing is an important for refining our ideas. Clear writing can only come from clear thinking. Putting ideas on paper and iterating on those ideas allows us to develop and clarify our ideas over time.\nIn this lab, you will receive (at time significant) comments and edits on your writing. Do not take this as a personal judgement, but rather a way for us to work through the ideas together. Additionally, students often receive too little feedback on their writing in classes. This is a missed opportunity to grow as a writer. I hope this is something you will gain through your research experience.",
-    "crumbs": [
-      "Writing"
-    ]
-  },
-  {
-    "objectID": "writing.html#writing-tips",
-    "href": "writing.html#writing-tips",
-    "title": "Writing",
-    "section": "Writing tips",
-    "text": "Writing tips\nTo help with your writing, here are a few tips based on some of my most common comments:\n\nStart by writing out a specific statement of the focus of your paper. This does not have to be the main finding, but instead is often a statement of the key gap or motivation along with the focal question(s).\nTake your focal statement and backwards plan the main points that lead up to that statement. What is the series of points that will naturally lead the reader to conclude that your focus is needed and important?\nEach point should form a topic sentence. Those topic sentences must be supported by specific evidence from peer reviewed literature.\nSupportive evidence should consist of specific findings and examples drawn. The key here is to “show” rather than “tell” the reader. For example, rather than saying “Researchers have found aquaculture to be important to seafood supplies (Smith et al. 2022),” say something like “Aquaculture supplies half of all seafood globally (Smith et al. 2022).”\nAvoid using direct quotes. It is unlikely that the way the original author phrased a point is the best way to make that point within your paper. Thinking about the main point and rephrasing it to fit within your argument will likely improve the flow.\nUse figures and tables as supporting evidence, but do not just walk through the figures and tables. Do not say “Figure 1 shows X is true” or “As shown in Figure 1, X is true.” Instead say “X is true (Figure 1).” A good test is to look for any instances where you refer to a figure or table outside of parentheses.\nBe concise and direct. Every time you read your writing try to cut out words.\nUse first person and active language. This means rather than saying “The data was collected by…” you should say “We collected the data by…”\n\nAs you work on your writing, know that most people find it difficult and feeling frustrated is common. If you are feeling stuck, try taking a step back and re-mapping your core argument. Sometimes the best thing is just to start putting words on the paper, knowing that it won’t be any good the first pass.\nAdditionally, here are a few resources you can review for more information:\nTen Simple (Empirical) Rules for Writing Science\nSimple rules for concise scientific writing\nWriting Science: How to Write Papers That Get Cited and Proposals That Get Funded - Jessica also has a copy to borrow.",
-    "crumbs": [
-      "Writing"
-    ]
-  },
-  {
-    "objectID": "writing.html#writing-workflow",
-    "href": "writing.html#writing-workflow",
-    "title": "Writing",
-    "section": "Writing workflow",
-    "text": "Writing workflow",
-    "crumbs": [
-      "Writing"
-    ]
-  },
-  {
-    "objectID": "writing.html#reproducibility-of-figures-and-results",
-    "href": "writing.html#reproducibility-of-figures-and-results",
-    "title": "Writing",
-    "section": "Reproducibility of figures and results",
-    "text": "Reproducibility of figures and results",
-    "crumbs": [
-      "Writing"
-    ]
-  },
-  {
-    "objectID": "writing.html#references",
-    "href": "writing.html#references",
-    "title": "Writing",
-    "section": "References",
-    "text": "References\n\nReference manager\nCiting code and data",
-    "crumbs": [
-      "Writing"
-    ]
-  },
-  {
-    "objectID": "funding.html",
-    "href": "funding.html",
-    "title": "Funding",
-    "section": "",
-    "text": "Adequate funding is an important consideration for graduate school and SAFS students are provided a detailed funding package upon acceptance. Funding packages typically include a combination of grant-funded research assistantships, teaching assistantships, fellowships, and/or external scholarships (see SAFS funding for more). Each student should carefully review their funding letter to make sure they understand the funding sources and to confirm accuracy.\nStudents are also highly encouraged to apply for additional grants and fellowships. Writing funding proposals helps you refine your research ideas, represents an important professional development opportunity, and being awarded funding is great for a CV.\nPotential graduate funding includes:\n\nNSF Graduate Research Fellowship - a highly competitive program that funds three years of graduate study in any area of science.\n\nWWF Russell E. Train Fellowships - Conservation-oriented 2-year fellowships. Themes change annually.\n\nNOAA Fellowship - NOAA offers several funding opportunities, including one focused on coastal management and one on coral reef management.\n\nPotential post-graduate and postdoctoral funding includes:\n\nAAAS Science & Technology Policy Fellowship.\nKnauss Marine Policy Fellowship.\nNSF Postdoctoral Fellowship.",
-    "crumbs": [
-      "Funding"
-    ]
-  },
-  {
-    "objectID": "funding.html#student-funding-overview-and-resources",
-    "href": "funding.html#student-funding-overview-and-resources",
-    "title": "Funding",
-    "section": "",
-    "text": "Adequate funding is an important consideration for graduate school and SAFS students are provided a detailed funding package upon acceptance. Funding packages typically include a combination of grant-funded research assistantships, teaching assistantships, fellowships, and/or external scholarships (see SAFS funding for more). Each student should carefully review their funding letter to make sure they understand the funding sources and to confirm accuracy.\nStudents are also highly encouraged to apply for additional grants and fellowships. Writing funding proposals helps you refine your research ideas, represents an important professional development opportunity, and being awarded funding is great for a CV.\nPotential graduate funding includes:\n\nNSF Graduate Research Fellowship - a highly competitive program that funds three years of graduate study in any area of science.\n\nWWF Russell E. Train Fellowships - Conservation-oriented 2-year fellowships. Themes change annually.\n\nNOAA Fellowship - NOAA offers several funding opportunities, including one focused on coastal management and one on coral reef management.\n\nPotential post-graduate and postdoctoral funding includes:\n\nAAAS Science & Technology Policy Fellowship.\nKnauss Marine Policy Fellowship.\nNSF Postdoctoral Fellowship.",
-    "crumbs": [
-      "Funding"
-    ]
-  },
-  {
-    "objectID": "funding.html#data-management-and-sharing-plan",
-    "href": "funding.html#data-management-and-sharing-plan",
-    "title": "Funding",
-    "section": "Data management and sharing plan",
-    "text": "Data management and sharing plan\nProposals often require a data management and sharing plan (DMP or DMSP) outlining the types of data that will be produced, procedures for ensuring proper data handling (particularly for sensitive data), and concrete plans for data distribution and archiving.",
-    "crumbs": [
-      "Funding"
     ]
   }
 ]
