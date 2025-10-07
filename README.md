@@ -17,7 +17,8 @@ We follow a lightweight **GitFlow-style workflow** to keep the history clean and
 
 - ✨ **Feature branches** – short-lived, task-specific branches  
    - Created from remote `main` branch  
-   - Named after the GitHub Issue or task and incorporate contributors’ initials (e.g., `feature-am-issue-3-contributing-file` or `feature-jp-code-of-conduct`).  
+   - Named after the GitHub Issue or task and incorporate contributors’ initials (e.g., `feature-am-issue-3-contributing-file` or `feature-jp-code-of-conduct`).
+     - Find or create a specific issue to work on here [lab-manual issues](https://github.com/Seafood-Globalization-Lab/lab-manual/issues)
    - Used to make and test changes locally before merging into `main`.  
    - Rebased frequently on `main` to maintain a linear and up-to-date history.
 
