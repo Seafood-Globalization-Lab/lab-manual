@@ -1,10 +1,29 @@
-.Rproj.user
+# Knitr and RStudio cache artifacts
+.Rproj.user/
 .Rhistory
 .RData
 .Ruserdata
 
-/.quarto/
+# Quarto's cache directory (stores pre-rendered results for speed)
+.quarto/
+# R Markdown cache folders
 *_cache/
-/_site/
 
+# The rendered site output (HTML files, assets, etc.)
+_site/
+# Mac OS directory thing
 .DS_Store
+
+# GitHub Pages deployment branch (if checked out locally)
+gh-pages/
+
+# Logs and temporary files created during rendering
+*.log
+*.out
+*.toc
+*.aux
+*.nav
+*.snm
+*.vrb
+*.blg
+*.bbl
