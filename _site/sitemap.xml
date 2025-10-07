@@ -2,54 +2,54 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://openscapes.github.io/lab-manual/communication.html</loc>
-    <lastmod>2024-07-02T22:36:36.093Z</lastmod>
+    <lastmod>2025-08-02T04:30:48.851Z</lastmod>
   </url>
   <url>
-    <loc>https://openscapes.github.io/lab-manual/coding/tips.html</loc>
-    <lastmod>2024-07-01T19:59:24.882Z</lastmod>
+    <loc>https://openscapes.github.io/lab-manual/code-conduct.html</loc>
+    <lastmod>2024-07-01T20:15:58.525Z</lastmod>
   </url>
   <url>
-    <loc>https://openscapes.github.io/lab-manual/coding/troubleshooting.html</loc>
-    <lastmod>2024-07-01T19:59:24.882Z</lastmod>
-  </url>
-  <url>
-    <loc>https://openscapes.github.io/lab-manual/coding/index.html</loc>
-    <lastmod>2024-09-17T17:35:10.459Z</lastmod>
-  </url>
-  <url>
-    <loc>https://openscapes.github.io/lab-manual/writing.html</loc>
-    <lastmod>2024-07-01T21:22:31.136Z</lastmod>
-  </url>
-  <url>
-    <loc>https://openscapes.github.io/lab-manual/open-science.html</loc>
-    <lastmod>2024-07-02T22:16:46.067Z</lastmod>
-  </url>
-  <url>
-    <loc>https://openscapes.github.io/lab-manual/archiving.html</loc>
-    <lastmod>2024-07-01T19:59:24.861Z</lastmod>
-  </url>
-  <url>
-    <loc>https://openscapes.github.io/lab-manual/index.html</loc>
-    <lastmod>2024-09-17T17:39:43.147Z</lastmod>
-  </url>
-  <url>
-    <loc>https://openscapes.github.io/lab-manual/funding.html</loc>
-    <lastmod>2024-09-17T19:52:38.438Z</lastmod>
-  </url>
-  <url>
-    <loc>https://openscapes.github.io/lab-manual/coding/r-rstudio.html</loc>
-    <lastmod>2024-07-01T19:59:24.882Z</lastmod>
+    <loc>https://openscapes.github.io/lab-manual/coding/version.html</loc>
+    <lastmod>2024-09-17T19:51:15.727Z</lastmod>
   </url>
   <url>
     <loc>https://openscapes.github.io/lab-manual/coding/style.html</loc>
     <lastmod>2024-07-02T22:16:46.067Z</lastmod>
   </url>
   <url>
-    <loc>https://openscapes.github.io/lab-manual/coding/version.html</loc>
-    <lastmod>2024-09-17T19:42:12.090Z</lastmod>
+    <loc>https://openscapes.github.io/lab-manual/coding/r-rstudio.html</loc>
+    <lastmod>2024-07-01T19:59:24.882Z</lastmod>
   </url>
   <url>
-    <loc>https://openscapes.github.io/lab-manual/code-conduct.html</loc>
-    <lastmod>2024-07-01T20:15:58.525Z</lastmod>
+    <loc>https://openscapes.github.io/lab-manual/funding.html</loc>
+    <lastmod>2024-09-17T19:52:38.438Z</lastmod>
+  </url>
+  <url>
+    <loc>https://openscapes.github.io/lab-manual/archiving.html</loc>
+    <lastmod>2024-07-01T19:59:24.861Z</lastmod>
+  </url>
+  <url>
+    <loc>https://openscapes.github.io/lab-manual/open-science.html</loc>
+    <lastmod>2024-07-02T22:16:46.067Z</lastmod>
+  </url>
+  <url>
+    <loc>https://openscapes.github.io/lab-manual/writing.html</loc>
+    <lastmod>2025-08-21T23:12:54.255Z</lastmod>
+  </url>
+  <url>
+    <loc>https://openscapes.github.io/lab-manual/coding/index.html</loc>
+    <lastmod>2024-09-17T17:35:10.459Z</lastmod>
+  </url>
+  <url>
+    <loc>https://openscapes.github.io/lab-manual/coding/troubleshooting.html</loc>
+    <lastmod>2024-07-01T19:59:24.882Z</lastmod>
+  </url>
+  <url>
+    <loc>https://openscapes.github.io/lab-manual/coding/tips.html</loc>
+    <lastmod>2024-07-01T19:59:24.882Z</lastmod>
+  </url>
+  <url>
+    <loc>https://openscapes.github.io/lab-manual/coding/code-review.html</loc>
+    <lastmod>2025-10-07T17:25:26.637Z</lastmod>
   </url>
 </urlset>
