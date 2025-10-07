@@ -57,7 +57,24 @@ We follow a lightweight **GitFlow-style workflow** to keep the history clean and
   git rebase origin/main
   ```
 
-  6) Merge your feature branch into main with a clear message
+> [!Important] 
+> There are two methods for integrating your changes into `main`:
+> - (6a) A Pull Request (PR) is *recommended* for collaboration and review. If you have not run your changes by Jessica then a PR is recommended. Request a reviewer for your changes and notify that person of the open PR.
+> - (6b - 8) A PR is *not required* for deployment. Any direct push to `main` will automatically trigger the GitHub Action and redeploy the site.
+
+  6a) Open a Pull Request on GitHub
+   - Click the "Pull Request" tab on the lab-maunal repo page.
+   - Set the "base" to 'main' and "compare" to 'your-feature-branch`
+   - Click "Create Pull Request"
+   - Add new title and complete the PR template inside of the description box.
+   - Assign a reviewer in the right hand column.
+   - Add labels that apply to your changes.
+   - Click "Create Pull Request"
+   - Notify the reviewer you suggested (probably Jessica or current data scientist) of the existence of the PR and you are asking for their review of your changes.
+
+**OR**
+
+  6b) Merge your feature branch into main with a clear message
   ```bash
   git checkout main
   git pull origin main
@@ -73,13 +90,14 @@ We follow a lightweight **GitFlow-style workflow** to keep the history clean and
   git push origin main
   ```
 
-  8) (Optional) Delete the feature branch
+  8) Delete the feature branch locally & on the remote
   ```bash
   git branch -d feature-update-methods-section
   git push origin --delete feature-update-methods-section
   ```
 
-Once `main` is updated on GitHub, the site will automatically rebuild and redeploy via GitHub Actions.
+> [!Important]
+> Once `main` is updated on GitHub, a GitHub Action is triggered to publish the website. See below (How to Deploy the Website) for more details.
 
 ## How to Deploy the Website
 
@@ -87,22 +105,26 @@ The website is published from the **`gh-pages` branch** using a **GitHub Actions
 
 ### Automatic Deployment (via GitHub Actions)
 
-When changes are pushed or merged into `main`, the GitHub Action defined in  
-`.github/workflows/publish.yml` automatically runs the following steps:
+When changes are pushed or merged into `main`, the GitHub Action defined in `.github/workflows/publish.yml` automatically builds and deploys the site **on a GitHub-hosted runner** (a temporary virtual 
+machine created for each workflow run). This process mirrors what would happen if you ran `quarto publish gh-pages` locally, but everything occurs remotely within GitHub’s infrastructure.
 
-1. **Check out** the repository on the `main` branch.  
-2. **Install Quarto** using the `quarto-dev/quarto-actions/setup@v2` action.  
-3. **Render the site** using `quarto render`.  
-4. **Publish the rendered output** to the `gh-pages` branch using:  
-   ```bash
-   quarto publish gh-pages
-   ```
-5. **Deploy to GitHub Pages**, which hosts the live site at:  
-   👉 **https://seafood-globalization-lab.github.io/lab-manual/**
+Here’s what happens step by step:
 
-> 💡 **Note:** A Pull Request is *recommended* for collaboration and review,  
-> but **not required** for deployment.  
-> Any direct push to `main` will automatically trigger the GitHub Action and redeploy the site.
+   1. **Start a GitHub-hosted runner** – GitHub spins up a clean virtual machine (Ubuntu environment) to execute the workflow.  
+   2. **Check out** the repository on the `main` branch using the `actions/checkout@v4` step.  
+   3. **Install Quarto** with the `quarto-dev/quarto-actions/setup@v2` action.  
+   4. **Render the site** within the runner by running:
+      ```bash
+      quarto render
+      ```
+      This builds the HTML output in the runner’s environment.
+   5. **Publish the rendered output** to the `gh-pages` branch using:
+      ```bash
+      quarto publish gh-pages
+      ```
+      This command executes **on the runner**, authenticating via GitHub’s provided token, and pushes the built site to your repository.
+   6. **Deploy to GitHub Pages**, which serves the contents of the `gh-pages` branch at:  
+      👉 **https://seafood-globalization-lab.github.io/lab-manual/**
 
 To verify that the site was successfully deployed:
 1. Go to the **Actions** tab in the repository.  
@@ -111,26 +133,35 @@ To verify that the site was successfully deployed:
 
 If successful, updates will appear on the public site within a few minutes.
 
----
-
-### Manual Deployment (optional)
+### Manual Deployment (optional but not recommended)
 
 If you need to deploy the site manually (e.g., for testing or local builds):
+
+> [!Warning] 
+> The branch you are on when running `quarto publish gh-pages` determines what content is published.  
+> To avoid overwriting the live site with in-progress edits, always ensure you are on the `main` branch before deploying manually:
+> ```bash
+> git checkout main
+> git pull origin main
+> quarto publish gh-pages
+> ```
 
 ```bash
 quarto publish gh-pages
 ```
 
-This command will:
-- Render the manual locally using `_quarto.yml`  
-- Push the built HTML files to the `gh-pages` branch  
-- Immediately update the live GitHub Pages site
+This command performs the same steps as the GitHub Action, but **runs locally** on your machine.  
+It will:
 
----
+- Render the manual using the `_quarto.yml` configuration **from whichever branch you are currently on**.  
+- Push the built HTML files to the remote `gh-pages` branch.  
+- Immediately update the live GitHub Pages site at  
+  👉 **https://seafood-globalization-lab.github.io/lab-manual/**
+
+
+Manual deployment can be useful for quick testing or emergency rebuilds, but the preferred and safest method is to let the **GitHub Action** handle publishing automatically when changes are merged or pushed to `main`.
+
 
 ### Reference
 
 - 📘 [Quarto Docs: Publishing to GitHub Pages](https://quarto.org/docs/publishing/github-pages.html)  
-- 🧭 [UW Seafood Globalization Lab Manual Repository](https://github.com/Seafood-Globalization-Lab/lab-manual)
-
----
