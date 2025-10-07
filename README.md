@@ -4,10 +4,10 @@ This is the repository where the **UW Seafood Globalization Lab’s Manual** is 
 The website is automatically published from the `gh-pages` branch and served via **GitHub Pages**.
 
 ### Resources on `Quarto` websites:
-- [Quarto website documentation](https://quarto.org/docs/websites/)
+- [Quarto website documentation - workflow - which files do what](https://quarto.org/docs/websites/#workflow)
 - [Openscapes's Quarto Website Tutorial](https://github.com/Openscapes/quarto-website-tutorial)
 
-## Workflow to Edit the Manual (Simplified GitFlow)
+## Workflow to Edit the Manual
 
 We follow a lightweight **GitFlow-style workflow** to keep the history clean and contributions organized:
 
