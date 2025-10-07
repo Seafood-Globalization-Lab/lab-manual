@@ -66,7 +66,7 @@ We follow a lightweight **GitFlow-style workflow** to keep the history clean and
 > - (6a) A Pull Request (PR) is *recommended* for collaboration and review. If you have not run your changes by Jessica then a PR is recommended. Request a reviewer for your changes and notify that person of the open PR.
 > - (6b - 8) A PR is *not required* for deployment. Any direct push to `main` will automatically trigger the GitHub Action and redeploy the site.
 
-  6a) Open a Pull Request on GitHub
+  6a. Open a Pull Request on GitHub
    - Click the "Pull Request" tab on the lab-maunal repo page.
    - Set the "base" to 'main' and "compare" to 'your-feature-branch`
    - Click "Create Pull Request"
@@ -78,7 +78,7 @@ We follow a lightweight **GitFlow-style workflow** to keep the history clean and
 
 **OR**
 
-  6b) Merge your feature branch into main with a clear message
+  6b. Merge your feature branch into main with a clear message
   ```bash
   git checkout main
   git pull origin main
@@ -117,23 +117,15 @@ Here’s what happens step by step:
    1. **Start a GitHub-hosted runner** – GitHub spins up a clean virtual machine (Ubuntu environment) to execute the workflow.  
    2. **Check out** the repository on the `main` branch using the `actions/checkout@v4` step.  
    3. **Install Quarto** with the `quarto-dev/quarto-actions/setup@v2` action.  
-   4. **Render the site** within the runner by running:
-      ```bash
-      quarto render
-      ```
-      This builds the HTML output in the runner’s environment.
-   5. **Publish the rendered output** to the `gh-pages` branch using:
-      ```bash
-      quarto publish gh-pages
-      ```
-      This command executes **on the runner**, authenticating via GitHub’s provided token, and pushes the built site to your repository.
+   4. **Render the site** within the runner by running: `quarto render`. This builds the HTML output in the runner’s environment.
+   5. **Publish the rendered output** to the `gh-pages` branch using: `quarto publish gh-pages`. This command executes **on the runner**, authenticating via GitHub’s provided token, and pushes the built site to your repository.
    6. **Deploy to GitHub Pages**, which serves the contents of the `gh-pages` branch at:  
       👉 **https://seafood-globalization-lab.github.io/lab-manual/**
 
 To verify that the site was successfully deployed:
-1. Go to the **Actions** tab in the repository.  
-2. Open the latest **“Publish to GitHub Pages”** workflow run.  
-3. Confirm that all steps completed successfully (✅ green checkmark).
+   1. Go to the **Actions** tab in the repository.  
+   2. Open the latest **“Publish to GitHub Pages”** workflow run.  
+   3. Confirm that all steps completed successfully (✅ green checkmark).
 
 If successful, updates will appear on the public site within a few minutes.
 
