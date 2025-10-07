@@ -1,6 +1,6 @@
 # UW Seafood Globalization Lab’s Manual 📖 🦀 
 
-This is the repository where the **UW Seafood Globalization Lab’s Manual** is edited, built, and deployed from. It is a `Quarto` static website.
+This is the repository where the [**UW Seafood Globalization Lab’s Manual**](https://seafood-globalization-lab.github.io/lab-manual/) is edited, built, and deployed from. It is a `Quarto` static website.
 The website is automatically published from the `gh-pages` branch and served via **GitHub Pages**.
 
 ### Resources on `Quarto` websites:
