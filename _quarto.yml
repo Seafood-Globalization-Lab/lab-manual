@@ -39,6 +39,7 @@ website:
           - coding/tips.qmd
           - coding/version.qmd
           - coding/troubleshooting.qmd
+          - coding/code-review.qmd
       - writing.qmd
       - archiving.qmd
       - funding.qmd
