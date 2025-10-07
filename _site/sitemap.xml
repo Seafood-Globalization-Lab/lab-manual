@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://openscapes.github.io/lab-manual/communication.html</loc>
-    <lastmod>2025-08-02T04:30:48.851Z</lastmod>
+    <lastmod>2025-10-07T17:46:13.480Z</lastmod>
   </url>
   <url>
     <loc>https://openscapes.github.io/lab-manual/code-conduct.html</loc>
@@ -34,7 +34,7 @@
   </url>
   <url>
     <loc>https://openscapes.github.io/lab-manual/writing.html</loc>
-    <lastmod>2025-08-21T23:12:54.255Z</lastmod>
+    <lastmod>2025-10-07T17:46:13.484Z</lastmod>
   </url>
   <url>
     <loc>https://openscapes.github.io/lab-manual/coding/index.html</loc>
@@ -50,6 +50,10 @@
   </url>
   <url>
     <loc>https://openscapes.github.io/lab-manual/coding/code-review.html</loc>
-    <lastmod>2025-10-07T17:23:42.000Z</lastmod>
+    <lastmod>2025-10-07T17:46:13.480Z</lastmod>
+  </url>
+  <url>
+    <loc>https://openscapes.github.io/lab-manual/index.html</loc>
+    <lastmod>2024-09-17T17:39:43.147Z</lastmod>
   </url>
 </urlset>
