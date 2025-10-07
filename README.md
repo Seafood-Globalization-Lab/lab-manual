@@ -45,6 +45,9 @@ We follow a lightweight **GitFlow-style workflow** to keep the history clean and
   quarto preview
   ```
 
+> [!Note]
+> If you have created a new page for the website, make sure it is added/referenced in the `lab-manual/_quarto.yml` file. This is the configuration file that provides the skeleton for the website. Add your new page under `contents:`. Indenting is very strict in `.yml` files, follow the existing formatting.
+
   4) Stage and commit your changes
   ```bash
   git add .
