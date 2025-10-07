@@ -2,7 +2,7 @@
 title: "Code review"
 ---
 
-Reviewing code is at least as important as reviewing writing. Just as with writing, having someone else review your work and (potentially) provide extensive feedback can induce anxiety (for more on this topic, see the [Code Review Anxiety Workbook](https://developer-success-lab.gitbook.io/code-review-anxiety-workbook-1). The first draft of code is almost never free of logical errors, unintended behavior, or extraneous code. More code review and check points throughout the code writing process will slow you down but will save you time in the long run. Since code builds on itself, small errors early on code can build on themselves to create inaccuracies or errors that are much harder to debug later. Thoroughly reviewing your own code and having someone review your code is important for both the reliability of the code and as a reproducibility test.
+Reviewing code is at least as important as reviewing writing. Just as with writing, having someone else review your work and (potentially) provide extensive feedback can induce anxiety (for more on this topic, see the [Code Review Anxiety Workbook](https://developer-success-lab.gitbook.io/code-review-anxiety-workbook-1)). The first draft of code is almost never free of logical errors, unintended behavior, or extraneous code. More code review and check points throughout the code writing process will slow you down but will save you time in the long run. Since code builds on itself, small errors early on code can build on themselves to create inaccuracies or errors that are much harder to debug later. Thoroughly reviewing your own code and having someone review your code is important for both the reliability of the code and as a reproducibility test.
 
 # Self code review
 
