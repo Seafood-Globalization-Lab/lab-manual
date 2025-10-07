@@ -3,8 +3,6 @@
 This is the repository where the **UW Seafood Globalization Lab’s Manual** is edited, built, and deployed from.  
 The website is automatically published from the `gh-pages` branch and served via **GitHub Pages**.
 
----
-
 ## How to Edit the Manual
 
 ### Workflow Overview (Simplified GitFlow)
