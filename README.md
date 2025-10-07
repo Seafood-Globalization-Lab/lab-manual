@@ -1,11 +1,13 @@
 # UW Seafood Globalization Lab’s Manual 📖 🦀 
 
-This is the repository where the **UW Seafood Globalization Lab’s Manual** is edited, built, and deployed from.  
+This is the repository where the **UW Seafood Globalization Lab’s Manual** is edited, built, and deployed from. It is a `Quarto` static website.
 The website is automatically published from the `gh-pages` branch and served via **GitHub Pages**.
 
-## How to Edit the Manual
+Resources on `Quarto` websites:
+- [Quarto website documentation](https://quarto.org/docs/websites/)
+- [Openscapes's Quarto Website Tutorial](https://github.com/Openscapes/quarto-website-tutorial)
 
-### Workflow Overview (Simplified GitFlow)
+## How to Edit the Manual Workflow (Simplified GitFlow)
 
 We follow a lightweight **GitFlow-style workflow** to keep the history clean and contributions organized:
 
@@ -23,7 +25,7 @@ We follow a lightweight **GitFlow-style workflow** to keep the history clean and
    - The feature branch is rebased and merged into `main`.  
    - The feature branch is then closed/deleted.
 
-### Example Workflow (git in your terminal)
+## Example Workflow (git in your terminal)
 
   1) Clone the repository
   ```bash
@@ -98,9 +100,9 @@ We follow a lightweight **GitFlow-style workflow** to keep the history clean and
   ```
 
 > [!Important]
-> Once `main` is updated on GitHub, a GitHub Action is triggered to publish the website. See below (How to Deploy the Website) for more details.
+> Once `main` is updated on GitHub, a GitHub Action is automatically triggered to publish the website. See below (How to Deploy the Website) for more details.
 
-## How to Deploy the Website
+## Website Deployment
 
 The website is published from the **`gh-pages` branch** using a **GitHub Actions workflow** that automates the Quarto build and deployment process.
 
