@@ -131,10 +131,12 @@ If successful, updates will appear on the public site within a few minutes.
 
 ### Manual Deployment (optional but not recommended)
 
+Manual deployment can be useful for quick testing or emergency rebuilds, but the preferred and safest method is to let the **GitHub Action** handle publishing automatically when changes are merged or pushed to `main`.
+
 If you need to deploy the site manually (e.g., for testing or local builds):
 
 > [!Warning] 
-> The branch you are on when running `quarto publish gh-pages` determines what content is published.  
+> The branch you are on matters! When running `quarto publish gh-pages` locally, the branch determines what content is published.  
 > To avoid overwriting the live site with in-progress edits, always ensure you are on the `main` branch before deploying manually:
 > ```bash
 > git checkout main
@@ -143,13 +145,12 @@ If you need to deploy the site manually (e.g., for testing or local builds):
 > ```
 
 This command performs the same steps as the GitHub Action, but **runs locally** on your machine. It will:
-   - Render the manual using the `_quarto.yml` configuration **from whichever branch you are currently on**.  
-   - Push the built HTML files to the remote `gh-pages` branch.  
-   - Immediately update the live GitHub Pages site at  
-     👉 **https://seafood-globalization-lab.github.io/lab-manual/**
+  - Render the manual using the `_quarto.yml` configuration **from whichever branch you are currently on**.  
+  - Push the built HTML files to the remote `gh-pages` branch.  
+  - Immediately update the live GitHub Pages site at  
+  👉 **https://seafood-globalization-lab.github.io/lab-manual/**
 
 
-Manual deployment can be useful for quick testing or emergency rebuilds, but the preferred and safest method is to let the **GitHub Action** handle publishing automatically when changes are merged or pushed to `main`.
 
 
 ### Reference
