@@ -142,17 +142,11 @@ If you need to deploy the site manually (e.g., for testing or local builds):
 > quarto publish gh-pages
 > ```
 
-```bash
-quarto publish gh-pages
-```
-
-This command performs the same steps as the GitHub Action, but **runs locally** on your machine.  
-It will:
-
-- Render the manual using the `_quarto.yml` configuration **from whichever branch you are currently on**.  
-- Push the built HTML files to the remote `gh-pages` branch.  
-- Immediately update the live GitHub Pages site at  
-  👉 **https://seafood-globalization-lab.github.io/lab-manual/**
+This command performs the same steps as the GitHub Action, but **runs locally** on your machine. It will:
+   - Render the manual using the `_quarto.yml` configuration **from whichever branch you are currently on**.  
+   - Push the built HTML files to the remote `gh-pages` branch.  
+   - Immediately update the live GitHub Pages site at  
+     👉 **https://seafood-globalization-lab.github.io/lab-manual/**
 
 
 Manual deployment can be useful for quick testing or emergency rebuilds, but the preferred and safest method is to let the **GitHub Action** handle publishing automatically when changes are merged or pushed to `main`.
