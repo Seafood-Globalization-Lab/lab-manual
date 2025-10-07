@@ -150,55 +150,36 @@
     ]
   },
   {
-    "objectID": "coding/version.html",
-    "href": "coding/version.html",
-    "title": "Version Control",
-    "section": "",
-    "text": "Github\nOur lab primarily uses Github for version control. There are many resources for learning how to use Github. A few include:\n\nHappy Git and GitHub for the useR.\nLearn Git branching.\nNCEAS Github training.",
+    "objectID": "coding/troubleshooting.html#help-within-rstudio---function-print-out-function",
+    "href": "coding/troubleshooting.html#help-within-rstudio---function-print-out-function",
+    "title": "Troubleshooting",
+    "section": "Help within RStudio - ?function, print out function",
+    "text": "Help within RStudio - ?function, print out function",
     "crumbs": [
       "Code",
-      "Version Control"
+      "Troubleshooting"
     ]
   },
   {
-    "objectID": "coding/r-rstudio.html",
-    "href": "coding/r-rstudio.html",
-    "title": "R and RStudio",
-    "section": "",
-    "text": "link to tutorials and R 4 DS",
+    "objectID": "coding/troubleshooting.html#websites---stack-overflow",
+    "href": "coding/troubleshooting.html#websites---stack-overflow",
+    "title": "Troubleshooting",
+    "section": "Websites - Stack Overflow",
+    "text": "Websites - Stack Overflow",
     "crumbs": [
       "Code",
-      "R and RStudio"
+      "Troubleshooting"
     ]
   },
   {
-    "objectID": "coding/index.html",
-    "href": "coding/index.html",
-    "title": "Code",
-    "section": "",
-    "text": "This section covers general coding/data cleaning principles and practices. For ARTIS-specific data and workflow issues, see ARTIS manual",
+    "objectID": "coding/troubleshooting.html#ai-tools---chatgpt-github-co-pilot",
+    "href": "coding/troubleshooting.html#ai-tools---chatgpt-github-co-pilot",
+    "title": "Troubleshooting",
+    "section": "AI tools - ChatGPT, Github co-pilot",
+    "text": "AI tools - ChatGPT, Github co-pilot",
     "crumbs": [
-      "Code"
-    ]
-  },
-  {
-    "objectID": "coding/index.html#overview",
-    "href": "coding/index.html#overview",
-    "title": "Code",
-    "section": "",
-    "text": "This section covers general coding/data cleaning principles and practices. For ARTIS-specific data and workflow issues, see ARTIS manual",
-    "crumbs": [
-      "Code"
-    ]
-  },
-  {
-    "objectID": "coding/index.html#recommended-workflow",
-    "href": "coding/index.html#recommended-workflow",
-    "title": "Code",
-    "section": "Recommended workflow",
-    "text": "Recommended workflow\nThe typical lab workflow aims to produce open data and reproducible analysis. This lab typically uses R/RStudio and GitHub.\nSteps: each of these should be contained in separate code (e.g., separate “.R” files, code chunks, or folders):\n\nCreate a version-controlled R project repository within the Seafood Globalization Lab GitHub organization. If a GitHub repository already exists, pull this onto your local and work from within it.\n\nEach project folder, whether created by you or pulled from GitHub, should include the following folders:\n\ndata - Keep all raw data in this folder and do not modify the raw data\noutput - Write out all cleaned versions of data (make sure the file name differs from the raw data file name to avoid overwriting and confusion) and analysis output here\nfigures - Write out all figures here. You may initially want to use descriptive figure names, but ultimately will want to name the files according to the figure numbering in the resulting manuscript (e.g., fig1.png)\nscripts or R - Save all R scripts here. If the project will be set up as an R package, then the folder must be named “R”.\n\nCreate other folders as needed (e.g., “literature”, “ms”, “archive”, etc.) but add the folder to your .gitignore file so they are not pushed up to GitHub.\nYou may want to add dates to files that will have multiple versions (e.g., different runs of an analysis, versions of figures, etc.) using the format YYYY-MM-DD to the beginning of file names so files are sorted accordingly.\n\nREADME - A text README file should be created for every project and a full description of the raw data should be included here\nData Cleaning - do NOT edit the raw data file, instead do ALL cleaning within your code. The R janitor package is useful for cleaning your data frame. Additional useful R functions include to_lower(), case_when(), str_extract, and separate(). See X for more.\n\nYour final clean data file(s) should be in a tidy (“long”) format. See Wickham for more on tidy format.\n\nCommenting - There is no such thing as too much commenting and documentation. All code should be extensively commented such that each step of the analysis is clear to any reader without that individual knowing R. Aim for a commented section header for each code chunk along with one comment per line of code. Follow the style guide [FIXIT: add link to style page] for additional notes on commenting code Data\nPlotting and validation - We recommend producing simple scatter plots, boxplots, check that outliers are not errors.\nSaving the cleaned data file - After data cleaning and plotting/validation, output data into its final, clean format (write this file to the “Output” folder. Everyone in the research team should start from the same cleaned dataset. They should also have access to to code that produced the cleaned file so they can refer back to all cleaning steps.\nData Analysis - Create separate scripts to process, filter, aggregate, summarize data as needed for different types of analyses.\nGitHub\n\nMake sure you are on the correct branch.\nPull all changes before beginning work on your code\nAll code changes should be pushed to GitHub on a regular basis (it is better to commit more rather than less)\nAim to include as descriptive commit messages as possible\nIn general, do not push the “data,” “output,” or “figures” folders up to GitHub (i.e., include these folders in your .gitignore file) because they are often too large\nDo not push up non-analysis folders (e.g., “literature”, “ms”, “archive” etc.). Instead add to .gitignore\nWhen setting up a GitHub project, default to private settings. If a project is made public, carefully check for any data that may have been pushed up to ensure it is okay for this to be public",
-    "crumbs": [
-      "Code"
+      "Code",
+      "Troubleshooting"
     ]
   },
   {
@@ -279,37 +260,63 @@
     ]
   },
   {
-    "objectID": "coding/troubleshooting.html#help-within-rstudio---function-print-out-function",
-    "href": "coding/troubleshooting.html#help-within-rstudio---function-print-out-function",
-    "title": "Troubleshooting",
-    "section": "Help within RStudio - ?function, print out function",
-    "text": "Help within RStudio - ?function, print out function",
+    "objectID": "coding/index.html",
+    "href": "coding/index.html",
+    "title": "Code",
+    "section": "",
+    "text": "This section covers general coding/data cleaning principles and practices. For ARTIS-specific data and workflow issues, see ARTIS manual",
     "crumbs": [
-      "Code",
-      "Troubleshooting"
+      "Code"
     ]
   },
   {
-    "objectID": "coding/troubleshooting.html#websites---stack-overflow",
-    "href": "coding/troubleshooting.html#websites---stack-overflow",
-    "title": "Troubleshooting",
-    "section": "Websites - Stack Overflow",
-    "text": "Websites - Stack Overflow",
+    "objectID": "coding/index.html#overview",
+    "href": "coding/index.html#overview",
+    "title": "Code",
+    "section": "",
+    "text": "This section covers general coding/data cleaning principles and practices. For ARTIS-specific data and workflow issues, see ARTIS manual",
     "crumbs": [
-      "Code",
-      "Troubleshooting"
+      "Code"
     ]
   },
   {
-    "objectID": "coding/troubleshooting.html#ai-tools---chatgpt-github-co-pilot",
-    "href": "coding/troubleshooting.html#ai-tools---chatgpt-github-co-pilot",
-    "title": "Troubleshooting",
-    "section": "AI tools - ChatGPT, Github co-pilot",
-    "text": "AI tools - ChatGPT, Github co-pilot",
+    "objectID": "coding/index.html#recommended-workflow",
+    "href": "coding/index.html#recommended-workflow",
+    "title": "Code",
+    "section": "Recommended workflow",
+    "text": "Recommended workflow\nThe typical lab workflow aims to produce open data and reproducible analysis. This lab typically uses R/RStudio and GitHub.\nSteps: each of these should be contained in separate code (e.g., separate “.R” files, code chunks, or folders):\n\nCreate a version-controlled R project repository within the Seafood Globalization Lab GitHub organization. If a GitHub repository already exists, pull this onto your local and work from within it.\n\nEach project folder, whether created by you or pulled from GitHub, should include the following folders:\n\ndata - Keep all raw data in this folder and do not modify the raw data\noutput - Write out all cleaned versions of data (make sure the file name differs from the raw data file name to avoid overwriting and confusion) and analysis output here\nfigures - Write out all figures here. You may initially want to use descriptive figure names, but ultimately will want to name the files according to the figure numbering in the resulting manuscript (e.g., fig1.png)\nscripts or R - Save all R scripts here. If the project will be set up as an R package, then the folder must be named “R”.\n\nCreate other folders as needed (e.g., “literature”, “ms”, “archive”, etc.) but add the folder to your .gitignore file so they are not pushed up to GitHub.\nYou may want to add dates to files that will have multiple versions (e.g., different runs of an analysis, versions of figures, etc.) using the format YYYY-MM-DD to the beginning of file names so files are sorted accordingly.\n\nREADME - A text README file should be created for every project and a full description of the raw data should be included here\nData Cleaning - do NOT edit the raw data file, instead do ALL cleaning within your code. The R janitor package is useful for cleaning your data frame. Additional useful R functions include to_lower(), case_when(), str_extract, and separate(). See X for more.\n\nYour final clean data file(s) should be in a tidy (“long”) format. See Wickham for more on tidy format.\n\nCommenting - There is no such thing as too much commenting and documentation. All code should be extensively commented such that each step of the analysis is clear to any reader without that individual knowing R. Aim for a commented section header for each code chunk along with one comment per line of code. Follow the style guide [FIXIT: add link to style page] for additional notes on commenting code Data\nPlotting and validation - We recommend producing simple scatter plots, boxplots, check that outliers are not errors.\nSaving the cleaned data file - After data cleaning and plotting/validation, output data into its final, clean format (write this file to the “Output” folder. Everyone in the research team should start from the same cleaned dataset. They should also have access to to code that produced the cleaned file so they can refer back to all cleaning steps.\nData Analysis - Create separate scripts to process, filter, aggregate, summarize data as needed for different types of analyses.\nGitHub\n\nMake sure you are on the correct branch.\nPull all changes before beginning work on your code\nAll code changes should be pushed to GitHub on a regular basis (it is better to commit more rather than less)\nAim to include as descriptive commit messages as possible\nIn general, do not push the “data,” “output,” or “figures” folders up to GitHub (i.e., include these folders in your .gitignore file) because they are often too large\nDo not push up non-analysis folders (e.g., “literature”, “ms”, “archive” etc.). Instead add to .gitignore\nWhen setting up a GitHub project, default to private settings. If a project is made public, carefully check for any data that may have been pushed up to ensure it is okay for this to be public",
+    "crumbs": [
+      "Code"
+    ]
+  },
+  {
+    "objectID": "coding/r-rstudio.html",
+    "href": "coding/r-rstudio.html",
+    "title": "R and RStudio",
+    "section": "",
+    "text": "link to tutorials and R 4 DS",
     "crumbs": [
       "Code",
-      "Troubleshooting"
+      "R and RStudio"
     ]
+  },
+  {
+    "objectID": "coding/version.html",
+    "href": "coding/version.html",
+    "title": "Version Control",
+    "section": "",
+    "text": "Github\nOur lab primarily uses Github for version control. There are many resources for learning how to use Github. A few include:\n\nHappy Git and GitHub for the useR.\nLearn Git branching.\nNCEAS Github training.",
+    "crumbs": [
+      "Code",
+      "Version Control"
+    ]
+  },
+  {
+    "objectID": "coding/code-review.html",
+    "href": "coding/code-review.html",
+    "title": "Code review",
+    "section": "",
+    "text": "Reviewing code is at least as important as reviewing writing. Just as with writing, having someone else review your work and (potentially) provide extensive feedback can induce anxiety (for more on this topic, see the Code Review Anxiety Workbook). The first draft of code is almost never free of logical errors, unintended behavior, or extraneous code. More code review and check points throughout the code writing process will slow you down but will save you time in the long run. Since code builds on itself, small errors early on code can build on themselves to create inaccuracies or errors that are much harder to debug later. Thoroughly reviewing your own code and having someone review your code is important for both the reliability of the code and as a reproducibility test.\n\nSelf code review\n\nStep away from the code for a bit. You should not complete your review immediately after writing it because what you were trying to do will still be fresh in your head. With a little distance, you will have to rely more on the comments and code logic in the script (just as another person or your future self would have to).\nRevisit the overall folder and code structure. - Make sure that any unnecessary files are moved to untracked folders. - Ensure all raw data files are included in the data folder. - Make sure scripts are clearly numbered and named so users know the order to run files in. - Add a README file to provide an overview of the code, including a brief description of the files and the ordering/logic to them.\nClear your environment and source or knit the file(s) in the intended order. This is a test of whether you have a clean run that the code reviewer should be able to replicate.\nReview any errors or warnings. For errors, these must be resolved for the code to fully execute. For warnings, step through the code to review them one-by-one to confirm that they are not indicative of a problem. For example, if it warns there is a many-to-many match in a join, think carefully about whether this should be the case. If you are 100% sure you can suppress the warning and add a comment explaining your logic.\nCheck that you have appropriate tests throughout your code. What tests are appropriate depend on your specific analysis, but some common checks to build in include:\n\n\nBreak apart a long pipe sequence to check for NAs following joins. When joining data, consider whether the join is one-to-one, one-to-many, many-to-on, or many-to-many. Based on the join type, determine whether rows should be added. If they should not, then check the number of rows before and after a join to confirm no rows were added.\nIf there should only be one row per combination of variables, group by those variables and tally them to see the count for each group.\nCompare data frames that should be equivalent or should sum to the same values by creating a test data frame that is a full join, then calculating the absolute value of the difference and filtering to any observations with a difference greater than your chosen threshold. Inspect any differences carefully and document if it is reasonable for them to be different.\nIf using proportions, confirm they still sum back to one with the appropriate groupings after other operations.\nIf a variable should not be negative or exceed a certain value, create a test data frame that filters observations based on that threshold.\nIf there are any known or reasonable values for a particular data point or summary statistic, generate that to ensure the data still looks realistic. It is always helpful to step back and use basic number sense to consider whether the numbers you are generating are realistic.\n\n\nRead through the code carefully to:\n\n\nCheck for any outstanding notes/reminders to yourself (sometimes marked as FIXIT or similar).\nAdd detailed comments throughout to ensure the logic of each line code is obvious.\nRemove any chunks of code that are not actually used. Extra code just creates more risk of causing errors or confusing the reviewer (or yourself) down the road.\n\nAfter you have finished preparing your code for review, be sure to do a final full run of the code with a clean environment to ensure that it is still a complete package before handing it off to the code reviewer. Then, make sure your reviewer has access to the full set of code (either providing them GitHub access or sending a zip folder of the entire project) and necessary data.\nNote that it is increasingly common to provide the data and code with a paper submission for peer review. Following the above steps throughout your development process will help you prepare your code for submission.\n\n\nReviewing other people’s code\nReviewing others’ code is both an important service and a learning opportunity as you may discover new useful functions or learn to see a problem in a different way. When reviewing other people’s code, here are some potentially helpful steps:\n\nCheck for a README and be sure to review it first.\nExecute or knit the entire script(s)/file(s) in their intended order. This will allow you to immediately see whether all the pieces are there for you to conduct a full review. If the code does not run, contact the author with the line number and error so they can resolve it. If the code does run, then move onto the next steps.\nConduct a high-level reading of the code. You might not even run the code at this point, but read through the comments and skim the code to get a general picture of the logic and steps. If you are confused about any of the general objectives or logic of the code, clarify with the author before moving on. Once you feel you have a clear idea about what the code is trying to do, move onto the next step.\nClear your environment and start from the top, running the code line-by-line. At each line, consider whether the step is both clear and logical.\nAs you move through the code, consider whether there are any checks that should be added that are not already present. Refer to the section above for examples of common tests.\nIf you discover points that need addressed or steps that are unclear, either flag them in notes to the author (with line numbers) or include as a comment or edit in the code itself if it is a collaborative coding project. If added as comments, it is generally helpful to include a standard string like FIXIT so the author can search for all instances. If you are using GitHub, the edits will also be clear in the commit.\nIf you made edits to the script, make sure the code still runs (i.e., make sure you didn’t break anything) before passing it back to the original author. Also include a summary of the changes and any feedback the author might find valuable in the future."
   },
   {
     "objectID": "writing.html",
@@ -332,21 +339,11 @@
     ]
   },
   {
-    "objectID": "writing.html#writing-tips",
-    "href": "writing.html#writing-tips",
-    "title": "Writing",
-    "section": "Writing tips",
-    "text": "Writing tips\nTo help with your writing, here are a few tips based on some of my most common comments:\n\nStart by writing out a specific statement of the focus of your paper. This does not have to be the main finding, but instead is often a statement of the key gap or motivation along with the focal question(s).\nTake your focal statement and backwards plan the main points that lead up to that statement. What is the series of points that will naturally lead the reader to conclude that your focus is needed and important?\nEach point should form a topic sentence. Those topic sentences must be supported by specific evidence from peer reviewed literature.\nSupportive evidence should consist of specific findings and examples drawn. The key here is to “show” rather than “tell” the reader. For example, rather than saying “Researchers have found aquaculture to be important to seafood supplies (Smith et al. 2022),” say something like “Aquaculture supplies half of all seafood globally (Smith et al. 2022).”\nAvoid using direct quotes. It is unlikely that the way the original author phrased a point is the best way to make that point within your paper. Thinking about the main point and rephrasing it to fit within your argument will likely improve the flow.\nUse figures and tables as supporting evidence, but do not just walk through the figures and tables. Do not say “Figure 1 shows X is true” or “As shown in Figure 1, X is true.” Instead say “X is true (Figure 1).” A good test is to look for any instances where you refer to a figure or table outside of parentheses.\nBe concise and direct. Every time you read your writing try to cut out words.\nUse first person and active language. This means rather than saying “The data was collected by…” you should say “We collected the data by…”\n\nAs you work on your writing, know that most people find it difficult and feeling frustrated is common. If you are feeling stuck, try taking a step back and re-mapping your core argument. Sometimes the best thing is just to start putting words on the paper, knowing that it won’t be any good the first pass.\nAdditionally, here are a few resources you can review for more information:\nTen Simple (Empirical) Rules for Writing Science\nSimple rules for concise scientific writing\nWriting Science: How to Write Papers That Get Cited and Proposals That Get Funded - Jessica also has a copy to borrow.",
-    "crumbs": [
-      "Writing"
-    ]
-  },
-  {
     "objectID": "writing.html#writing-workflow",
     "href": "writing.html#writing-workflow",
     "title": "Writing",
     "section": "Writing workflow",
-    "text": "Writing workflow",
+    "text": "Writing workflow\nThe set of steps outlined below is modified from How to write a scientific paper. While this is a great workflow, it is not the only way to do things and you may find that an alternate approach works better for you as you gain experience with writing scientific papers.\nIt is also very helpful to do some writing as you are working on your analysis as the process can clarify some of your thinking about your analysis. Since that is not a linear process, you may iterate between the writing steps below and your analysis at various points in the workflow below. If you are working on a literature review or are just reading some papers to take a break from coding, it can also be useful to free write some sentences or paragraphs that you might later incorporate into your paragraphs.\nNotice that this workflow includes multiple points for co-authors to provide feedback and input. This allows them to be true collaborators on the project and ensures that they have a genuine opportunity to shape the direction of the paper as it is developed. Otherwise, you might receive feedback that you need to make substantial changes at the end – an outcome that could have been avoided by reaching out sooner!\n\nMind map - There is no single process for mind mapping, as it is just an approach for organizing your thoughts. This could be a set of notes, a conceptual figure, a set of boxes and arrows, groups of sticky notes, etc. You can conduct this on your own following conversations with your writing team or develop it as part of a structured exercise with the team. The person serving as first author is the primary person for deciding the content of the paper and they must have a clear idea of the content or it won’t be possible to complete the next steps.\nWrite down your main message - In 25 words or fewer, state the main message of the paper. You may have multiple lines of evidence in your paper, but you should have one main message. If you can’t think of just one, you are either not focusing enough, or you have more than one paper to write.\nWrite a working abstract - No one read (or cite) the paper if they are not interested by the abstract. It should answer the following, explicitly:\n\n\nWhy are you doing this? (what is the broad context and motivation)\nWhat did you do? (a general summary of the methods/approach to convince the reader that the work is rigorous)\nWhat did you find? (succinct but specific statement(s) of the main results)\nWhat does this mean and what is it good for? (put the work back in the the broader context and connect it to its application(s))\n\nSome people find the following annotated abstract example from Nature as a helpful guide: \n\nWrite down your title - A good title should lure the casual browser to read further. In most cases, especially for primary data papers, give your main result in your title – hence, a direct link to your main message. No one will bother to read your abstract if your title is boring or lacks relevance. If you cannot decide on a single title, then provide a few options for your collaborators to provide feedback on.\nGet feedback from your co-authors - This is an important point to get feedback from your co-authors on your main message, working abstract and proposed title(s). It is often also helpful to include draft figures that support your findings. After their feedback, revise them and send back. Iterate until everyone indicates they are ready to move forward.\nDecide on display items - The number of allowed figures depends on the journal, but if a target journal has not been selected yet, set a strict upper limit of 6 display items (any mix of figures and/or tables, multipanel figures are acceptable if they relate to the same theme). It is often useful to aim for one figure per main finding. As you select figures, critically evaluate which best support your main result points. Additional figures can always be included in the supporting information (for most journals, at least). Note that all figures in the main text and SI must be references in the text. Even if you haven’t made the figures yet, it can be helpful to “storyboard” your figure ideas and main messages as this is a visual way to think through the narrative of the paper.\nCreate the figures and tables - You will likely have developed some draft versions of figures as part of your exploratory and formal analysis for the paper. Now you will need to develop the final figures for the paper and write the legends for each. Ensure that each legend is stand-alone from the main text. While you don’t necessarily have to polish all elements, it should be structurally as final as possible. Note that final touches like sizing, colors, etc. always takes longer than you plan, so try to build in time for final touches to figures in your work plan.\nCirculate your display items with legends - This will help your co-authors dig into the results and focus this round of comments on what might be confusing/unexpected, what should be investigated further, and what might be interesting points to highlight. They often have ideas of alternate figures to plot. Revise accordingly and iterate until everyone is happy with selection and presentation.\nDraft the outline - A well-developed, detailed outline will improve the quality of your final paper and will make it easier to write. This stage requires careful thinking, so plan on spending up to a full day working on this to ensure it is sound before moving on:\n\n\nDecide on length of main text. Word limits depend on the target journal and article type, but it is important to know so that you can backwards plan the length of your sections.\nWork out the relative size of each section. As an example, for a 3000 word manuscript a typical breakdown is 600 (Introduction), 900 (Methods), 500 (Results), 800 (Discussion), 200 (Conclusion). However, the final breakdown varies depending on how much context setting is required, how many lines of evidence you are using, etc.\nFor each section, plan the paragraphs. Each paragraph should be about 50 to 250 words, but at this stage, do only this: write out each paragraph’s main message in 15 words or less (similar to the concept of the paper’s main message – remembering that each paragraph should be about only one thing). Then, play around with the arrangement of the paragraphs until you are satisfied with the logical flow.\nIf you wish, add to each paragraph some additional notes, key words, indications of reference to cite, display items to refer to, etc. This helps elaborate on the 15-word main message. You can also prompt co-authors to flag relevant references for the paragraphs.\nCirculate the skeleton to co-authors and invite critical feedback. Emphasize that this is the appropriate time to fix problems with flow, ideas/content, thrust towards main message, etc. Iterate the skeleton’s revisions until co-authors are happy (or at least some consensus has been reached). Often you’ll get no feedback except “that’s fine”. No problem – this indicates that you’ve planned well.\n\n\nWrite the paragraphs! You can do this in any order you like because you know your structure and flow are already established. This is a great advantage, because some parts of a paper are inevitably easier to write than others (and getting more and more final text down is a psychological boost). This also punches through writer’s block, and also permits you to work on discrete units of your paper to avoid mental burn-out (don’t try to spend all day writing – take a break with email, a walk, some analysis or coding, etc). DO try to set goals for a day (e.g., 5 paragraphs for a day, with an hour on each). Add the references (using a reference manager) as you go. You can also assign paragraphs for co-authors to draft.\nRevise the working abstract into a final draft form - Your thinking may have evolved (and often does!) as you wrote the draft. Consequently, you will likely need to update the working abstract based on the final structure and content of the paper. This now becomes your paper’s abstract.\nCirculate the finished draft - Send the draft to your co-authors and give them sufficient time (say 2 weeks) for feedback. You’ll find they’ll be happy to meet this time frame, as they’ve already been embedded in the paper development throughout (even if it’s just to say “great!” at each juncture in which they’re asked for feedback).",
     "crumbs": [
       "Writing"
     ]
@@ -356,7 +353,7 @@
     "href": "writing.html#reproducibility-of-figures-and-results",
     "title": "Writing",
     "section": "Reproducibility of figures and results",
-    "text": "Reproducibility of figures and results",
+    "text": "Reproducibility of figures and results\nIt is critical to ensure the entire results of your analysis are reproducible, including any figures, tables, and summary statistics presented in text. It may be tempting to produce statistics for your paper on the fly, but this is a bad idea as someone will inevitably ask you about it and you will have a moment of panic when you try to reproduce the number. Alternatively, during revisions, you might need to update the number but you might forget exactly how you came up with it. To avoid this, it is best practice to produce ALL results and figures with code that accompanies the paper. R Markdown and Quarto are two good R tools for creating results documents with code that can be re-run to automatically update results text and figures. While the entire paper can be written using these tools, it is generally difficult to work with collaborators directly within these platforms. Consequently, some degree of copying and pasting is often inevitable, but this should be minimized and well documented to create as small of a reproducibility barrier as possible. For example, one might create a results.Rmd file that generates in text statistics and when rendered, returns full sentences with the statistics embedded (e.g., “Imports increased from 1050 to 2034t from 1996 to 2020”, where the volumes and possibly years are calculated within the script).\nNote that journals will often require you to upload separate figure files with specific dimensions, resolution, file formats, etc. To make this easier, you will likely want your script to write out your figure files once they are finalized, rather than pasting them into a doc and resizing or rearranging them there. Resizing figures for journal specifications can take quite a bit of tinkering, so be sure to build in quite a bit of time to complete this.\nUpon publication, the code and data required to reproduce all findings in the paper must be archived. The associated citable DOI should be included in the paper (likely in the data/code availability statement(s)). See the section on Archiving for more.",
     "crumbs": [
       "Writing"
     ]
@@ -366,7 +363,17 @@
     "href": "writing.html#references",
     "title": "Writing",
     "section": "References",
-    "text": "References\n\nReference manager\nCiting code and data",
+    "text": "References\nScientific papers must be well referenced to provide supportive evidence for claims and to connect your work to the existing literature. In order to make sure all references are included and formatted consistently, it is best practice to use a reference manager (e.g., Zotero, EndNote) while you are writing a paper. While it can take some time to learn a new tool, it will save you time in the end, particularly if you need to switch reference formats when resubmitting a paper. Most platforms your write in will have a plugin for the popular reference managers, but note that there might be issues converting among formats. For example, if you are working in Google docs and then download your document and start working in Microsoft Word, the reference links might be broken. Note that you can often import reference information into reference managers using a DOI.\nTo ensure that data creators and code developers are properly credited, it is important to make sure these are fully referenced. The R grateful package is a helpful tool to cite all packages and version used in a project.",
+    "crumbs": [
+      "Writing"
+    ]
+  },
+  {
+    "objectID": "writing.html#additional-writing-tips",
+    "href": "writing.html#additional-writing-tips",
+    "title": "Writing",
+    "section": "Additional writing tips",
+    "text": "Additional writing tips\nTo help with your writing, here are a few tips based on some of my most common comments:\n\nSupportive evidence should consist of specific findings and examples drawn. The key here is to “show” rather than “tell” the reader. For example, rather than saying “Researchers have found aquaculture to be important to seafood supplies (Smith et al. 2022),” say something like “Aquaculture supplies half of all seafood globally (Smith et al. 2022).”\nAvoid using direct quotes. It is unlikely that the way the original author phrased a point is the best way to make that point within your paper. Thinking about the main point and rephrasing it to fit within your argument will likely improve the flow.\nUse figures and tables as supporting evidence, but do not just walk through the figures and tables. Do not say “Figure 1 shows X is true” or “As shown in Figure 1, X is true.” Instead say “X is true (Figure 1).” A good test is to look for any instances where you refer to a figure or table outside of parentheses.\nBe concise and direct. Every time you read your writing try to cut out words.\nUse first person and active language. This means rather than saying “The data was collected by…” you should say “We collected the data by…”\n\nAs you work on your writing, know that most people find it difficult and feeling frustrated is common. If you are feeling stuck, try taking a step back and re-mapping your core argument. Sometimes the best thing is just to start putting words on the paper, knowing that it won’t be any good the first pass.\nAdditionally, here are a few resources you can review for more information:\nTen Simple (Empirical) Rules for Writing Science\nSimple rules for concise scientific writing\nWriting Science: How to Write Papers That Get Cited and Proposals That Get Funded - Jessica also has a copy to borrow.",
     "crumbs": [
       "Writing"
     ]
@@ -406,7 +413,7 @@
     "href": "communication.html",
     "title": "Communication and Collaboration",
     "section": "",
-    "text": "Slack is the primary lab communication space as it allows the entire lab and affiliated researchers to share information. However, note that at the time of this writing, we use the free version of Slack, which does not preserve messages beyond 90 days.\nSlack best practices:\n\nInclude tags where appropriate to draw attention to the relevant people.\nReply to individual posts as a thread so it is clear what the response goes to.\nPost to public channels so all can weigh in and see the answers (others probably have the same question!).\nDon’t be shy about frequent posting or sharing interesting things - more regular sharing helps build community!\nAcknowledge you have read a message (either a reply or emoji reaction is fine)",
+    "text": "Regular communication is key to ensuring that you get the most out of your undergraduate or graduate research experience so you can get early feedback on ideas, strategize with others, and build professional relationships that can support you during your degree and beyond. It is better to err on the side of more communication than less and our lab has several options, outlined below. Across all, some helpful tips are:",
     "crumbs": [
       "Communication and Collaboration"
     ]
@@ -415,8 +422,8 @@
     "objectID": "communication.html#slack",
     "href": "communication.html#slack",
     "title": "Communication and Collaboration",
-    "section": "",
-    "text": "Slack is the primary lab communication space as it allows the entire lab and affiliated researchers to share information. However, note that at the time of this writing, we use the free version of Slack, which does not preserve messages beyond 90 days.\nSlack best practices:\n\nInclude tags where appropriate to draw attention to the relevant people.\nReply to individual posts as a thread so it is clear what the response goes to.\nPost to public channels so all can weigh in and see the answers (others probably have the same question!).\nDon’t be shy about frequent posting or sharing interesting things - more regular sharing helps build community!\nAcknowledge you have read a message (either a reply or emoji reaction is fine)",
+    "section": "Slack",
+    "text": "Slack\nSlack is the primary lab communication space as it allows the entire lab and affiliated researchers to share information. While you should generally be responsive during work hours, your are encouraged to set your notification preferences to limit disruptions outside of work hours. However, note that at the time of this writing, we use the free version of Slack, which does not preserve messages beyond 90 days.\nSlack best practices:\n\nInclude tags where appropriate to draw attention to the relevant people.\nReply to individual posts as a thread so it is clear what the response goes to.\nPost to public channels so all can weigh in and see the answers whenever appropriate (others probably have the same question!).\nAcknowledge you have read a message (either a reply or emoji reaction is fine).\nDon’t be shy about frequent posting or sharing interesting things - more regular sharing helps build community!",
     "crumbs": [
       "Communication and Collaboration"
     ]
@@ -436,7 +443,7 @@
     "href": "communication.html#email",
     "title": "Communication and Collaboration",
     "section": "Email",
-    "text": "Email\nEmail is the preferred communication method for official business (e.g., communicating about funding, degrees, time off, etc.) because it can be referred back to beyond the 90-day limit of Slack. Additionally, email is preferred for communication about projects and papers with external collaborators.\nA few tips for email best practices:\n\nInclude a descriptive subject line (this makes searching easier in the future).\nKeep each email focused on one specific subject - this helps avoid email threads from containing multiple separate conversations, which can become confusing and difficult to search for in the future.\nInclude hyperlinks wherever relevant/possible (especially to docs you want feedback on). This makes it easier for the recipients to access the information.\nBe clear about any action items. Lists are often helpful.\nInclude deadlines. While the deadlines need to be reasonable, it is important so your busy collaborators can build your request into their workflow.\nInclude your name at the end of the message so it is clear where the message ends.\nReply to emails you receive in a timely fashion, even if only to say you need a bit longer to provide a full response.\nSet an out of office message if you will be away or checking email less frequently than usual with a date you will return so recipients know when to expect a response by (and therefore, when to follow up, if needed).",
+    "text": "Email\nEmail is the preferred communication method for official business (e.g., communicating about funding, degrees, time off, etc.) because it can be referred back to beyond the 90-day limit of Slack. Additionally, email is preferred for communication about projects and papers with external collaborators.\nA few tips for email best practices:\n\nInclude a descriptive subject line (this makes searching easier in the future).\nKeep each email focused on one specific subject - this helps avoid email threads from containing multiple separate conversations, which can become confusing and difficult to search for in the future.\nInclude hyperlinks wherever relevant/possible (especially to docs you want feedback on). This makes it easier for the recipients to access the information. It it is a doc, make sure the recipient has access to the doc.\nBe clear about any action items. Lists are often helpful.\nInclude deadlines. While the deadlines need to be reasonable, it is important so your busy collaborators can build your request into their workflow.\nInclude your name at the end of the message so it is clear where the message ends.\nReply to emails you receive in a timely fashion, even if only to say you need a bit longer to provide a full response.\nSet an out of office message if you will be away or checking email less frequently than usual with a date you will return so recipients know when to expect a response by (and therefore, when to follow up, if needed).\n\n\n\n\nExample email",
     "crumbs": [
       "Communication and Collaboration"
     ]
@@ -446,7 +453,7 @@
     "href": "communication.html#google-drive",
     "title": "Communication and Collaboration",
     "section": "Google drive",
-    "text": "Google drive\nWe maintain a lab Google drive for sharing internal documents, including drafts of papers. While students may use the platform of their choice for writing, Google docs generally remain the easiest for a range of collaborators to engage with, particularly if you anticipate receiving feedback from multiple individuals simultaneously (merging divergent drafts is no fun!). Just be sure to set the sharing settings so that anyone with a link can edit, as long as there is not sensitive information, as this ensures that your collaborators will definitely have access to your doc when they need it.",
+    "text": "Google drive\nWe maintain a lab Google drive for sharing internal documents, including drafts of papers. While students may use the platform of their choice for writing, Google docs generally remain the easiest for a range of collaborators to engage with, particularly if you anticipate receiving feedback from multiple individuals simultaneously (merging divergent drafts is no fun!). Just be sure to set the sharing settings so that all recipients have editing permission or change the setting so that anyone with a link can edit (as long as there is not sensitive information). It is also a good idea to remind collaborators to be in suggesting/reviewing mode and to save a copy before collaborators edit it in case someone forgets.",
     "crumbs": [
       "Communication and Collaboration"
     ]
@@ -456,7 +463,7 @@
     "href": "communication.html#individual-meetings",
     "title": "Communication and Collaboration",
     "section": "Individual meetings",
-    "text": "Individual meetings\nEach student will start with a weekly individual meeting to provide progress updates and talk through outstanding issues. These meetings should be led by the student.\nTo make the most of the time, it is often helpful to:\n\nSend (via email or Slack) any documents that should be reviewed at least 24 hours in advance (longer is better if the doc is longer).\nCreate an agenda for the meeting with a list of updates, discussion points, and action items for each project:\n\nUpdates should detail the current status of projects and what has been accomplished since the last meeting.\nDiscussion points should be the main focus of the meeting. These should be specific questions or issues that are best resolved through an in person discussion. These are often related to conceptual issues, generating ideas, and sketching out solutions rather. You can of course include quick questions, but these can often be answered outside of the meeting via Slack (i.e., you don’t need to wait until a weekly meeting to have them answered).\nAction items - these will likely emerge from the meeting, but it is good to include points here that you already know of because we can then review those along with any action items/next steps that emerged from the discussion to prioritize them.\n\n\nRegardless of whether your meeting is within the lab or not, a bit of preparation ahead of the meeting will ensure it is productive. This is ciritcal for ensuring that you get out of the meeting what you need and that you keep the other meeting attendees engaged with the work.\nTo ensure students are meeting their longer term goals, they will complete a student goals form at the beginning of their degree and we will review this form annually.\nAdditionally, the graduate program has its own progress forms to ensure students remain on track. Be sure to review the SAFS Forms, Guidelines & Handbooks.",
+    "text": "Individual meetings\nEach graduate student will start with a weekly individual meeting to provide progress updates and talk through outstanding issues. As the student progresses through their degree, they may choose to have less frequent meetings if adequate progress is being made. Individual meetings should be led by the student.\nTo make the most of the time, it is helpful to:\n\nSend (via email or Slack) any documents that should be reviewed at least 24 hours in advance (longer is better if the doc is longer).\nCreate an agenda for the meeting with a list of updates, discussion points, and action items for each project:\n\nUpdates should detail the current status of projects and what has been accomplished since the last meeting.\nDiscussion points should be the main focus of the meeting. These should be specific questions or issues that are best resolved through an in person discussion. These are often related to conceptual issues, generating ideas, and sketching out solutions rather. You can of course include quick questions, but these can often be answered outside of the meeting via Slack (i.e., you don’t need to wait until a weekly meeting to have them answered).\nAction items - these will likely emerge from the meeting, but it is good to include points here that you already know of because we can then review those along with any action items/next steps that emerged from the discussion to prioritize them.\n\n\nRegardless of whether your meeting is within the lab or not, a bit of preparation ahead of the meeting will ensure it is productive. This is critical for ensuring that you get out of the meeting what you need and that you keep the other meeting attendees engaged with the work.\nTo ensure students are meeting their longer term goals, they will complete a student goals form at the beginning of their degree and we will review this form annually.\nAdditionally, the SAFS undergraduate and graduate programs each have their own progress forms to ensure students remain on track with their degree. Be sure to review the SAFS Forms, Guidelines & Handbooks.",
     "crumbs": [
       "Communication and Collaboration"
     ]
@@ -466,7 +473,17 @@
     "href": "communication.html#lab-meetings",
     "title": "Communication and Collaboration",
     "section": "Lab meetings",
-    "text": "Lab meetings\nOnce the lab is a sufficient size, we will hold regular lab meetings. We will set the schedule for lab meetings at the beginning of each quarter. Lab meetings will consist of a combination of paper discussions, professional development discussions, lab projects, and team member papers/presentations with feedback. The exact mix will depend on lab needs and interests.",
+    "text": "Lab meetings\nWeekly lab meetings serve as an opportunity for the entire research group to discuss new papers, learn new topics together, discuss professional development issues, present ideas for feedback, and practice presentations. Once the lab is a sufficient size, we will hold regular lab meetings. The exact mix will depend on lab needs and interests.\nLab meetings are not mandatory for lab members (though attendance is generally expected for graduate students). We will set the lab meeting time before the beginning of each quarter. Note that it may not be possible to accommodate all students’ schedules.",
+    "crumbs": [
+      "Communication and Collaboration"
+    ]
+  },
+  {
+    "objectID": "communication.html#outreach-and-media",
+    "href": "communication.html#outreach-and-media",
+    "title": "Communication and Collaboration",
+    "section": "Outreach and media",
+    "text": "Outreach and media\nEngaging in science outreach and communication is encouraged, but it is important to distinguish activities you take part in as an individual from those where you are representing the lab as a whole. If there is an opportunity where you might be representing the lab as a whole (including using the lab name as your affiliation or the lab logo), this must be discussed in advance and approved. You are always encouraged to discuss potential individual outreach and media opportunities as well to strategize and can talk with the SAFS Communication Manager, Niamh Owen-McLaughlin. If you are interested in developing science communication skills, the following resources may be of interest:\n\nUW - College of the Environment hosts a range of communications and outreach trainings and resources.\nCOMPASS - hosts workshops and training events, and provides a useful message box tool.\nAAAS Communication Toolkit - A great starting point for learning about a range of aspects of science communication on your own.",
     "crumbs": [
       "Communication and Collaboration"
     ]
