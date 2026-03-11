@@ -1,185 +1,142 @@
 [
   {
-    "objectID": "code-conduct.html",
-    "href": "code-conduct.html",
-    "title": "Code of Conduct",
+    "objectID": "communication.html",
+    "href": "communication.html",
+    "title": "Communication and Collaboration",
     "section": "",
-    "text": "This lab observes a Zero tolerance policy for all forms of bigotry, including but not limited to racist, sexist, anti-Semitic,homophobic, or transphobic ideologies This lab supports and seeks greater inclusion,equity, and justice for all.",
+    "text": "Regular communication is key to ensuring that you get the most out of your undergraduate or graduate research experience so you can get early feedback on ideas, strategize with others, and build professional relationships that can support you during your degree and beyond. It is better to err on the side of more communication than less and our lab has several options, outlined below. Across all, some helpful tips are:",
     "crumbs": [
-      "Code of Conduct"
+      "Communication and Collaboration"
     ]
   },
   {
-    "objectID": "code-conduct.html#zero-tolerance-policy",
-    "href": "code-conduct.html#zero-tolerance-policy",
-    "title": "Code of Conduct",
+    "objectID": "communication.html#slack",
+    "href": "communication.html#slack",
+    "title": "Communication and Collaboration",
+    "section": "Slack",
+    "text": "Slack\nSlack is the primary lab communication space as it allows the entire lab and affiliated researchers to share information. While you should generally be responsive during work hours, your are encouraged to set your notification preferences to limit disruptions outside of work hours. However, note that at the time of this writing, we use the free version of Slack, which does not preserve messages beyond 90 days.\nSlack best practices:\n\nInclude tags where appropriate to draw attention to the relevant people.\nReply to individual posts as a thread so it is clear what the response goes to.\nPost to public channels so all can weigh in and see the answers whenever appropriate (others probably have the same question!).\nAcknowledge you have read a message (either a reply or emoji reaction is fine).\nDon’t be shy about frequent posting or sharing interesting things - more regular sharing helps build community!",
+    "crumbs": [
+      "Communication and Collaboration"
+    ]
+  },
+  {
+    "objectID": "communication.html#github-issues-and-projects",
+    "href": "communication.html#github-issues-and-projects",
+    "title": "Communication and Collaboration",
+    "section": "Github issues and projects",
+    "text": "Github issues and projects\nFIXIT: @althea to add",
+    "crumbs": [
+      "Communication and Collaboration"
+    ]
+  },
+  {
+    "objectID": "communication.html#email",
+    "href": "communication.html#email",
+    "title": "Communication and Collaboration",
+    "section": "Email",
+    "text": "Email\nEmail is the preferred communication method for official business (e.g., communicating about funding, degrees, time off, etc.) because it can be referred back to beyond the 90-day limit of Slack. Additionally, email is preferred for communication about projects and papers with external collaborators.\nA few tips for email best practices:\n\nInclude a descriptive subject line (this makes searching easier in the future).\nKeep each email focused on one specific subject - this helps avoid email threads from containing multiple separate conversations, which can become confusing and difficult to search for in the future.\nInclude hyperlinks wherever relevant/possible (especially to docs you want feedback on). This makes it easier for the recipients to access the information. It it is a doc, make sure the recipient has access to the doc.\nBe clear about any action items. Lists are often helpful.\nInclude deadlines. While the deadlines need to be reasonable, it is important so your busy collaborators can build your request into their workflow.\nInclude your name at the end of the message so it is clear where the message ends.\nReply to emails you receive in a timely fashion, even if only to say you need a bit longer to provide a full response.\nSet an out of office message if you will be away or checking email less frequently than usual with a date you will return so recipients know when to expect a response by (and therefore, when to follow up, if needed).\n\n\n\n\nExample email",
+    "crumbs": [
+      "Communication and Collaboration"
+    ]
+  },
+  {
+    "objectID": "communication.html#google-drive",
+    "href": "communication.html#google-drive",
+    "title": "Communication and Collaboration",
+    "section": "Google drive",
+    "text": "Google drive\nWe maintain a lab Google drive for sharing internal documents, including drafts of papers. While students may use the platform of their choice for writing, Google docs generally remain the easiest for a range of collaborators to engage with, particularly if you anticipate receiving feedback from multiple individuals simultaneously (merging divergent drafts is no fun!). Just be sure to set the sharing settings so that all recipients have editing permission or change the setting so that anyone with a link can edit (as long as there is not sensitive information). It is also a good idea to remind collaborators to be in suggesting/reviewing mode and to save a copy before collaborators edit it in case someone forgets.",
+    "crumbs": [
+      "Communication and Collaboration"
+    ]
+  },
+  {
+    "objectID": "communication.html#individual-meetings",
+    "href": "communication.html#individual-meetings",
+    "title": "Communication and Collaboration",
+    "section": "Individual meetings",
+    "text": "Individual meetings\nEach graduate student will start with a weekly individual meeting to provide progress updates and talk through outstanding issues. As the student progresses through their degree, they may choose to have less frequent meetings if adequate progress is being made. Individual meetings should be led by the student.\nTo make the most of the time, it is helpful to:\n\nSend (via email or Slack) any documents that should be reviewed at least 24 hours in advance (longer is better if the doc is longer).\nCreate an agenda for the meeting with a list of updates, discussion points, and action items for each project:\n\nUpdates should detail the current status of projects and what has been accomplished since the last meeting.\nDiscussion points should be the main focus of the meeting. These should be specific questions or issues that are best resolved through an in person discussion. These are often related to conceptual issues, generating ideas, and sketching out solutions rather. You can of course include quick questions, but these can often be answered outside of the meeting via Slack (i.e., you don’t need to wait until a weekly meeting to have them answered).\nAction items - these will likely emerge from the meeting, but it is good to include points here that you already know of because we can then review those along with any action items/next steps that emerged from the discussion to prioritize them.\n\n\nRegardless of whether your meeting is within the lab or not, a bit of preparation ahead of the meeting will ensure it is productive. This is critical for ensuring that you get out of the meeting what you need and that you keep the other meeting attendees engaged with the work.\nTo ensure students are meeting their longer term goals, they will complete a student goals form at the beginning of their degree and we will review this form annually.\nAdditionally, the SAFS undergraduate and graduate programs each have their own progress forms to ensure students remain on track with their degree. Be sure to review the SAFS Forms, Guidelines & Handbooks.",
+    "crumbs": [
+      "Communication and Collaboration"
+    ]
+  },
+  {
+    "objectID": "communication.html#lab-meetings",
+    "href": "communication.html#lab-meetings",
+    "title": "Communication and Collaboration",
+    "section": "Lab meetings",
+    "text": "Lab meetings\nWeekly lab meetings serve as an opportunity for the entire research group to discuss new papers, learn new topics together, discuss professional development issues, present ideas for feedback, and practice presentations. Once the lab is a sufficient size, we will hold regular lab meetings. The exact mix will depend on lab needs and interests.\nLab meetings are not mandatory for lab members (though attendance is generally expected for graduate students). We will set the lab meeting time before the beginning of each quarter. Note that it may not be possible to accommodate all students’ schedules.",
+    "crumbs": [
+      "Communication and Collaboration"
+    ]
+  },
+  {
+    "objectID": "communication.html#outreach-and-media",
+    "href": "communication.html#outreach-and-media",
+    "title": "Communication and Collaboration",
+    "section": "Outreach and media",
+    "text": "Outreach and media\nEngaging in science outreach and communication is encouraged, but it is important to distinguish activities you take part in as an individual from those where you are representing the lab as a whole. If there is an opportunity where you might be representing the lab as a whole (including using the lab name as your affiliation or the lab logo), this must be discussed in advance and approved. You are always encouraged to discuss potential individual outreach and media opportunities as well to strategize and can talk with the SAFS Communication Manager, Niamh Owen-McLaughlin. If you are interested in developing science communication skills, the following resources may be of interest:\n\nUW - College of the Environment hosts a range of communications and outreach trainings and resources.\nCOMPASS - hosts workshops and training events, and provides a useful message box tool.\nAAAS Communication Toolkit - A great starting point for learning about a range of aspects of science communication on your own.",
+    "crumbs": [
+      "Communication and Collaboration"
+    ]
+  },
+  {
+    "objectID": "students.html",
+    "href": "students.html",
+    "title": "Students",
     "section": "",
-    "text": "This lab observes a Zero tolerance policy for all forms of bigotry, including but not limited to racist, sexist, anti-Semitic,homophobic, or transphobic ideologies This lab supports and seeks greater inclusion,equity, and justice for all.",
+    "text": "Starting graduate school or joining a research lab as an undergraduate can feel overwhelming, but you’re not alone in this journey. This section provides practical guidance to help you navigate your first quarter and beyond, both academically and personally.",
     "crumbs": [
-      "Code of Conduct"
+      "Students"
     ]
   },
   {
-    "objectID": "code-conduct.html#collaboration",
-    "href": "code-conduct.html#collaboration",
-    "title": "Code of Conduct",
-    "section": "Collaboration",
-    "text": "Collaboration\nThis lab is a space to support each other and the science. Our work draws on the insights of many disciplines and perspectives. We recognize that we will produce better science and be better scientists by valuing everyone’s unique contribution to our team.",
+    "objectID": "students.html#course-registration-and-credit-planning",
+    "href": "students.html#course-registration-and-credit-planning",
+    "title": "Students",
+    "section": "Course Registration and Credit Planning",
+    "text": "Course Registration and Credit Planning\n\nCredit Requirements and Funding\nYou need to register for a minimum of 10 credits per quarter to receive funding as a graduate student each quarter.\n\n\nResearch vs. Coursework Balance\nMost graduate students typically devote half of your credits to research thesis with the other half being towards classes. However, many students choose to take fewer research credits in their first year or two to focus on completing required coursework early. This front-loading approach allows you to concentrate more fully on research in later years when you’re deeper into your thesis work.\nA typical approach might look like:\n\nEarly quarters: More coursework credits, fewer research credits\nLater quarters: More research credits as you advance in your thesis\n\nWork with your advisor to plan a credit distribution that makes sense for your specific program requirements and research timeline.\n\n\nCourse Selection\nBe sure to review the SAFS Forms, Guidelines & Handbooks for specific degree requirements and recommended course sequences.\nDon’t hesitate to reach out to older students in the lab or department for their perspectives on courses - they can provide valuable insights about workload, professors, and which classes are most relevant to your research interests.",
     "crumbs": [
-      "Code of Conduct"
+      "Students"
     ]
   },
   {
-    "objectID": "code-conduct.html#transparency-and-communication",
-    "href": "code-conduct.html#transparency-and-communication",
-    "title": "Code of Conduct",
-    "section": "Transparency and communication",
-    "text": "Transparency and communication\nExpectations and scientific practices must be open to avoid confusion and frustration. We focus on tools and active approaches to create better science and culture in the lab, including through regular lab and/or one-on-one meetings, email, Slack, and Github. When an issue arises, it will be easiest to resolve it when it is communicated promptly.",
+    "objectID": "students.html#adjusting-to-seattle",
+    "href": "students.html#adjusting-to-seattle",
+    "title": "Students",
+    "section": "Adjusting to Seattle",
+    "text": "Adjusting to Seattle\n\nHousing and Neighborhoods\nSeattle offers diverse neighborhoods, each with its own character. Many graduate students live in areas like the U-District (close to campus), Fremont, Ballard, or Capitol Hill.\n\n\nTransportation\nThe UW provides students with an unlimited bus pass (UPASS card) included in your fees. If you’re driving, be aware that parking on campus can be expensive and limited.\n\n\nExploring the City\nSeattle has a vibrant social and cultural scene. There are many places to meet people, including the Little Red Hen which hosts free line dancing classes. The city also offers hiking trails, museums, farmers markets, and a diverse foods to try.",
     "crumbs": [
-      "Code of Conduct"
+      "Students"
     ]
   },
   {
-    "objectID": "code-conduct.html#scientific-integrity",
-    "href": "code-conduct.html#scientific-integrity",
-    "title": "Code of Conduct",
-    "section": "Scientific integrity",
-    "text": "Scientific integrity\nThere is never a reason to manipulate, steal, or hide data or findings. A null result is an important finding, which is celebrated in this lab.",
+    "objectID": "students.html#building-community-and-social-connections",
+    "href": "students.html#building-community-and-social-connections",
+    "title": "Students",
+    "section": "Building Community and Social Connections",
+    "text": "Building Community and Social Connections\n\nUniversity Resources\nTake advantage of student organizations and clubs related to your interests - both academic and recreational. The UW has hundreds of student groups covering everything from professional development to hobbies.\n\n\nOnline Communities\nFacebook groups can be valuable for meeting people and staying informed about local events. Look for groups specific to graduate students, your department, or your neighborhood.\n\n\nLab Community\nDon’t underestimate the importance of building relationships within the lab and department. Attend social events, grab coffee with labmates, and participate in departmental activities when possible.",
     "crumbs": [
-      "Code of Conduct"
+      "Students"
     ]
   },
   {
-    "objectID": "code-conduct.html#adaptivity",
-    "href": "code-conduct.html#adaptivity",
-    "title": "Code of Conduct",
-    "section": "Adaptivity",
-    "text": "Adaptivity\nWe are all learning how to be better scientists and people. Give yourself permission to fail. That’s how we learn.\nThis document was heavily inspired by the Code of Conduct for the Froehlich Lab. It should be considered a living document that will continue to be updated as the needs of the lab evolve.",
+    "objectID": "students.html#mental-health-and-wellbeing",
+    "href": "students.html#mental-health-and-wellbeing",
+    "title": "Students",
+    "section": "Mental Health and Wellbeing",
+    "text": "Mental Health and Wellbeing\nGraduate school and research can be mentally challenging. The University of Washington provides several resources to support student mental health:\n\nCounseling Center: Offers individual and group counseling services\nCrisis Line: Available 24/7 for immediate support\nWellness resources: Including stress management workshops and mindfulness programs\n\nDon’t hesitate to use these resources - taking care of your mental health is just as important as your academic progress. Many successful graduate students have benefited from counseling or other support services during their studies.",
     "crumbs": [
-      "Code of Conduct"
+      "Students"
     ]
   },
   {
-    "objectID": "archiving.html#metadata",
-    "href": "archiving.html#metadata",
-    "title": "Archiving",
-    "section": "Metadata",
-    "text": "Metadata",
+    "objectID": "students.html#getting-started-checklist",
+    "href": "students.html#getting-started-checklist",
+    "title": "Students",
+    "section": "Getting Started Checklist",
+    "text": "Getting Started Checklist\nIn your first few weeks, consider:\n\nMeeting with your advisor to discuss course planning and research expectations\nConnecting with other lab members and graduate students in the department\nExploring campus resources (library, student services, recreational facilities)\nSetting up your workspace\nGetting your Husky Card and lab keys\nJoining relevant mailing lists and online groups\nFamiliarizing yourself with Seattle’s transit system\nFinding local essentials (grocery stores, healthcare, etc.)\n\nEveryone adjusts at their own pace. Be patient with yourself as you navigate this new environment, and don’t hesitate to ask questions - your labmates and advisor are here to help you succeed.",
     "crumbs": [
-      "Archiving"
-    ]
-  },
-  {
-    "objectID": "archiving.html#knb",
-    "href": "archiving.html#knb",
-    "title": "Archiving",
-    "section": "KNB",
-    "text": "KNB",
-    "crumbs": [
-      "Archiving"
-    ]
-  },
-  {
-    "objectID": "funding.html",
-    "href": "funding.html",
-    "title": "Funding",
-    "section": "",
-    "text": "Adequate funding is an important consideration for graduate school and SAFS students are provided a detailed funding package upon acceptance. Funding packages typically include a combination of grant-funded research assistantships, teaching assistantships, fellowships, and/or external scholarships (see SAFS funding for more). Each student should carefully review their funding letter to make sure they understand the funding sources and to confirm accuracy.\nStudents are also highly encouraged to apply for additional grants and fellowships. Writing funding proposals helps you refine your research ideas, represents an important professional development opportunity, and being awarded funding is great for a CV.\nPotential graduate funding includes:\n\nNSF Graduate Research Fellowship - a highly competitive program that funds three years of graduate study in any area of science.\n\nWWF Russell E. Train Fellowships - Conservation-oriented 2-year fellowships. Themes change annually.\n\nNOAA Fellowship - NOAA offers several funding opportunities, including one focused on coastal management and one on coral reef management.\n\nPotential post-graduate and postdoctoral funding includes:\n\nAAAS Science & Technology Policy Fellowship.\nKnauss Marine Policy Fellowship.\nNSF Postdoctoral Fellowship.",
-    "crumbs": [
-      "Funding"
-    ]
-  },
-  {
-    "objectID": "funding.html#student-funding-overview-and-resources",
-    "href": "funding.html#student-funding-overview-and-resources",
-    "title": "Funding",
-    "section": "",
-    "text": "Adequate funding is an important consideration for graduate school and SAFS students are provided a detailed funding package upon acceptance. Funding packages typically include a combination of grant-funded research assistantships, teaching assistantships, fellowships, and/or external scholarships (see SAFS funding for more). Each student should carefully review their funding letter to make sure they understand the funding sources and to confirm accuracy.\nStudents are also highly encouraged to apply for additional grants and fellowships. Writing funding proposals helps you refine your research ideas, represents an important professional development opportunity, and being awarded funding is great for a CV.\nPotential graduate funding includes:\n\nNSF Graduate Research Fellowship - a highly competitive program that funds three years of graduate study in any area of science.\n\nWWF Russell E. Train Fellowships - Conservation-oriented 2-year fellowships. Themes change annually.\n\nNOAA Fellowship - NOAA offers several funding opportunities, including one focused on coastal management and one on coral reef management.\n\nPotential post-graduate and postdoctoral funding includes:\n\nAAAS Science & Technology Policy Fellowship.\nKnauss Marine Policy Fellowship.\nNSF Postdoctoral Fellowship.",
-    "crumbs": [
-      "Funding"
-    ]
-  },
-  {
-    "objectID": "funding.html#data-management-and-sharing-plan",
-    "href": "funding.html#data-management-and-sharing-plan",
-    "title": "Funding",
-    "section": "Data management and sharing plan",
-    "text": "Data management and sharing plan\nProposals often require a data management and sharing plan (DMP or DMSP) outlining the types of data that will be produced, procedures for ensuring proper data handling (particularly for sensitive data), and concrete plans for data distribution and archiving.",
-    "crumbs": [
-      "Funding"
-    ]
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Seafood Globalization Lab Manual",
-    "section": "",
-    "text": "Welcome to the Seafood Globalization Lab! This website outlines and provides a high level overview of our values and relevant details to apply these values to how we operate as a lab. Please see the sections on the left hand navigation bar.",
-    "crumbs": [
-      "Welcome"
-    ]
-  },
-  {
-    "objectID": "index.html#welcome",
-    "href": "index.html#welcome",
-    "title": "Seafood Globalization Lab Manual",
-    "section": "",
-    "text": "Welcome to the Seafood Globalization Lab! This website outlines and provides a high level overview of our values and relevant details to apply these values to how we operate as a lab. Please see the sections on the left hand navigation bar.",
-    "crumbs": [
-      "Welcome"
-    ]
-  },
-  {
-    "objectID": "index.html#acknowledgements",
-    "href": "index.html#acknowledgements",
-    "title": "Seafood Globalization Lab Manual",
-    "section": "Acknowledgements",
-    "text": "Acknowledgements\nThe content in this manual draws from past and present lab member’s experiences across many research teams and data/coding settings. We are also incorporating content the Applied Ecology Lab’s lab manual, which includes great content, including some UW/SAFS-specific information. from We would also like to thank our mentors and collaborators for the examples they have set, the conversations we have had, and the resources they have shared across many years.",
-    "crumbs": [
-      "Welcome"
-    ]
-  },
-  {
-    "objectID": "index.html#land-acknowledgment",
-    "href": "index.html#land-acknowledgment",
-    "title": "Seafood Globalization Lab Manual",
-    "section": "Land acknowledgment",
-    "text": "Land acknowledgment\nWe acknowledge the ancestral homelands of those who walked here before us and those who still walk here, keeping in mind the integrity of this territory where area Native peoples identify as the Duwamish, Suquamish, Snoqualmie, and Puyallup, as well as Muckleshoot, Tulalip, other Coast Salish peoples, and their descendants. We are grateful to respectfully live and work as guests on these lands with the Coast Salish and Native people who call this home.",
-    "crumbs": [
-      "Welcome"
-    ]
-  },
-  {
-    "objectID": "coding/troubleshooting.html#help-within-rstudio---function-print-out-function",
-    "href": "coding/troubleshooting.html#help-within-rstudio---function-print-out-function",
-    "title": "Troubleshooting",
-    "section": "Help within RStudio - ?function, print out function",
-    "text": "Help within RStudio - ?function, print out function",
-    "crumbs": [
-      "Code",
-      "Troubleshooting"
-    ]
-  },
-  {
-    "objectID": "coding/troubleshooting.html#websites---stack-overflow",
-    "href": "coding/troubleshooting.html#websites---stack-overflow",
-    "title": "Troubleshooting",
-    "section": "Websites - Stack Overflow",
-    "text": "Websites - Stack Overflow",
-    "crumbs": [
-      "Code",
-      "Troubleshooting"
-    ]
-  },
-  {
-    "objectID": "coding/troubleshooting.html#ai-tools---chatgpt-github-co-pilot",
-    "href": "coding/troubleshooting.html#ai-tools---chatgpt-github-co-pilot",
-    "title": "Troubleshooting",
-    "section": "AI tools - ChatGPT, Github co-pilot",
-    "text": "AI tools - ChatGPT, Github co-pilot",
-    "crumbs": [
-      "Code",
-      "Troubleshooting"
+      "Students"
     ]
   },
   {
@@ -260,44 +217,36 @@
     ]
   },
   {
-    "objectID": "coding/index.html",
-    "href": "coding/index.html",
-    "title": "Code",
-    "section": "",
-    "text": "This section covers general coding/data cleaning principles and practices. For ARTIS-specific data and workflow issues, see ARTIS manual",
-    "crumbs": [
-      "Code"
-    ]
-  },
-  {
-    "objectID": "coding/index.html#overview",
-    "href": "coding/index.html#overview",
-    "title": "Code",
-    "section": "",
-    "text": "This section covers general coding/data cleaning principles and practices. For ARTIS-specific data and workflow issues, see ARTIS manual",
-    "crumbs": [
-      "Code"
-    ]
-  },
-  {
-    "objectID": "coding/index.html#recommended-workflow",
-    "href": "coding/index.html#recommended-workflow",
-    "title": "Code",
-    "section": "Recommended workflow",
-    "text": "Recommended workflow\nThe typical lab workflow aims to produce open data and reproducible analysis. This lab typically uses R/RStudio and GitHub.\nSteps: each of these should be contained in separate code (e.g., separate “.R” files, code chunks, or folders):\n\nCreate a version-controlled R project repository within the Seafood Globalization Lab GitHub organization. If a GitHub repository already exists, pull this onto your local and work from within it.\n\nEach project folder, whether created by you or pulled from GitHub, should include the following folders:\n\ndata - Keep all raw data in this folder and do not modify the raw data\noutput - Write out all cleaned versions of data (make sure the file name differs from the raw data file name to avoid overwriting and confusion) and analysis output here\nfigures - Write out all figures here. You may initially want to use descriptive figure names, but ultimately will want to name the files according to the figure numbering in the resulting manuscript (e.g., fig1.png)\nscripts or R - Save all R scripts here. If the project will be set up as an R package, then the folder must be named “R”.\n\nCreate other folders as needed (e.g., “literature”, “ms”, “archive”, etc.) but add the folder to your .gitignore file so they are not pushed up to GitHub.\nYou may want to add dates to files that will have multiple versions (e.g., different runs of an analysis, versions of figures, etc.) using the format YYYY-MM-DD to the beginning of file names so files are sorted accordingly.\n\nREADME - A text README file should be created for every project and a full description of the raw data should be included here\nData Cleaning - do NOT edit the raw data file, instead do ALL cleaning within your code. The R janitor package is useful for cleaning your data frame. Additional useful R functions include to_lower(), case_when(), str_extract, and separate(). See X for more.\n\nYour final clean data file(s) should be in a tidy (“long”) format. See Wickham for more on tidy format.\n\nCommenting - There is no such thing as too much commenting and documentation. All code should be extensively commented such that each step of the analysis is clear to any reader without that individual knowing R. Aim for a commented section header for each code chunk along with one comment per line of code. Follow the style guide [FIXIT: add link to style page] for additional notes on commenting code Data\nPlotting and validation - We recommend producing simple scatter plots, boxplots, check that outliers are not errors.\nSaving the cleaned data file - After data cleaning and plotting/validation, output data into its final, clean format (write this file to the “Output” folder. Everyone in the research team should start from the same cleaned dataset. They should also have access to to code that produced the cleaned file so they can refer back to all cleaning steps.\nData Analysis - Create separate scripts to process, filter, aggregate, summarize data as needed for different types of analyses.\nGitHub\n\nMake sure you are on the correct branch.\nPull all changes before beginning work on your code\nAll code changes should be pushed to GitHub on a regular basis (it is better to commit more rather than less)\nAim to include as descriptive commit messages as possible\nIn general, do not push the “data,” “output,” or “figures” folders up to GitHub (i.e., include these folders in your .gitignore file) because they are often too large\nDo not push up non-analysis folders (e.g., “literature”, “ms”, “archive” etc.). Instead add to .gitignore\nWhen setting up a GitHub project, default to private settings. If a project is made public, carefully check for any data that may have been pushed up to ensure it is okay for this to be public",
-    "crumbs": [
-      "Code"
-    ]
-  },
-  {
-    "objectID": "coding/r-rstudio.html",
-    "href": "coding/r-rstudio.html",
-    "title": "R and RStudio",
-    "section": "",
-    "text": "link to tutorials and R 4 DS",
+    "objectID": "coding/troubleshooting.html#help-within-rstudio---function-print-out-function",
+    "href": "coding/troubleshooting.html#help-within-rstudio---function-print-out-function",
+    "title": "Troubleshooting",
+    "section": "Help within RStudio - ?function, print out function",
+    "text": "Help within RStudio - ?function, print out function",
     "crumbs": [
       "Code",
-      "R and RStudio"
+      "Troubleshooting"
+    ]
+  },
+  {
+    "objectID": "coding/troubleshooting.html#websites---stack-overflow",
+    "href": "coding/troubleshooting.html#websites---stack-overflow",
+    "title": "Troubleshooting",
+    "section": "Websites - Stack Overflow",
+    "text": "Websites - Stack Overflow",
+    "crumbs": [
+      "Code",
+      "Troubleshooting"
+    ]
+  },
+  {
+    "objectID": "coding/troubleshooting.html#ai-tools---chatgpt-github-co-pilot",
+    "href": "coding/troubleshooting.html#ai-tools---chatgpt-github-co-pilot",
+    "title": "Troubleshooting",
+    "section": "AI tools - ChatGPT, Github co-pilot",
+    "text": "AI tools - ChatGPT, Github co-pilot",
+    "crumbs": [
+      "Code",
+      "Troubleshooting"
     ]
   },
   {
@@ -312,14 +261,163 @@
     ]
   },
   {
-    "objectID": "coding/code-review.html",
-    "href": "coding/code-review.html",
-    "title": "Code review",
+    "objectID": "open-science.html",
+    "href": "open-science.html",
+    "title": "Open and Reproducible Science",
     "section": "",
-    "text": "Reviewing code is at least as important as reviewing writing. Just as with writing, having someone else review your work and (potentially) provide extensive feedback can induce anxiety (for more on this topic, see the Code Review Anxiety Workbook). The first draft of code is almost never free of logical errors, unintended behavior, or extraneous code. More code review and check points throughout the code writing process will slow you down but will save you time in the long run. Since code builds on itself, small errors early on code can build on themselves to create inaccuracies or errors that are much harder to debug later. Thoroughly reviewing your own code and having someone review your code is important for both the reliability of the code and as a reproducibility test.\n\nSelf code review\n\nStep away from the code for a bit. You should not complete your review immediately after writing it because what you were trying to do will still be fresh in your head. With a little distance, you will have to rely more on the comments and code logic in the script (just as another person or your future self would have to).\nRevisit the overall folder and code structure. - Make sure that any unnecessary files are moved to untracked folders. - Ensure all raw data files are included in the data folder. - Make sure scripts are clearly numbered and named so users know the order to run files in. - Add a README file to provide an overview of the code, including a brief description of the files and the ordering/logic to them.\nClear your environment and source or knit the file(s) in the intended order. This is a test of whether you have a clean run that the code reviewer should be able to replicate.\nReview any errors or warnings. For errors, these must be resolved for the code to fully execute. For warnings, step through the code to review them one-by-one to confirm that they are not indicative of a problem. For example, if it warns there is a many-to-many match in a join, think carefully about whether this should be the case. If you are 100% sure you can suppress the warning and add a comment explaining your logic.\nCheck that you have appropriate tests throughout your code. What tests are appropriate depend on your specific analysis, but some common checks to build in include:\n\n\nBreak apart a long pipe sequence to check for NAs following joins. When joining data, consider whether the join is one-to-one, one-to-many, many-to-on, or many-to-many. Based on the join type, determine whether rows should be added. If they should not, then check the number of rows before and after a join to confirm no rows were added.\nIf there should only be one row per combination of variables, group by those variables and tally them to see the count for each group.\nCompare data frames that should be equivalent or should sum to the same values by creating a test data frame that is a full join, then calculating the absolute value of the difference and filtering to any observations with a difference greater than your chosen threshold. Inspect any differences carefully and document if it is reasonable for them to be different.\nIf using proportions, confirm they still sum back to one with the appropriate groupings after other operations.\nIf a variable should not be negative or exceed a certain value, create a test data frame that filters observations based on that threshold.\nIf there are any known or reasonable values for a particular data point or summary statistic, generate that to ensure the data still looks realistic. It is always helpful to step back and use basic number sense to consider whether the numbers you are generating are realistic.\n\n\nRead through the code carefully to:\n\n\nCheck for any outstanding notes/reminders to yourself (sometimes marked as FIXIT or similar).\nAdd detailed comments throughout to ensure the logic of each line code is obvious.\nRemove any chunks of code that are not actually used. Extra code just creates more risk of causing errors or confusing the reviewer (or yourself) down the road.\n\nAfter you have finished preparing your code for review, be sure to do a final full run of the code with a clean environment to ensure that it is still a complete package before handing it off to the code reviewer. Then, make sure your reviewer has access to the full set of code (either providing them GitHub access or sending a zip folder of the entire project) and necessary data.\nNote that it is increasingly common to provide the data and code with a paper submission for peer review. Following the above steps throughout your development process will help you prepare your code for submission.\n\n\nReviewing other people’s code\nReviewing others’ code is both an important service and a learning opportunity as you may discover new useful functions or learn to see a problem in a different way. When reviewing other people’s code, here are some potentially helpful steps:\n\nCheck for a README and be sure to review it first.\nExecute or knit the entire script(s)/file(s) in their intended order. This will allow you to immediately see whether all the pieces are there for you to conduct a full review. If the code does not run, contact the author with the line number and error so they can resolve it. If the code does run, then move onto the next steps.\nConduct a high-level reading of the code. You might not even run the code at this point, but read through the comments and skim the code to get a general picture of the logic and steps. If you are confused about any of the general objectives or logic of the code, clarify with the author before moving on. Once you feel you have a clear idea about what the code is trying to do, move onto the next step.\nClear your environment and start from the top, running the code line-by-line. At each line, consider whether the step is both clear and logical.\nAs you move through the code, consider whether there are any checks that should be added that are not already present. Refer to the section above for examples of common tests.\nIf you discover points that need addressed or steps that are unclear, either flag them in notes to the author (with line numbers) or include as a comment or edit in the code itself if it is a collaborative coding project. If added as comments, it is generally helpful to include a standard string like FIXIT so the author can search for all instances. If you are using GitHub, the edits will also be clear in the commit.\nIf you made edits to the script, make sure the code still runs (i.e., make sure you didn’t break anything) before passing it back to the original author. Also include a summary of the changes and any feedback the author might find valuable in the future.",
+    "text": "why is it important for you and others and science more generally",
     "crumbs": [
-      "Code",
-      "Code review"
+      "Open and Reproducible Science"
+    ]
+  },
+  {
+    "objectID": "open-science.html#overview",
+    "href": "open-science.html#overview",
+    "title": "Open and Reproducible Science",
+    "section": "",
+    "text": "why is it important for you and others and science more generally",
+    "crumbs": [
+      "Open and Reproducible Science"
+    ]
+  },
+  {
+    "objectID": "open-science.html#best-practices-and-general-resources",
+    "href": "open-science.html#best-practices-and-general-resources",
+    "title": "Open and Reproducible Science",
+    "section": "Best Practices and General Resources",
+    "text": "Best Practices and General Resources\nImportance of preserving raw data and documenting its provenance\nUCSB NCEAS ADC Intro to Repro Research",
+    "crumbs": [
+      "Open and Reproducible Science"
+    ]
+  },
+  {
+    "objectID": "code-conduct.html",
+    "href": "code-conduct.html",
+    "title": "Code of Conduct",
+    "section": "",
+    "text": "This lab observes a Zero tolerance policy for all forms of bigotry, including but not limited to racist, sexist, anti-Semitic,homophobic, or transphobic ideologies This lab supports and seeks greater inclusion,equity, and justice for all.",
+    "crumbs": [
+      "Code of Conduct"
+    ]
+  },
+  {
+    "objectID": "code-conduct.html#zero-tolerance-policy",
+    "href": "code-conduct.html#zero-tolerance-policy",
+    "title": "Code of Conduct",
+    "section": "",
+    "text": "This lab observes a Zero tolerance policy for all forms of bigotry, including but not limited to racist, sexist, anti-Semitic,homophobic, or transphobic ideologies This lab supports and seeks greater inclusion,equity, and justice for all.",
+    "crumbs": [
+      "Code of Conduct"
+    ]
+  },
+  {
+    "objectID": "code-conduct.html#collaboration",
+    "href": "code-conduct.html#collaboration",
+    "title": "Code of Conduct",
+    "section": "Collaboration",
+    "text": "Collaboration\nThis lab is a space to support each other and the science. Our work draws on the insights of many disciplines and perspectives. We recognize that we will produce better science and be better scientists by valuing everyone’s unique contribution to our team.",
+    "crumbs": [
+      "Code of Conduct"
+    ]
+  },
+  {
+    "objectID": "code-conduct.html#transparency-and-communication",
+    "href": "code-conduct.html#transparency-and-communication",
+    "title": "Code of Conduct",
+    "section": "Transparency and communication",
+    "text": "Transparency and communication\nExpectations and scientific practices must be open to avoid confusion and frustration. We focus on tools and active approaches to create better science and culture in the lab, including through regular lab and/or one-on-one meetings, email, Slack, and Github. When an issue arises, it will be easiest to resolve it when it is communicated promptly.",
+    "crumbs": [
+      "Code of Conduct"
+    ]
+  },
+  {
+    "objectID": "code-conduct.html#scientific-integrity",
+    "href": "code-conduct.html#scientific-integrity",
+    "title": "Code of Conduct",
+    "section": "Scientific integrity",
+    "text": "Scientific integrity\nThere is never a reason to manipulate, steal, or hide data or findings. A null result is an important finding, which is celebrated in this lab.",
+    "crumbs": [
+      "Code of Conduct"
+    ]
+  },
+  {
+    "objectID": "code-conduct.html#adaptivity",
+    "href": "code-conduct.html#adaptivity",
+    "title": "Code of Conduct",
+    "section": "Adaptivity",
+    "text": "Adaptivity\nWe are all learning how to be better scientists and people. Give yourself permission to fail. That’s how we learn.\nThis document was heavily inspired by the Code of Conduct for the Froehlich Lab. It should be considered a living document that will continue to be updated as the needs of the lab evolve.",
+    "crumbs": [
+      "Code of Conduct"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Seafood Globalization Lab Manual",
+    "section": "",
+    "text": "Welcome to the Seafood Globalization Lab! This website outlines and provides a high level overview of our values and relevant details to apply these values to how we operate as a lab. Please see the sections on the left hand navigation bar.",
+    "crumbs": [
+      "Welcome"
+    ]
+  },
+  {
+    "objectID": "index.html#welcome",
+    "href": "index.html#welcome",
+    "title": "Seafood Globalization Lab Manual",
+    "section": "",
+    "text": "Welcome to the Seafood Globalization Lab! This website outlines and provides a high level overview of our values and relevant details to apply these values to how we operate as a lab. Please see the sections on the left hand navigation bar.",
+    "crumbs": [
+      "Welcome"
+    ]
+  },
+  {
+    "objectID": "index.html#acknowledgements",
+    "href": "index.html#acknowledgements",
+    "title": "Seafood Globalization Lab Manual",
+    "section": "Acknowledgements",
+    "text": "Acknowledgements\nThe content in this manual draws from past and present lab member’s experiences across many research teams and data/coding settings. We are also incorporating content the Applied Ecology Lab’s lab manual, which includes great content, including some UW/SAFS-specific information. from We would also like to thank our mentors and collaborators for the examples they have set, the conversations we have had, and the resources they have shared across many years.",
+    "crumbs": [
+      "Welcome"
+    ]
+  },
+  {
+    "objectID": "index.html#land-acknowledgment",
+    "href": "index.html#land-acknowledgment",
+    "title": "Seafood Globalization Lab Manual",
+    "section": "Land acknowledgment",
+    "text": "Land acknowledgment\nWe acknowledge the ancestral homelands of those who walked here before us and those who still walk here, keeping in mind the integrity of this territory where area Native peoples identify as the Duwamish, Suquamish, Snoqualmie, and Puyallup, as well as Muckleshoot, Tulalip, other Coast Salish peoples, and their descendants. We are grateful to respectfully live and work as guests on these lands with the Coast Salish and Native people who call this home.",
+    "crumbs": [
+      "Welcome"
+    ]
+  },
+  {
+    "objectID": "funding.html",
+    "href": "funding.html",
+    "title": "Funding",
+    "section": "",
+    "text": "Adequate funding is an important consideration for graduate school and SAFS students are provided a detailed funding package upon acceptance. Funding packages typically include a combination of grant-funded research assistantships, teaching assistantships, fellowships, and/or external scholarships (see SAFS funding for more). Each student should carefully review their funding letter to make sure they understand the funding sources and to confirm accuracy.\nStudents are also highly encouraged to apply for additional grants and fellowships. Writing funding proposals helps you refine your research ideas, represents an important professional development opportunity, and being awarded funding is great for a CV.\nPotential graduate funding includes:\n\nNSF Graduate Research Fellowship - a highly competitive program that funds three years of graduate study in any area of science.\n\nWWF Russell E. Train Fellowships - Conservation-oriented 2-year fellowships. Themes change annually.\n\nNOAA Fellowship - NOAA offers several funding opportunities, including one focused on coastal management and one on coral reef management.\n\nPotential post-graduate and postdoctoral funding includes:\n\nAAAS Science & Technology Policy Fellowship.\nKnauss Marine Policy Fellowship.\nNSF Postdoctoral Fellowship.",
+    "crumbs": [
+      "Funding"
+    ]
+  },
+  {
+    "objectID": "funding.html#student-funding-overview-and-resources",
+    "href": "funding.html#student-funding-overview-and-resources",
+    "title": "Funding",
+    "section": "",
+    "text": "Adequate funding is an important consideration for graduate school and SAFS students are provided a detailed funding package upon acceptance. Funding packages typically include a combination of grant-funded research assistantships, teaching assistantships, fellowships, and/or external scholarships (see SAFS funding for more). Each student should carefully review their funding letter to make sure they understand the funding sources and to confirm accuracy.\nStudents are also highly encouraged to apply for additional grants and fellowships. Writing funding proposals helps you refine your research ideas, represents an important professional development opportunity, and being awarded funding is great for a CV.\nPotential graduate funding includes:\n\nNSF Graduate Research Fellowship - a highly competitive program that funds three years of graduate study in any area of science.\n\nWWF Russell E. Train Fellowships - Conservation-oriented 2-year fellowships. Themes change annually.\n\nNOAA Fellowship - NOAA offers several funding opportunities, including one focused on coastal management and one on coral reef management.\n\nPotential post-graduate and postdoctoral funding includes:\n\nAAAS Science & Technology Policy Fellowship.\nKnauss Marine Policy Fellowship.\nNSF Postdoctoral Fellowship.",
+    "crumbs": [
+      "Funding"
+    ]
+  },
+  {
+    "objectID": "funding.html#data-management-and-sharing-plan",
+    "href": "funding.html#data-management-and-sharing-plan",
+    "title": "Funding",
+    "section": "Data management and sharing plan",
+    "text": "Data management and sharing plan\nProposals often require a data management and sharing plan (DMP or DMSP) outlining the types of data that will be produced, procedures for ensuring proper data handling (particularly for sensitive data), and concrete plans for data distribution and archiving.",
+    "crumbs": [
+      "Funding"
     ]
   },
   {
@@ -383,113 +481,75 @@
     ]
   },
   {
-    "objectID": "open-science.html",
-    "href": "open-science.html",
-    "title": "Open and Reproducible Science",
+    "objectID": "coding/index.html",
+    "href": "coding/index.html",
+    "title": "Code",
     "section": "",
-    "text": "why is it important for you and others and science more generally",
+    "text": "This section covers general coding/data cleaning principles and practices. For ARTIS-specific data and workflow issues, see ARTIS manual",
     "crumbs": [
-      "Open and Reproducible Science"
+      "Code"
     ]
   },
   {
-    "objectID": "open-science.html#overview",
-    "href": "open-science.html#overview",
-    "title": "Open and Reproducible Science",
+    "objectID": "coding/index.html#overview",
+    "href": "coding/index.html#overview",
+    "title": "Code",
     "section": "",
-    "text": "why is it important for you and others and science more generally",
+    "text": "This section covers general coding/data cleaning principles and practices. For ARTIS-specific data and workflow issues, see ARTIS manual",
     "crumbs": [
-      "Open and Reproducible Science"
+      "Code"
     ]
   },
   {
-    "objectID": "open-science.html#best-practices-and-general-resources",
-    "href": "open-science.html#best-practices-and-general-resources",
-    "title": "Open and Reproducible Science",
-    "section": "Best Practices and General Resources",
-    "text": "Best Practices and General Resources\nImportance of preserving raw data and documenting its provenance\nUCSB NCEAS ADC Intro to Repro Research",
+    "objectID": "coding/index.html#recommended-workflow",
+    "href": "coding/index.html#recommended-workflow",
+    "title": "Code",
+    "section": "Recommended workflow",
+    "text": "Recommended workflow\nThe typical lab workflow aims to produce open data and reproducible analysis. This lab typically uses R/RStudio and GitHub.\nSteps: each of these should be contained in separate code (e.g., separate “.R” files, code chunks, or folders):\n\nCreate a version-controlled R project repository within the Seafood Globalization Lab GitHub organization. If a GitHub repository already exists, pull this onto your local and work from within it.\n\nEach project folder, whether created by you or pulled from GitHub, should include the following folders:\n\ndata - Keep all raw data in this folder and do not modify the raw data\noutput - Write out all cleaned versions of data (make sure the file name differs from the raw data file name to avoid overwriting and confusion) and analysis output here\nfigures - Write out all figures here. You may initially want to use descriptive figure names, but ultimately will want to name the files according to the figure numbering in the resulting manuscript (e.g., fig1.png)\nscripts or R - Save all R scripts here. If the project will be set up as an R package, then the folder must be named “R”.\n\nCreate other folders as needed (e.g., “literature”, “ms”, “archive”, etc.) but add the folder to your .gitignore file so they are not pushed up to GitHub.\nYou may want to add dates to files that will have multiple versions (e.g., different runs of an analysis, versions of figures, etc.) using the format YYYY-MM-DD to the beginning of file names so files are sorted accordingly.\n\nREADME - A text README file should be created for every project and a full description of the raw data should be included here\nData Cleaning - do NOT edit the raw data file, instead do ALL cleaning within your code. The R janitor package is useful for cleaning your data frame. Additional useful R functions include to_lower(), case_when(), str_extract, and separate(). See X for more.\n\nYour final clean data file(s) should be in a tidy (“long”) format. See Wickham for more on tidy format.\n\nCommenting - There is no such thing as too much commenting and documentation. All code should be extensively commented such that each step of the analysis is clear to any reader without that individual knowing R. Aim for a commented section header for each code chunk along with one comment per line of code. Follow the style guide [FIXIT: add link to style page] for additional notes on commenting code Data\nPlotting and validation - We recommend producing simple scatter plots, boxplots, check that outliers are not errors.\nSaving the cleaned data file - After data cleaning and plotting/validation, output data into its final, clean format (write this file to the “Output” folder. Everyone in the research team should start from the same cleaned dataset. They should also have access to to code that produced the cleaned file so they can refer back to all cleaning steps.\nData Analysis - Create separate scripts to process, filter, aggregate, summarize data as needed for different types of analyses.\nGitHub\n\nMake sure you are on the correct branch.\nPull all changes before beginning work on your code\nAll code changes should be pushed to GitHub on a regular basis (it is better to commit more rather than less)\nAim to include as descriptive commit messages as possible\nIn general, do not push the “data,” “output,” or “figures” folders up to GitHub (i.e., include these folders in your .gitignore file) because they are often too large\nDo not push up non-analysis folders (e.g., “literature”, “ms”, “archive” etc.). Instead add to .gitignore\nWhen setting up a GitHub project, default to private settings. If a project is made public, carefully check for any data that may have been pushed up to ensure it is okay for this to be public",
     "crumbs": [
-      "Open and Reproducible Science"
+      "Code"
     ]
   },
   {
-    "objectID": "communication.html",
-    "href": "communication.html",
-    "title": "Communication and Collaboration",
+    "objectID": "coding/r-rstudio.html",
+    "href": "coding/r-rstudio.html",
+    "title": "R and RStudio",
     "section": "",
-    "text": "Regular communication is key to ensuring that you get the most out of your undergraduate or graduate research experience so you can get early feedback on ideas, strategize with others, and build professional relationships that can support you during your degree and beyond. It is better to err on the side of more communication than less and our lab has several options, outlined below. Across all, some helpful tips are:",
+    "text": "link to tutorials and R 4 DS",
     "crumbs": [
-      "Communication and Collaboration"
+      "Code",
+      "R and RStudio"
     ]
   },
   {
-    "objectID": "communication.html#slack",
-    "href": "communication.html#slack",
-    "title": "Communication and Collaboration",
-    "section": "Slack",
-    "text": "Slack\nSlack is the primary lab communication space as it allows the entire lab and affiliated researchers to share information. While you should generally be responsive during work hours, your are encouraged to set your notification preferences to limit disruptions outside of work hours. However, note that at the time of this writing, we use the free version of Slack, which does not preserve messages beyond 90 days.\nSlack best practices:\n\nInclude tags where appropriate to draw attention to the relevant people.\nReply to individual posts as a thread so it is clear what the response goes to.\nPost to public channels so all can weigh in and see the answers whenever appropriate (others probably have the same question!).\nAcknowledge you have read a message (either a reply or emoji reaction is fine).\nDon’t be shy about frequent posting or sharing interesting things - more regular sharing helps build community!",
+    "objectID": "coding/code-review.html",
+    "href": "coding/code-review.html",
+    "title": "Code review",
+    "section": "",
+    "text": "Reviewing code is at least as important as reviewing writing. Just as with writing, having someone else review your work and (potentially) provide extensive feedback can induce anxiety (for more on this topic, see the Code Review Anxiety Workbook). The first draft of code is almost never free of logical errors, unintended behavior, or extraneous code. More code review and check points throughout the code writing process will slow you down but will save you time in the long run. Since code builds on itself, small errors early on code can build on themselves to create inaccuracies or errors that are much harder to debug later. Thoroughly reviewing your own code and having someone review your code is important for both the reliability of the code and as a reproducibility test.\n\nSelf code review\n\nStep away from the code for a bit. You should not complete your review immediately after writing it because what you were trying to do will still be fresh in your head. With a little distance, you will have to rely more on the comments and code logic in the script (just as another person or your future self would have to).\nRevisit the overall folder and code structure. - Make sure that any unnecessary files are moved to untracked folders. - Ensure all raw data files are included in the data folder. - Make sure scripts are clearly numbered and named so users know the order to run files in. - Add a README file to provide an overview of the code, including a brief description of the files and the ordering/logic to them.\nClear your environment and source or knit the file(s) in the intended order. This is a test of whether you have a clean run that the code reviewer should be able to replicate.\nReview any errors or warnings. For errors, these must be resolved for the code to fully execute. For warnings, step through the code to review them one-by-one to confirm that they are not indicative of a problem. For example, if it warns there is a many-to-many match in a join, think carefully about whether this should be the case. If you are 100% sure you can suppress the warning and add a comment explaining your logic.\nCheck that you have appropriate tests throughout your code. What tests are appropriate depend on your specific analysis, but some common checks to build in include:\n\n\nBreak apart a long pipe sequence to check for NAs following joins. When joining data, consider whether the join is one-to-one, one-to-many, many-to-on, or many-to-many. Based on the join type, determine whether rows should be added. If they should not, then check the number of rows before and after a join to confirm no rows were added.\nIf there should only be one row per combination of variables, group by those variables and tally them to see the count for each group.\nCompare data frames that should be equivalent or should sum to the same values by creating a test data frame that is a full join, then calculating the absolute value of the difference and filtering to any observations with a difference greater than your chosen threshold. Inspect any differences carefully and document if it is reasonable for them to be different.\nIf using proportions, confirm they still sum back to one with the appropriate groupings after other operations.\nIf a variable should not be negative or exceed a certain value, create a test data frame that filters observations based on that threshold.\nIf there are any known or reasonable values for a particular data point or summary statistic, generate that to ensure the data still looks realistic. It is always helpful to step back and use basic number sense to consider whether the numbers you are generating are realistic.\n\n\nRead through the code carefully to:\n\n\nCheck for any outstanding notes/reminders to yourself (sometimes marked as FIXIT or similar).\nAdd detailed comments throughout to ensure the logic of each line code is obvious.\nRemove any chunks of code that are not actually used. Extra code just creates more risk of causing errors or confusing the reviewer (or yourself) down the road.\n\nAfter you have finished preparing your code for review, be sure to do a final full run of the code with a clean environment to ensure that it is still a complete package before handing it off to the code reviewer. Then, make sure your reviewer has access to the full set of code (either providing them GitHub access or sending a zip folder of the entire project) and necessary data.\nNote that it is increasingly common to provide the data and code with a paper submission for peer review. Following the above steps throughout your development process will help you prepare your code for submission.\n\n\nReviewing other people’s code\nReviewing others’ code is both an important service and a learning opportunity as you may discover new useful functions or learn to see a problem in a different way. When reviewing other people’s code, here are some potentially helpful steps:\n\nCheck for a README and be sure to review it first.\nExecute or knit the entire script(s)/file(s) in their intended order. This will allow you to immediately see whether all the pieces are there for you to conduct a full review. If the code does not run, contact the author with the line number and error so they can resolve it. If the code does run, then move onto the next steps.\nConduct a high-level reading of the code. You might not even run the code at this point, but read through the comments and skim the code to get a general picture of the logic and steps. If you are confused about any of the general objectives or logic of the code, clarify with the author before moving on. Once you feel you have a clear idea about what the code is trying to do, move onto the next step.\nClear your environment and start from the top, running the code line-by-line. At each line, consider whether the step is both clear and logical.\nAs you move through the code, consider whether there are any checks that should be added that are not already present. Refer to the section above for examples of common tests.\nIf you discover points that need addressed or steps that are unclear, either flag them in notes to the author (with line numbers) or include as a comment or edit in the code itself if it is a collaborative coding project. If added as comments, it is generally helpful to include a standard string like FIXIT so the author can search for all instances. If you are using GitHub, the edits will also be clear in the commit.\nIf you made edits to the script, make sure the code still runs (i.e., make sure you didn’t break anything) before passing it back to the original author. Also include a summary of the changes and any feedback the author might find valuable in the future.",
     "crumbs": [
-      "Communication and Collaboration"
+      "Code",
+      "Code review"
     ]
   },
   {
-    "objectID": "communication.html#github-issues-and-projects",
-    "href": "communication.html#github-issues-and-projects",
-    "title": "Communication and Collaboration",
-    "section": "Github issues and projects",
-    "text": "Github issues and projects\nFIXIT: @althea to add",
+    "objectID": "archiving.html#metadata",
+    "href": "archiving.html#metadata",
+    "title": "Archiving",
+    "section": "Metadata",
+    "text": "Metadata",
     "crumbs": [
-      "Communication and Collaboration"
+      "Archiving"
     ]
   },
   {
-    "objectID": "communication.html#email",
-    "href": "communication.html#email",
-    "title": "Communication and Collaboration",
-    "section": "Email",
-    "text": "Email\nEmail is the preferred communication method for official business (e.g., communicating about funding, degrees, time off, etc.) because it can be referred back to beyond the 90-day limit of Slack. Additionally, email is preferred for communication about projects and papers with external collaborators.\nA few tips for email best practices:\n\nInclude a descriptive subject line (this makes searching easier in the future).\nKeep each email focused on one specific subject - this helps avoid email threads from containing multiple separate conversations, which can become confusing and difficult to search for in the future.\nInclude hyperlinks wherever relevant/possible (especially to docs you want feedback on). This makes it easier for the recipients to access the information. It it is a doc, make sure the recipient has access to the doc.\nBe clear about any action items. Lists are often helpful.\nInclude deadlines. While the deadlines need to be reasonable, it is important so your busy collaborators can build your request into their workflow.\nInclude your name at the end of the message so it is clear where the message ends.\nReply to emails you receive in a timely fashion, even if only to say you need a bit longer to provide a full response.\nSet an out of office message if you will be away or checking email less frequently than usual with a date you will return so recipients know when to expect a response by (and therefore, when to follow up, if needed).\n\n\n\n\nExample email",
+    "objectID": "archiving.html#knb",
+    "href": "archiving.html#knb",
+    "title": "Archiving",
+    "section": "KNB",
+    "text": "KNB",
     "crumbs": [
-      "Communication and Collaboration"
-    ]
-  },
-  {
-    "objectID": "communication.html#google-drive",
-    "href": "communication.html#google-drive",
-    "title": "Communication and Collaboration",
-    "section": "Google drive",
-    "text": "Google drive\nWe maintain a lab Google drive for sharing internal documents, including drafts of papers. While students may use the platform of their choice for writing, Google docs generally remain the easiest for a range of collaborators to engage with, particularly if you anticipate receiving feedback from multiple individuals simultaneously (merging divergent drafts is no fun!). Just be sure to set the sharing settings so that all recipients have editing permission or change the setting so that anyone with a link can edit (as long as there is not sensitive information). It is also a good idea to remind collaborators to be in suggesting/reviewing mode and to save a copy before collaborators edit it in case someone forgets.",
-    "crumbs": [
-      "Communication and Collaboration"
-    ]
-  },
-  {
-    "objectID": "communication.html#individual-meetings",
-    "href": "communication.html#individual-meetings",
-    "title": "Communication and Collaboration",
-    "section": "Individual meetings",
-    "text": "Individual meetings\nEach graduate student will start with a weekly individual meeting to provide progress updates and talk through outstanding issues. As the student progresses through their degree, they may choose to have less frequent meetings if adequate progress is being made. Individual meetings should be led by the student.\nTo make the most of the time, it is helpful to:\n\nSend (via email or Slack) any documents that should be reviewed at least 24 hours in advance (longer is better if the doc is longer).\nCreate an agenda for the meeting with a list of updates, discussion points, and action items for each project:\n\nUpdates should detail the current status of projects and what has been accomplished since the last meeting.\nDiscussion points should be the main focus of the meeting. These should be specific questions or issues that are best resolved through an in person discussion. These are often related to conceptual issues, generating ideas, and sketching out solutions rather. You can of course include quick questions, but these can often be answered outside of the meeting via Slack (i.e., you don’t need to wait until a weekly meeting to have them answered).\nAction items - these will likely emerge from the meeting, but it is good to include points here that you already know of because we can then review those along with any action items/next steps that emerged from the discussion to prioritize them.\n\n\nRegardless of whether your meeting is within the lab or not, a bit of preparation ahead of the meeting will ensure it is productive. This is critical for ensuring that you get out of the meeting what you need and that you keep the other meeting attendees engaged with the work.\nTo ensure students are meeting their longer term goals, they will complete a student goals form at the beginning of their degree and we will review this form annually.\nAdditionally, the SAFS undergraduate and graduate programs each have their own progress forms to ensure students remain on track with their degree. Be sure to review the SAFS Forms, Guidelines & Handbooks.",
-    "crumbs": [
-      "Communication and Collaboration"
-    ]
-  },
-  {
-    "objectID": "communication.html#lab-meetings",
-    "href": "communication.html#lab-meetings",
-    "title": "Communication and Collaboration",
-    "section": "Lab meetings",
-    "text": "Lab meetings\nWeekly lab meetings serve as an opportunity for the entire research group to discuss new papers, learn new topics together, discuss professional development issues, present ideas for feedback, and practice presentations. Once the lab is a sufficient size, we will hold regular lab meetings. The exact mix will depend on lab needs and interests.\nLab meetings are not mandatory for lab members (though attendance is generally expected for graduate students). We will set the lab meeting time before the beginning of each quarter. Note that it may not be possible to accommodate all students’ schedules.",
-    "crumbs": [
-      "Communication and Collaboration"
-    ]
-  },
-  {
-    "objectID": "communication.html#outreach-and-media",
-    "href": "communication.html#outreach-and-media",
-    "title": "Communication and Collaboration",
-    "section": "Outreach and media",
-    "text": "Outreach and media\nEngaging in science outreach and communication is encouraged, but it is important to distinguish activities you take part in as an individual from those where you are representing the lab as a whole. If there is an opportunity where you might be representing the lab as a whole (including using the lab name as your affiliation or the lab logo), this must be discussed in advance and approved. You are always encouraged to discuss potential individual outreach and media opportunities as well to strategize and can talk with the SAFS Communication Manager, Niamh Owen-McLaughlin. If you are interested in developing science communication skills, the following resources may be of interest:\n\nUW - College of the Environment hosts a range of communications and outreach trainings and resources.\nCOMPASS - hosts workshops and training events, and provides a useful message box tool.\nAAAS Communication Toolkit - A great starting point for learning about a range of aspects of science communication on your own.",
-    "crumbs": [
-      "Communication and Collaboration"
+      "Archiving"
     ]
   }
 ]
