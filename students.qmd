@@ -5,9 +5,6 @@ editor:
    wrap: sentence
 ---
 
-# Students
-
-
 Starting graduate school or joining a research lab as an undergraduate can feel overwhelming, but you're not alone in this journey.
 This section provides practical guidance to help you navigate your first quarter and beyond, both academically and personally.
 
