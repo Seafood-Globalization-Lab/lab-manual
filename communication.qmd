@@ -49,7 +49,7 @@ A few tips for email best practices:
 -   Reply to emails you receive in a timely fashion, even if only to say you need a bit longer to provide a full response.
 -   Set an out of office message if you will be away or checking email less frequently than usual with a date you will return so recipients know when to expect a response by (and therefore, when to follow up, if needed).
 
-![Example email](images/email_example.png){width="300px"}
+![Example email](images/email_example.png){width="300px", fig-alt="Screenshot of example email following guidance, with detailed subject line, formal greeting, direct descriptive text with hyperlinks and specific requests with clear deadlines."}
 
 ## Google drive
 
