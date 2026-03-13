@@ -8,14 +8,18 @@
 .quarto/
 # R Markdown cache folders
 *_cache/
-
 # The rendered site output (HTML files, assets, etc.)
 _site/
+# Active files for Readme preview for editing
+README_files/
 # Mac OS directory thing
 .DS_Store
 
 # GitHub Pages deployment branch (if checked out locally)
 gh-pages/
+
+# Any rendered products - not needed when using GitHub Pages deployment
+*.html
 
 # Logs and temporary files created during rendering
 *.log
@@ -28,4 +32,3 @@ gh-pages/
 *.blg
 *.bbl
 
-/.quarto/
