@@ -1,5 +1,8 @@
 project: 
   type: website
+
+date: today
+date-format: "MMMM YYYY"
   
 website: 
   page-navigation: true
@@ -9,7 +12,7 @@ website:
   repo-actions: [edit, issue]
   
   page-footer:
-    right: "Manual last updated Aug 2025"
+    right: "Manual last updated {{< meta date >}}"
     
   sidebar:
     logo: "images/Lab_Logo_Full_Color_Icon.png"
@@ -22,7 +25,6 @@ website:
       - icon: github
         href: https://github.com/Seafood-Globalization-Lab
         text: "Lab Github"
-
     style: "docked"
     search: true
     collapse-level: 1
@@ -45,20 +47,15 @@ website:
       - archiving.qmd
       - funding.qmd
 
-
-
 format:
   html:
     theme:
-      light: [cosmo, theme.scss] # from https://github.com/sta210-s22/website/blob/main/_quarto.yml
+      light: [cosmo, theme.scss]
       dark: [cosmo, theme-dark.scss]
     code-copy: true
     code-overflow: wrap
     toc: true
 
-
 filters:
   - include-files.lua
   - quarto
-
-  
