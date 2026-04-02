@@ -1,45 +1,50 @@
 # UW Seafood Globalization Lab’s Manual 📖 🦀 
 
 This is the repository where the [**UW Seafood Globalization Lab’s Manual**](https://seafood-globalization-lab.github.io/lab-manual/) is edited, built, and deployed from. It is a `Quarto` static website.
-The website is automatically published from the `gh-pages` branch and served via **GitHub Pages**.
 
-### Resources on `Quarto` websites:
-- [Quarto website documentation - workflow - which files do what](https://quarto.org/docs/websites/#workflow)
-- [Openscapes's Quarto Website Tutorial](https://github.com/Openscapes/quarto-website-tutorial)
+## What are these branches? 
 
-## Workflow to Edit the Manual
+We follow a lightweight **GitFlow-style workflow** to keep the history clean and contributions organized. We work with a few different kinds of branches so we can separate the published version of the website and make copies/branches of it so people can feel free to experiment and learn without effecting the published website. Here are the branches you need to know:
 
-We follow a lightweight **GitFlow-style workflow** to keep the history clean and contributions organized:
-
-- 🌳 **`main` branch** – long-lived, production branch  
-   - Represents the current public version of the Lab Manual.  
+- 🌳 **`main` branch** – long-lived, production branch
+   - The current public version of the Lab Manual.  
+   - Where you will integrate your changes to the manual.
    - Every change merged into `main` triggers a site rebuild and redeploy.
 
-- ✨ **Feature branches** – short-lived, task-specific branches  
-   - Created from remote `main` branch  
-   - Named after the GitHub Issue or task and incorporate contributors’ initials (e.g., `feature-am-issue-3-contributing-file` or `feature-jp-code-of-conduct`).
-     - Find or create a specific issue to work on here [lab-manual issues](https://github.com/Seafood-Globalization-Lab/lab-manual/issues)
-   - Used to make and test changes locally before merging into `main`.  
-   - Rebased frequently on `main` to maintain a linear and up-to-date history.
+- 📑 **`gh-pages` branch** - long-lived, were the website is published from
+   - Automatically updated when changes are pushed to `main` 
+   - Do NOT edit or change this branch manually 
 
-- 🆕 **Integrate Changes**  
-   - The feature branch is rebased and merged into `main`.  
-   - The feature branch is then closed/deleted.
+- ✨ **Feature branches** – short-lived, WHERE YOU WILL MAKE EDITS
+   - Always created from remote `main` branch  
+   - Named after the GitHub Issue or task and contributors’ initials. Examples:
+     - `am-issue-3` or `jag-edits-code-of-conduct`
+     - Find or create a specific issue to work on here [lab-manual issues](https://github.com/Seafood-Globalization-Lab/lab-manual/issues). Please add details and comments! 
+   - Make your changes and test on your new branch before rebasing with `main` and then merging with `main`to publish.  
+   - Delete your branch once you have merged your changes into `main`.
 
-## Example Workflow (git in your terminal)
+## Ok Where Do I Start? 
 
-  1) Clone the repository
+This is an example workflow to follow. These commands are run in your terminal. 
+
+  1) Clone the repository to your local computer (Only need to do this once, can skip)
   ```bash
   git clone git@github.com:Seafood-Globalization-Lab/lab-manual.git
-  cd lab-manual
   ```
 
-  2) Create a short-lived feature branch from main
-  ```bash
-  git checkout main
-  git pull origin main
-  git checkout -b feature-update-methods-section
-  ```
+  2) Create your branch from `main`
+    - switch to the `main` branch: 
+
+    ```bash
+    git checkout main
+    ```
+
+    - get the most recent version of the `main` branch from GitHub
+    
+    ```bash
+    git pull origin main
+    git checkout -b feature-update-methods-section
+    ```
 
   3) Make edits locally and preview entire website
   ```bash
@@ -156,3 +161,7 @@ This command performs the same steps as the GitHub Action, but **runs locally** 
 ### Reference
 
 - 📘 [Quarto Docs: Publishing to GitHub Pages](https://quarto.org/docs/publishing/github-pages.html)  
+
+### More resources on `Quarto` websites:
+- [Quarto website documentation - workflow - which files do what](https://quarto.org/docs/websites/#workflow)
+- [Openscapes's Quarto Website Tutorial](https://github.com/Openscapes/quarto-website-tutorial)
