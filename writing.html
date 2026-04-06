@@ -48,6 +48,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/bootstrap/bootstrap-11f50ae0491fea88427f759fb04538f1.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/bootstrap/bootstrap-dark-5c62cff044268d2519f2b2d6f36b2733.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <link href="site_libs/bootstrap/bootstrap-11f50ae0491fea88427f759fb04538f1.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -444,7 +447,12 @@ ul.task-list li input[type="checkbox"] {
 <li>What did you find? (succinct but specific statement(s) of the main results)</li>
 <li>What does this mean and what is it good for? (put the work back in the the broader context and connect it to its application(s))</li>
 </ul>
-<p>Some people find the following annotated abstract example from <em>Nature</em> as a helpful guide: <img src="images/Nature-com_Abstract_Summary_writing_no_link_showing.jpeg" class="img-fluid" alt="Nature annotated abstract">!{width=“300px”, fig-alt=“Annotated abstract from Nature publishing that provides an example abstract strcuture beginning with 1-2 basic introduction sentences, followed by 2-3 more detailed background sentences, 1 general problem sentence, 1 main results sentence, 2-3 sentences explaining the results, 1-2 sentences that place results in the general context, and 2-3 sentences of broader context.”}</p>
+<p>Some people find the following annotated abstract example from <em>Nature</em> as a helpful guide:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Nature-com_Abstract_Summary_writing_no_link_showing.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="images/Nature-com_Abstract_Summary_writing_no_link_showing.jpeg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%" alt="Annotated abstract from Nature publishing that provides an example abstract strcuture beginning with 1-2 basic introduction sentences, followed by 2-3 more detailed background sentences, 1 general problem sentence, 1 main results sentence, 2-3 sentences explaining the results, 1-2 sentences that place results in the general context, and 2-3 sentences of broader context."></a></p>
+</figure>
+</div>
 <ol start="4" type="1">
 <li><p><strong>Write down your title</strong> - A good title should lure the casual browser to read further. In most cases, especially for primary data papers, give your main result in your title – hence, a direct link to your main message. No one will bother to read your abstract if your title is boring or lacks relevance. If you cannot decide on a single title, then provide a few options for your collaborators to provide feedback on.</p></li>
 <li><p><strong>Get feedback from your co-authors</strong> - This is an important point to get feedback from your co-authors on your main message, working abstract and proposed title(s). It is often also helpful to include draft figures that support your findings. After their feedback, revise them and send back. Iterate until everyone indicates they are ready to move forward.</p></li>
@@ -936,6 +944,38 @@ ul.task-list li input[type="checkbox"] {
 </div>
   </div>
 </footer>
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 
