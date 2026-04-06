@@ -32,3 +32,6 @@ gh-pages/
 *.blg
 *.bbl
 
+
+/.quarto/
+**/*.quarto_ipynb
