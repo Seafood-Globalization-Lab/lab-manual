@@ -28,7 +28,8 @@ Notice that this workflow includes multiple points for co-authors to provide fee
 -   What does this mean and what is it good for? (put the work back in the the broader context and connect it to its application(s))
 
 Some people find the following annotated abstract example from *Nature* as a helpful guide:
-![](images/Nature-com_Abstract_Summary_writing_no_link_showing.jpeg){width=300px, fig-alt="Annotated abstract from Nature publishing that provides an example abstract strcuture beginning with 1-2 basic introduction sentences, followed by 2-3 more detailed background sentences, 1 general problem sentence, 1 main results sentence, 2-3 sentences explaining the results, 1-2 sentences that place results in the general context, and 2-3 sentences of broader context."}
+
+![](images/Nature-com_Abstract_Summary_writing_no_link_showing.jpeg){width=80% fig-align="center" fig-alt="Annotated abstract from Nature publishing that provides an example abstract strcuture beginning with 1-2 basic introduction sentences, followed by 2-3 more detailed background sentences, 1 general problem sentence, 1 main results sentence, 2-3 sentences explaining the results, 1-2 sentences that place results in the general context, and 2-3 sentences of broader context." .lightbox}
 
 
 4.  **Write down your title** - A good title should lure the casual browser to read further. In most cases, especially for primary data papers, give your main result in your title – hence, a direct link to your main message. No one will bother to read your abstract if your title is boring or lacks relevance. If you cannot decide on a single title, then provide a few options for your collaborators to provide feedback on.
