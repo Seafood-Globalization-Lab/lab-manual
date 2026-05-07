@@ -1,0 +1,68 @@
+---
+title: "AI Policy"
+---
+
+## General
+- Add overview of the lab's general position
+- Define scope as genAI, noting AI is a broad term with other applications.
+- Acknowledge environmental and ethical considerations
+Acknowledge that genAI is reshaping all fields and many aspects of life that we cannot ignore.
+- Aim to identify where genAI can improve training and research while creating guardrails to avoid unintentional cognitive offloading and protect against false and inaccurate information. 
+- Our policy should be guided by a principle of caution about what skills we are offloading onto AI. Building critical thinking, coding, and writing skills is essential and we need to be careful to hone those skills.
+- Writing and coding are both essential parts of understanding a scientific problem. Working through the logic of each and exploring all avenues, even ones that become dead ends, is exactly part of the point.
+- Approach to AI when learning skills vs. when trying to execute a task for a skill you already developed needs to be different
+- Point about the skills students should walk away with, including being able to answer interview Q's about AI use. 
+
+## Rules
+1. Cannot be used to generate your research question.  
+2. Cannot be used for original writing claimed you author. 
+3. You must be able to explain and justify every line of text or code in your final product. 
+
+## Writing
+### Authored products
+- Peer-reviewed publications, reports, thesis/dissertation chapters, proposals, etc.
+- Consider prompts that take text you wrote and ask for bullet point feedback on it, rather than having it generate any text for you.
+- Request multiple options for any requested summaries, shortening or editing to force yourself to critically evaluate the returned writing. 
+- Should not be the sole source of feedback or input. Always consider who else in your network you can ask. 
+- Be careful what data and information you give any AI-software, especially if it's for a proposal
+- Grammarly is helpful for editing, but it also offers rewording that makes it picked up by AI-detection software
+- Note the special consideration for students for whom English is their second language. Translation and grammar improvement can be a huge benefit, but language development itself remains an important goal.  
+
+### Paper-associated products
+- Summaries, conference abstracts, press releases, etc.
+
+### Application materials
+- Cover letters, essays, recommendation letters
+
+### Administrative documents
+- Standard forms, budget summaries, 
+
+## Coding
+- The code author should be able to fully explain exactly what the code is doing and why particular choices were made.
+- Approach AI as you would Stack Exchange.
+
+### Logic versus syntax
+
+### Code review and optimization
+
+### Figures
+- Possibly different guidance for data-based figures versus conceptual figures vs decorative figures (e.g., for presentations) and for generating figures versus editing/polishing figures. 
+### Documentation
+
+## GenAI tools as part of the research design
+- We do computational work and there are undoubtedly many creative applications for AI to process messy data, scrape new data sources, etc. 
+- Our lab is already involved in this work and this is a research frontier. 
+- This is allowed, but the design needs to be intentional about avoiding undesirable mental offloading and cautious about the fact that these are new and rapidly evolving tools. 
+- Like any tool or new method, using AI models as part of your research requires fully understanding the tool. 
+- Note relevance of other AI tools (see [Norman et al. 2025](https://esajournals.onlinelibrary.wiley.com/doi/10.1002/fee.70021)). 
+
+## Literature review
+- LLMs are more efficient at pulling sources from standard databases, can be a big time saver to gather relevant materials
+- LLMs can scan PDFs rather than just relying on the metadata files, allowing them to do a better job at finding some information. 
+- But, sometimes they make stuff up! Important to ALWAYS read the materials on your own with a critical eye
+
+## Skills
+- Background on what skills are and general guidance on how they can be used (with links to useful resources)
+- Link to any skills we develop based on the above principles 
+
+## Resources
