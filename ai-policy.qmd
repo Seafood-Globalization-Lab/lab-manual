@@ -17,14 +17,16 @@ Acknowledge that genAI is reshaping all fields and many aspects of life that we 
 1. Cannot be used to generate your research question.  
 2. Cannot be used for original writing claimed you author. 
 3. You must be able to explain and justify every line of text or code in your final product. 
+4. Carefully document any AI used in projects so it can be reported in any appropriate channels.
 
 ## Writing
 ### Authored products
 - Peer-reviewed publications, reports, thesis/dissertation chapters, proposals, etc.
+- General principle: use for comments not line edits
 - Consider prompts that take text you wrote and ask for bullet point feedback on it, rather than having it generate any text for you.
 - Request multiple options for any requested summaries, shortening or editing to force yourself to critically evaluate the returned writing. 
 - Should not be the sole source of feedback or input. Always consider who else in your network you can ask. 
-- Be careful what data and information you give any AI-software, especially if it's for a proposal
+- Be careful what data and information you give any AI-software, especially if it's for a proposal. Note ways to turn off data sharing. 
 - Grammarly is helpful for editing, but it also offers rewording that makes it picked up by AI-detection software
 - Note the special consideration for students for whom English is their second language. Translation and grammar improvement can be a huge benefit, but language development itself remains an important goal.  
 
