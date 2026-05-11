@@ -19,6 +19,11 @@ Acknowledge that genAI is reshaping all fields and many aspects of life that we 
 3. You must be able to explain and justify every line of text or code in your final product. 
 4. Carefully document any AI used in projects so it can be reported in any appropriate channels.
 
+## Questions to ask before opening a GenAI tool
+1. What is your objective? 
+2. What other resources exist?
+3. What information or output do you not want to receive?
+
 ## Writing
 ### Authored products
 - Peer-reviewed publications, reports, thesis/dissertation chapters, proposals, etc.
@@ -38,6 +43,8 @@ Acknowledge that genAI is reshaping all fields and many aspects of life that we 
 
 ### Administrative documents
 - Standard forms, budget summaries, 
+
+### Emails
 
 ## Coding
 - The code author should be able to fully explain exactly what the code is doing and why particular choices were made.
