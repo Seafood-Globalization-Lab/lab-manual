@@ -12,6 +12,8 @@ Acknowledge that genAI is reshaping all fields and many aspects of life that we 
 - Writing and coding are both essential parts of understanding a scientific problem. Working through the logic of each and exploring all avenues, even ones that become dead ends, is exactly part of the point.
 - Approach to AI when learning skills vs. when trying to execute a task for a skill you already developed needs to be different
 - Point about the skills students should walk away with, including being able to answer interview Q's about AI use. 
+- Caution about slippery slope. 
+- Caution about isolation. Turning to peers, mentors, and broader network is important for building community and networking is important professionally. 
 
 ## Rules
 1. Cannot be used to generate your research question.  
@@ -33,16 +35,25 @@ Acknowledge that genAI is reshaping all fields and many aspects of life that we 
 - Should not be the sole source of feedback or input. Always consider who else in your network you can ask. 
 - Be careful what data and information you give any AI-software, especially if it's for a proposal. Note ways to turn off data sharing. 
 - Grammarly is helpful for editing, but it also offers rewording that makes it picked up by AI-detection software
-- Note the special consideration for students for whom English is their second language. Translation and grammar improvement can be a huge benefit, but language development itself remains an important goal.  
+- Note the special consideration for students for whom English is their second language. Translation and grammar improvement can be a huge benefit, but language development itself remains an important goal. Likely focus on prompting related to individual phrases or sentences rather than sections of text. Initial writing should still occur in English for those in our lab. 
+- Refer to writing page for guide and resources related to building writing skills. 
+- Important to develop and maintain your voice as a writer. 
+- Can potentially use as a thought partner by asking it to push back on your ideas or logic. 
+- Pull example prompts and reference [Carman 2025](https://medium.com/@TheWarOnBugs/keep-it-real-how-to-use-ai-without-losing-your-writing-voice-252c97c48e6e). 
+- Can be useful as a search tool to find specific, relevant examples, but you still need to be careful to check sources and mindful of the risk of confirmation bias. 
+- Can provide some text and request for feedback from different potential reviewer perspectives (e.g., ecologist, economist, etc.)
+- Can request for a summary of the structure or visual representation to ensure your end product aligns with your intended logic. 
+- Develop template coauthor agreement that specifies whether/how genAI is/can be used in the paper by any coauthors. Such a policy can also be suggested for use by papers led by external collaborators, though we cannot realistically force others to adopt an author agreement and it is ultimately very difficult to enforce.  
 
 ### Paper-associated products
 - Summaries, conference abstracts, press releases, etc.
+- Brainstorming title list or options for naming something (still don't rely on only one)
 
 ### Application materials
 - Cover letters, essays, recommendation letters
 
 ### Administrative documents
-- Standard forms, budget summaries, 
+- Standard forms, budget summaries, etc.
 
 ### Emails
 
